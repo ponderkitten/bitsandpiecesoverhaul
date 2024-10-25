@@ -1,0 +1,131 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"0": {
+			"loop": true,
+			"bones": {
+				"Pivot": {
+					"position": {
+						"vector": [0, -0.05, 0]
+					}
+				},
+				"Body": {
+					"rotation": {
+						"vector": [4.55933, 9.99038, -2.53852]
+					}
+				},
+				"Head": {
+					"rotation": {
+						"vector": [-10.79469, -13.68384, -3.71513]
+					}
+				},
+				"Jaw": {
+					"rotation": {
+						"vector": [-7.5, 0, 0]
+					}
+				},
+				"endoi_jaw": {
+					"rotation": {
+						"vector": [-5, 0, 0]
+					}
+				},
+				"RightEar": {
+					"rotation": {
+						"vector": [7.5, 0, 0]
+					}
+				},
+				"LeftEar": {
+					"rotation": {
+						"vector": [7.5, 0, 0]
+					}
+				},
+				"RightEyelid": {
+					"rotation": {
+						"vector": [-15, 0, 0]
+					}
+				},
+				"LeftEyelid": {
+					"rotation": {
+						"vector": [-15, 0, 0]
+					}
+				},
+				"LeftEye": {
+					"position": {
+						"vector": [-0.5, 0, 0]
+					}
+				},
+				"RightEye": {
+					"position": {
+						"vector": [-0.5, 0, 0]
+					}
+				},
+				"LeftArm": {
+					"rotation": {
+						"vector": [0, 0, -20]
+					}
+				},
+				"LeftArm2": {
+					"rotation": {
+						"vector": [-87.89016, 18.87985, -15.9932]
+					}
+				},
+				"RightArm": {
+					"rotation": {
+						"vector": [0, 0, 17.5]
+					}
+				},
+				"RightArm2": {
+					"rotation": {
+						"vector": [-90, 0, 0]
+					}
+				},
+				"RightLeg": {
+					"rotation": {
+						"vector": [-2.28135, 4.99523, 2.50954]
+					}
+				},
+				"RightLeg2": {
+					"rotation": {
+						"vector": [5, 0, -2.5]
+					}
+				},
+				"RightFoot": {
+					"rotation": {
+						"vector": [-2.5, 2.5, 0]
+					}
+				},
+				"LeftLeg": {
+					"rotation": {
+						"vector": [-2.28135, -4.99523, -2.50954]
+					}
+				},
+				"LeftLeg2": {
+					"rotation": {
+						"vector": [5, 0, 2.5]
+					}
+				},
+				"LeftFoot": {
+					"rotation": {
+						"vector": [-2.5, -2.5, 0]
+					}
+				},
+				"LeftHand": {
+					"rotation": {
+						"vector": [0, 0, 0]
+					}
+				},
+				"RightHand": {
+					"rotation": {
+						"vector": [0, 0, 0]
+					}
+				},
+				"bowtie": {
+					"rotation": {
+						"vector": [0, 0, 0]
+					}
+				}
+			}
+		}
+	},
+	"geckolib_format_version": 2
+}

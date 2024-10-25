@@ -1,0 +1,136 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"0": {
+			"loop": true,
+			"bones": {
+				"Pivot": {
+					"position": {
+						"vector": [-1, 0, 0]
+					}
+				},
+				"Body": {
+					"rotation": {
+						"vector": [0, 10, 0]
+					}
+				},
+				"endoi_jaw": {
+					"rotation": {
+						"vector": [-5, 0, 0]
+					}
+				},
+				"RightEyelid": {
+					"position": {
+						"vector": [0, -0.75, 0]
+					}
+				},
+				"LeftEyelid": {
+					"position": {
+						"vector": [0, -0.75, 0]
+					}
+				},
+				"LeftArm": {
+					"rotation": {
+						"vector": [0, 0, -20]
+					}
+				},
+				"LeftLowerArm": {
+					"rotation": {
+						"vector": [-87.89016, 18.87985, -15.9932]
+					}
+				},
+				"RightArm": {
+					"rotation": {
+						"vector": [0, 0, 17.5]
+					}
+				},
+				"RightArmLower": {
+					"rotation": {
+						"vector": [-90, 0, 0]
+					}
+				},
+				"RightLeg": {
+					"rotation": {
+						"vector": [-2.28135, 4.99523, 2.50954]
+					}
+				},
+				"RightLeg2": {
+					"rotation": {
+						"vector": [5, 0, -2.5]
+					}
+				},
+				"LeftLeg": {
+					"rotation": {
+						"vector": [-2.28135, -4.99523, -2.50954]
+					}
+				},
+				"LeftLowerLeg": {
+					"rotation": {
+						"vector": [5, 0, 2.5]
+					}
+				},
+				"Head": {
+					"rotation": {
+						"vector": [10.26763, 8.77086, -3.65228]
+					}
+				},
+				"Jaw": {
+					"rotation": {
+						"vector": [-10, 0, 0]
+					}
+				},
+				"LeftEar": {
+					"rotation": {
+						"vector": [0, 0, 0]
+					}
+				},
+				"RightEar": {
+					"rotation": {
+						"vector": [0, 0, 0]
+					}
+				},
+				"RightFoot": {
+					"rotation": {
+						"vector": [-2.5, 2.5, 0]
+					}
+				},
+				"LeftFoot": {
+					"rotation": {
+						"vector": [-2.5, -2.5, 0]
+					}
+				},
+				"LeftTopEyelid": {
+					"position": {
+						"vector": [0, -0.5, 0]
+					}
+				},
+				"RightTopEyelid": {
+					"position": {
+						"vector": [0, -0.5, 0]
+					}
+				},
+				"LeftEye": {
+					"position": {
+						"vector": [0, 0, 0]
+					}
+				},
+				"RightEye": {
+					"position": {
+						"vector": [0, 0, 0]
+					}
+				},
+				"RightEyebrow": {
+					"rotation": {
+						"vector": [0, 0, 0]
+					}
+				},
+				"LeftEyebrow": {
+					"rotation": {
+						"vector": [0, 0, 0]
+					}
+				}
+			}
+		}
+	},
+	"geckolib_format_version": 2
+}

@@ -1,0 +1,57 @@
+{
+  "_fv": 43,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 176,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "image",
+        "data": {
+          "image": "bookpose8.png",
+          "use1Xscale": false,
+          "x": 75,
+          "y": 23
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_pagecornerleft",
+          "image": "pagecornerleft.png",
+          "hoveredImage": "",
+          "onClick": {
+            "name": "PageDown"
+          },
+          "x": 86,
+          "y": 180
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_pagecornerright",
+          "image": "pagecornerright.png",
+          "hoveredImage": "",
+          "onClick": {
+            "name": "PageUp"
+          },
+          "x": 331,
+          "y": 180
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 12,
+      "sy": 10,
+      "ox": 4,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

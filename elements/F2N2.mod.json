@@ -1,0 +1,19 @@
+{
+  "_fv": 43,
+  "_type": "musicdisc",
+  "definition": {
+    "name": "Night 2",
+    "texture": "fnaf2cassette",
+    "description": "Voicemail 7",
+    "creativeTab": {
+      "value": "CUSTOM:PhoneCalls"
+    },
+    "specialInfo": [],
+    "hasGlow": false,
+    "music": {
+      "value": "CUSTOM:fnaf2n2"
+    },
+    "lengthInTicks": 100,
+    "analogOutput": 15
+  }
+}

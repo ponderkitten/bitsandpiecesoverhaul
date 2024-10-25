@@ -1,0 +1,11 @@
+{
+  "_fv": 43,
+  "_type": "tab",
+  "definition": {
+    "name": "Phone Calls",
+    "icon": {
+      "value": "CUSTOM:MysteriousCassette"
+    },
+    "showSearch": false
+  }
+}

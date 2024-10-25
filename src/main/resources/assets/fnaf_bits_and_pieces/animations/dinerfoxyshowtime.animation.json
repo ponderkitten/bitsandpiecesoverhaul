@@ -1,0 +1,134 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"0": {
+			"loop": true,
+			"bones": {
+				"Body": {
+					"rotation": {
+						"vector": [0, -12.5, 0]
+					}
+				},
+				"Head": {
+					"rotation": {
+						"vector": [-12.5, -22.5, 0]
+					}
+				},
+				"Jaw": {
+					"rotation": {
+						"vector": [-2.5, 0, 0]
+					}
+				},
+				"RightEar": {
+					"rotation": {
+						"vector": [26.20214, -9.67741, 4.83241],
+						"easing": "easeInBounce",
+						"easingArgs": [0.2]
+					}
+				},
+				"RightEar2": {
+					"rotation": {
+						"vector": [12.91324, -4.82077, -6.03986],
+						"easing": "easeInBounce",
+						"easingArgs": [0.2]
+					}
+				},
+				"RightEyelid": {
+					"rotation": {
+						"vector": [0, 0, 0]
+					},
+					"position": {
+						"vector": [0, 0, 0]
+					}
+				},
+				"LeftEyelid": {
+					"rotation": {
+						"vector": [0, 0, 0]
+					},
+					"position": {
+						"vector": [0, 0, 0]
+					}
+				},
+				"LeftArm": {
+					"rotation": {
+						"vector": [8.47288, 11.11188, -14.40924]
+					}
+				},
+				"LeftLowerArm": {
+					"rotation": {
+						"vector": [-67.5, 0, 0]
+					}
+				},
+				"RightHand": {
+					"rotation": {
+						"vector": [0, -67.5, 0]
+					}
+				},
+				"RightArm": {
+					"rotation": {
+						"vector": [-51.52712, 15.62091, 11.26551]
+					}
+				},
+				"RightLowerArm": {
+					"rotation": {
+						"vector": [-108.6525, 7.90819, -38.34046]
+					}
+				},
+				"Hook": {
+					"rotation": {
+						"vector": [-12.54623, 4.88119, -1.08483]
+					}
+				},
+				"LeftLeg": {
+					"rotation": {
+						"vector": [-2.5, -5, -2.5]
+					}
+				},
+				"LeftFoot": {
+					"rotation": {
+						"vector": [-2.5, -2.5, 0]
+					}
+				},
+				"RightLeg": {
+					"rotation": {
+						"vector": [-2.5, 5, 2.5]
+					}
+				},
+				"LeftLowerLeg": {
+					"rotation": {
+						"vector": [5.21546, -0.11333, 2.48791]
+					}
+				},
+				"RightLowerLeg": {
+					"rotation": {
+						"vector": [5, 0, 0]
+					}
+				},
+				"RightFoot": {
+					"rotation": {
+						"vector": [-2.2765, 2.39606, -2.44951]
+					}
+				},
+				"Pelvis": {
+					"rotation": {
+						"vector": [0, 0, 0]
+					},
+					"position": {
+						"vector": [0, 0, 0]
+					}
+				},
+				"RightEye": {
+					"position": {
+						"vector": [0.25, 0, 0]
+					}
+				},
+				"LeftEye": {
+					"position": {
+						"vector": [0.25, 0, 0]
+					}
+				}
+			}
+		}
+	},
+	"geckolib_format_version": 2
+}

@@ -1,0 +1,19 @@
+{
+  "_fv": 43,
+  "_type": "musicdisc",
+  "definition": {
+    "name": "Mysterious Cassette",
+    "texture": "fnafunknowncassettetape",
+    "description": "???",
+    "creativeTab": {
+      "value": "No creative tab entry"
+    },
+    "specialInfo": [],
+    "hasGlow": true,
+    "music": {
+      "value": "CUSTOM:fnafallcall"
+    },
+    "lengthInTicks": 100,
+    "analogOutput": 15
+  }
+}

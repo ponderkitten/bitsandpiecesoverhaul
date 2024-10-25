@@ -1,0 +1,19 @@
+{
+  "_fv": 43,
+  "_type": "musicdisc",
+  "definition": {
+    "name": "Night 3",
+    "texture": "fnaf2cassette",
+    "description": "Voicemail 8",
+    "creativeTab": {
+      "value": "CUSTOM:PhoneCalls"
+    },
+    "specialInfo": [],
+    "hasGlow": false,
+    "music": {
+      "value": "CUSTOM:fnaf2n3"
+    },
+    "lengthInTicks": 100,
+    "analogOutput": 15
+  }
+}

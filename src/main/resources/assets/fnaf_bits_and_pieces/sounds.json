@@ -1,0 +1,154 @@
+{
+  "coins": {
+    "sounds": [
+      {
+        "name": "fnaf_bits_and_pieces:coins",
+        "stream": false
+      }
+    ]
+  },
+  "fnaf1n1": {
+    "sounds": [
+      {
+        "name": "fnaf_bits_and_pieces:fnaf1-night1",
+        "stream": false
+      }
+    ]
+  },
+  "fnaf1n2": {
+    "sounds": [
+      {
+        "name": "fnaf_bits_and_pieces:fnaf1-night2",
+        "stream": false
+      }
+    ]
+  },
+  "fnaf1n3": {
+    "sounds": [
+      {
+        "name": "fnaf_bits_and_pieces:fnaf1-night3",
+        "stream": false
+      }
+    ]
+  },
+  "fnaf1n4": {
+    "sounds": [
+      {
+        "name": "fnaf_bits_and_pieces:fnaf1-night4",
+        "stream": false
+      }
+    ]
+  },
+  "fnaf1n5": {
+    "sounds": [
+      {
+        "name": "fnaf_bits_and_pieces:fnaf1-night5",
+        "stream": false
+      }
+    ]
+  },
+  "fnaf2n1": {
+    "sounds": [
+      {
+        "name": "fnaf_bits_and_pieces:fnaf2-night1",
+        "stream": false
+      }
+    ]
+  },
+  "fnaf2n2": {
+    "sounds": [
+      {
+        "name": "fnaf_bits_and_pieces:fnaf2-night2",
+        "stream": false
+      }
+    ]
+  },
+  "fnaf2n3": {
+    "sounds": [
+      {
+        "name": "fnaf_bits_and_pieces:fnaf2-night3",
+        "stream": false
+      }
+    ]
+  },
+  "fnaf2n4": {
+    "sounds": [
+      {
+        "name": "fnaf_bits_and_pieces:fnaf2-night4",
+        "stream": false
+      }
+    ]
+  },
+  "fnaf2n5": {
+    "sounds": [
+      {
+        "name": "fnaf_bits_and_pieces:fnaf2-night5",
+        "stream": false
+      }
+    ]
+  },
+  "fnaf2n6": {
+    "sounds": [
+      {
+        "name": "fnaf_bits_and_pieces:fnaf2-night6",
+        "stream": false
+      }
+    ]
+  },
+  "fnaf3n1": {
+    "sounds": [
+      {
+        "name": "fnaf_bits_and_pieces:fnaf3-night1",
+        "stream": false
+      }
+    ]
+  },
+  "fnaf3n2": {
+    "sounds": [
+      {
+        "name": "fnaf_bits_and_pieces:fnaf3-night2",
+        "stream": false
+      }
+    ]
+  },
+  "fnaf3n3": {
+    "sounds": [
+      {
+        "name": "fnaf_bits_and_pieces:fnaf3-night3",
+        "stream": false
+      }
+    ]
+  },
+  "fnaf3n4": {
+    "sounds": [
+      {
+        "name": "fnaf_bits_and_pieces:fnaf3-night4",
+        "stream": false
+      }
+    ]
+  },
+  "fnaf3n5": {
+    "sounds": [
+      {
+        "name": "fnaf_bits_and_pieces:fnaf3-night5",
+        "stream": false
+      }
+    ]
+  },
+  "fnaf3n6": {
+    "sounds": [
+      {
+        "name": "fnaf_bits_and_pieces:fnaf3-night6",
+        "stream": false
+      }
+    ]
+  },
+  "fnafallcall": {
+    "sounds": [
+      {
+        "name": "fnaf_bits_and_pieces:fnafcallchaos",
+        "stream": false
+      }
+    ]
+  }
+}

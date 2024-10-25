@@ -1,0 +1,48 @@
+{
+  "_fv": 43,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:UnwitheredFreddyHead"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:UnwitheredFreddyLeftArm"
+      },
+      {
+        "value": "CUSTOM:UnwitheredFreddyTorso"
+      },
+      {
+        "value": "CUSTOM:UnwitheredFreddyLeftArm"
+      },
+      {
+        "value": "CUSTOM:UnwitheredFreddyRightLeg"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:UnwitheredFreddyLeftLeg"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:UnwitheredFreddyShowtime"
+    },
+    "name": "unwithered_freddy_recipe",
+    "namespace": "mod"
+  }
+}

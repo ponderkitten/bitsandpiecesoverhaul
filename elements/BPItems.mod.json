@@ -1,0 +1,11 @@
+{
+  "_fv": 43,
+  "_type": "tab",
+  "definition": {
+    "name": "B&P Items",
+    "icon": {
+      "value": "CUSTOM:FazbearEmployeeManual"
+    },
+    "showSearch": false
+  }
+}

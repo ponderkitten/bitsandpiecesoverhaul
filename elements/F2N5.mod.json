@@ -1,0 +1,19 @@
+{
+  "_fv": 43,
+  "_type": "musicdisc",
+  "definition": {
+    "name": "Night 5",
+    "texture": "fnaf2cassette",
+    "description": "Voicemail 10",
+    "creativeTab": {
+      "value": "CUSTOM:PhoneCalls"
+    },
+    "specialInfo": [],
+    "hasGlow": false,
+    "music": {
+      "value": "CUSTOM:fnaf2n5"
+    },
+    "lengthInTicks": 100,
+    "analogOutput": 15
+  }
+}

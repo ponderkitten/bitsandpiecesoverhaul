@@ -1,0 +1,48 @@
+{
+  "_fv": 43,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:UnwitheredFoxyHead"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:UnwitheredFoxyRightArm"
+      },
+      {
+        "value": "CUSTOM:UnwitheredFoxytorso"
+      },
+      {
+        "value": "CUSTOM:UnwitheredFoxyLeftArm"
+      },
+      {
+        "value": "CUSTOM:UnwitheredFoxyRightLeg"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:UnwitheredFoxyLeftLeg"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:UnwitheredFoxyShowtime"
+    },
+    "name": "unwithered_foxy_recipe",
+    "namespace": "mod"
+  }
+}

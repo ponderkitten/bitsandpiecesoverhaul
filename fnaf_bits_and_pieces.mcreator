@@ -1,0 +1,4144 @@
+{
+  "mod_elements": [
+    {
+      "name": "UnwitheredFoxyHead",
+      "type": "animatedblock",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "unwithered_foxy_head",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/model/UnwitheredFoxyHeadBlockModel.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/renderer/UnwitheredFoxyHeadTileRenderer.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/display/UnwitheredFoxyHeadDisplayItem.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/model/UnwitheredFoxyHeadDisplayModel.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/UnwitheredFoxyHeadBlock.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/entity/UnwitheredFoxyHeadTileEntity.java",
+          "src/main/resources/assets/fnaf_bits_and_pieces/blockstates/unwithered_foxy_head.json",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/renderer/UnwitheredFoxyHeadDisplayItemRenderer.java",
+          "src/main/resources/assets/fnaf_bits_and_pieces/models/custom/unwithered_foxy_head_particle.json",
+          "src/main/resources/assets/fnaf_bits_and_pieces/models/item/unwithered_foxy_head.json"
+        ]
+      },
+      "path": "~/Fredbears/Unwithered Foxy"
+    },
+    {
+      "name": "HandCrank",
+      "type": "item",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hand_crank",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fnafbitsandpieces/item/HandCrankItem.java",
+          "src/main/resources/assets/fnaf_bits_and_pieces/models/item/hand_crank.json"
+        ]
+      },
+      "path": "~/Misc/Items"
+    },
+    {
+      "name": "PartsRightClickCode",
+      "type": "procedure",
+      "sortid": 104,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "parts_right_click_code",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fnafbitsandpieces/procedures/PartsRightClickCodeProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Fredbears/Procedures"
+    },
+    {
+      "name": "PartsTickUpdate",
+      "type": "procedure",
+      "sortid": 105,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "parts_tick_update",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fnafbitsandpieces/procedures/PartsTickUpdateProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Fredbears/Procedures"
+    },
+    {
+      "name": "UnwitheredFoxytorso",
+      "type": "animatedblock",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "unwithered_foxytorso",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/model/UnwitheredFoxytorsoBlockModel.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/renderer/UnwitheredFoxytorsoTileRenderer.java",
+          "src/main/resources/assets/fnaf_bits_and_pieces/models/item/unwithered_foxytorso.json",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/display/UnwitheredFoxytorsoDisplayItem.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/entity/UnwitheredFoxytorsoTileEntity.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/renderer/UnwitheredFoxytorsoDisplayItemRenderer.java",
+          "src/main/resources/assets/fnaf_bits_and_pieces/models/custom/unwithered_foxytorso_particle.json",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/model/UnwitheredFoxytorsoDisplayModel.java",
+          "src/main/resources/assets/fnaf_bits_and_pieces/blockstates/unwithered_foxytorso.json",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/UnwitheredFoxytorsoBlock.java"
+        ]
+      },
+      "path": "~/Fredbears/Unwithered Foxy"
+    },
+    {
+      "name": "UnwitheredFoxyLeftArm",
+      "type": "animatedblock",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "unwithered_foxy_left_arm",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/renderer/UnwitheredFoxyLeftArmDisplayItemRenderer.java",
+          "src/main/resources/assets/fnaf_bits_and_pieces/blockstates/unwithered_foxy_left_arm.json",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/model/UnwitheredFoxyLeftArmBlockModel.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/model/UnwitheredFoxyLeftArmDisplayModel.java",
+          "src/main/resources/assets/fnaf_bits_and_pieces/models/item/unwithered_foxy_left_arm.json",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/UnwitheredFoxyLeftArmBlock.java",
+          "src/main/resources/assets/fnaf_bits_and_pieces/models/custom/unwithered_foxy_left_arm_particle.json",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/renderer/UnwitheredFoxyLeftArmTileRenderer.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/display/UnwitheredFoxyLeftArmDisplayItem.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/entity/UnwitheredFoxyLeftArmTileEntity.java"
+        ]
+      },
+      "path": "~/Fredbears/Unwithered Foxy"
+    },
+    {
+      "name": "UnwitheredFoxyRightArm",
+      "type": "animatedblock",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "unwithered_foxy_right_arm",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/entity/UnwitheredFoxyRightArmTileEntity.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/display/UnwitheredFoxyRightArmDisplayItem.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/UnwitheredFoxyRightArmBlock.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/model/UnwitheredFoxyRightArmDisplayModel.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/renderer/UnwitheredFoxyRightArmTileRenderer.java",
+          "src/main/resources/assets/fnaf_bits_and_pieces/blockstates/unwithered_foxy_right_arm.json",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/model/UnwitheredFoxyRightArmBlockModel.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/renderer/UnwitheredFoxyRightArmDisplayItemRenderer.java",
+          "src/main/resources/assets/fnaf_bits_and_pieces/models/custom/unwithered_foxy_right_arm_particle.json",
+          "src/main/resources/assets/fnaf_bits_and_pieces/models/item/unwithered_foxy_right_arm.json"
+        ]
+      },
+      "path": "~/Fredbears/Unwithered Foxy"
+    },
+    {
+      "name": "UnwitheredFoxyLeftLeg",
+      "type": "animatedblock",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "unwithered_foxy_left_leg",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/model/UnwitheredFoxyLeftLegDisplayModel.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/entity/UnwitheredFoxyLeftLegTileEntity.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/renderer/UnwitheredFoxyLeftLegDisplayItemRenderer.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/UnwitheredFoxyLeftLegBlock.java",
+          "src/main/resources/assets/fnaf_bits_and_pieces/blockstates/unwithered_foxy_left_leg.json",
+          "src/main/resources/assets/fnaf_bits_and_pieces/models/item/unwithered_foxy_left_leg.json",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/display/UnwitheredFoxyLeftLegDisplayItem.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/renderer/UnwitheredFoxyLeftLegTileRenderer.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/model/UnwitheredFoxyLeftLegBlockModel.java",
+          "src/main/resources/assets/fnaf_bits_and_pieces/models/custom/unwithered_foxy_left_leg_particle.json"
+        ]
+      },
+      "path": "~/Fredbears/Unwithered Foxy"
+    },
+    {
+      "name": "UnwitheredFoxyRightLeg",
+      "type": "animatedblock",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "unwithered_foxy_right_leg",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/renderer/UnwitheredFoxyRightLegTileRenderer.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/entity/UnwitheredFoxyRightLegTileEntity.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/model/UnwitheredFoxyRightLegDisplayModel.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/UnwitheredFoxyRightLegBlock.java",
+          "src/main/resources/assets/fnaf_bits_and_pieces/models/item/unwithered_foxy_right_leg.json",
+          "src/main/resources/assets/fnaf_bits_and_pieces/models/custom/unwithered_foxy_right_leg_particle.json",
+          "src/main/resources/assets/fnaf_bits_and_pieces/blockstates/unwithered_foxy_right_leg.json",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/model/UnwitheredFoxyRightLegBlockModel.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/display/UnwitheredFoxyRightLegDisplayItem.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/renderer/UnwitheredFoxyRightLegDisplayItemRenderer.java"
+        ]
+      },
+      "path": "~/Fredbears/Unwithered Foxy"
+    },
+    {
+      "name": "FredBears",
+      "type": "tab",
+      "sortid": 106,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fred_bears",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Misc/Tabs"
+    },
+    {
+      "name": "FazbearEmployeeManual",
+      "type": "item",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fazbear_employee_manual",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fnafbitsandpieces/item/FazbearEmployeeManualItem.java",
+          "src/main/resources/assets/fnaf_bits_and_pieces/models/item/fazbear_employee_manual.json"
+        ]
+      },
+      "path": "~/Misc/Items/Book"
+    },
+    {
+      "name": "BPItems",
+      "type": "tab",
+      "sortid": 107,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bp_items",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Misc/Tabs"
+    },
+    {
+      "name": "Fnaf1",
+      "type": "tab",
+      "sortid": 108,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fnaf_1",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Misc/Tabs"
+    },
+    {
+      "name": "Fnaf2",
+      "type": "tab",
+      "sortid": 109,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fnaf_2",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Misc/Tabs"
+    },
+    {
+      "name": "Fnaf3",
+      "type": "tab",
+      "sortid": 110,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fnaf_3",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Misc/Tabs"
+    },
+    {
+      "name": "F1N1",
+      "type": "musicdisc",
+      "sortid": 87,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "f_1_n_1",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fnafbitsandpieces/item/F1N1Item.java",
+          "src/main/resources/assets/fnaf_bits_and_pieces/models/item/f_1_n_1.json"
+        ]
+      },
+      "path": "~/Misc/Items/Music Disks"
+    },
+    {
+      "name": "F1N2",
+      "type": "musicdisc",
+      "sortid": 88,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "f_1_n_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fnaf_bits_and_pieces/models/item/f_1_n_2.json",
+          "src/main/java/net/mcreator/fnafbitsandpieces/item/F1N2Item.java"
+        ]
+      },
+      "path": "~/Misc/Items/Music Disks"
+    },
+    {
+      "name": "F1N3",
+      "type": "musicdisc",
+      "sortid": 89,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "f_1_n_3",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fnafbitsandpieces/item/F1N3Item.java",
+          "src/main/resources/assets/fnaf_bits_and_pieces/models/item/f_1_n_3.json"
+        ]
+      },
+      "path": "~/Misc/Items/Music Disks"
+    },
+    {
+      "name": "F1N4",
+      "type": "musicdisc",
+      "sortid": 90,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "f_1_n_4",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fnaf_bits_and_pieces/models/item/f_1_n_4.json",
+          "src/main/java/net/mcreator/fnafbitsandpieces/item/F1N4Item.java"
+        ]
+      },
+      "path": "~/Misc/Items/Music Disks"
+    },
+    {
+      "name": "F1N5",
+      "type": "musicdisc",
+      "sortid": 91,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "f_1_n_5",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fnafbitsandpieces/item/F1N5Item.java",
+          "src/main/resources/assets/fnaf_bits_and_pieces/models/item/f_1_n_5.json"
+        ]
+      },
+      "path": "~/Misc/Items/Music Disks"
+    },
+    {
+      "name": "F2N1",
+      "type": "musicdisc",
+      "sortid": 92,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "f_2_n_1",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fnafbitsandpieces/item/F2N1Item.java",
+          "src/main/resources/assets/fnaf_bits_and_pieces/models/item/f_2_n_1.json"
+        ]
+      },
+      "path": "~/Misc/Items/Music Disks"
+    },
+    {
+      "name": "F2N2",
+      "type": "musicdisc",
+      "sortid": 93,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "f_2_n_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fnaf_bits_and_pieces/models/item/f_2_n_2.json",
+          "src/main/java/net/mcreator/fnafbitsandpieces/item/F2N2Item.java"
+        ]
+      },
+      "path": "~/Misc/Items/Music Disks"
+    },
+    {
+      "name": "F2N3",
+      "type": "musicdisc",
+      "sortid": 94,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "f_2_n_3",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fnafbitsandpieces/item/F2N3Item.java",
+          "src/main/resources/assets/fnaf_bits_and_pieces/models/item/f_2_n_3.json"
+        ]
+      },
+      "path": "~/Misc/Items/Music Disks"
+    },
+    {
+      "name": "F2N4",
+      "type": "musicdisc",
+      "sortid": 95,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "f_2_n_4",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fnaf_bits_and_pieces/models/item/f_2_n_4.json",
+          "src/main/java/net/mcreator/fnafbitsandpieces/item/F2N4Item.java"
+        ]
+      },
+      "path": "~/Misc/Items/Music Disks"
+    },
+    {
+      "name": "F2N5",
+      "type": "musicdisc",
+      "sortid": 96,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "f_2_n_5",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fnaf_bits_and_pieces/models/item/f_2_n_5.json",
+          "src/main/java/net/mcreator/fnafbitsandpieces/item/F2N5Item.java"
+        ]
+      },
+      "path": "~/Misc/Items/Music Disks"
+    },
+    {
+      "name": "F2N6",
+      "type": "musicdisc",
+      "sortid": 97,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "f_2_n_6",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fnaf_bits_and_pieces/models/item/f_2_n_6.json",
+          "src/main/java/net/mcreator/fnafbitsandpieces/item/F2N6Item.java"
+        ]
+      },
+      "path": "~/Misc/Items/Music Disks"
+    },
+    {
+      "name": "F3N1",
+      "type": "musicdisc",
+      "sortid": 98,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "f_3_n_1",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fnafbitsandpieces/item/F3N1Item.java",
+          "src/main/resources/assets/fnaf_bits_and_pieces/models/item/f_3_n_1.json"
+        ]
+      },
+      "path": "~/Misc/Items/Music Disks"
+    },
+    {
+      "name": "F3N2",
+      "type": "musicdisc",
+      "sortid": 99,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "f_3_n_2",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fnafbitsandpieces/item/F3N2Item.java",
+          "src/main/resources/assets/fnaf_bits_and_pieces/models/item/f_3_n_2.json"
+        ]
+      },
+      "path": "~/Misc/Items/Music Disks"
+    },
+    {
+      "name": "F3N3",
+      "type": "musicdisc",
+      "sortid": 100,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "f_3_n_3",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fnaf_bits_and_pieces/models/item/f_3_n_3.json",
+          "src/main/java/net/mcreator/fnafbitsandpieces/item/F3N3Item.java"
+        ]
+      },
+      "path": "~/Misc/Items/Music Disks"
+    },
+    {
+      "name": "F3N4",
+      "type": "musicdisc",
+      "sortid": 101,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "f_3_n_4",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fnaf_bits_and_pieces/models/item/f_3_n_4.json",
+          "src/main/java/net/mcreator/fnafbitsandpieces/item/F3N4Item.java"
+        ]
+      },
+      "path": "~/Misc/Items/Music Disks"
+    },
+    {
+      "name": "F3N5",
+      "type": "musicdisc",
+      "sortid": 102,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "f_3_n_5",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fnafbitsandpieces/item/F3N5Item.java",
+          "src/main/resources/assets/fnaf_bits_and_pieces/models/item/f_3_n_5.json"
+        ]
+      },
+      "path": "~/Misc/Items/Music Disks"
+    },
+    {
+      "name": "F3N6",
+      "type": "musicdisc",
+      "sortid": 103,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "f_3_n_6",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fnaf_bits_and_pieces/models/item/f_3_n_6.json",
+          "src/main/java/net/mcreator/fnafbitsandpieces/item/F3N6Item.java"
+        ]
+      },
+      "path": "~/Misc/Items/Music Disks"
+    },
+    {
+      "name": "MysteriousCassette",
+      "type": "musicdisc",
+      "sortid": 111,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mysterious_cassette",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fnaf_bits_and_pieces/models/item/mysterious_cassette.json",
+          "src/main/java/net/mcreator/fnafbitsandpieces/item/MysteriousCassetteItem.java"
+        ]
+      },
+      "path": "~/Misc/Items/Music Disks"
+    },
+    {
+      "name": "PosePage0",
+      "type": "gui",
+      "sortid": 112,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pose_page_0",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fnafbitsandpieces/network/PosePage0ButtonMessage.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/world/inventory/PosePage0Menu.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/client/gui/PosePage0Screen.java"
+        ]
+      },
+      "path": "~/Misc/Items/Book"
+    },
+    {
+      "name": "PageUp",
+      "type": "procedure",
+      "sortid": 113,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "page_up",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fnafbitsandpieces/procedures/PageUpProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Misc/Items/Book"
+    },
+    {
+      "name": "PageDown",
+      "type": "procedure",
+      "sortid": 114,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "page_down",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fnafbitsandpieces/procedures/PageDownProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Misc/Items/Book"
+    },
+    {
+      "name": "PosePage1",
+      "type": "gui",
+      "sortid": 115,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pose_page_1",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fnafbitsandpieces/world/inventory/PosePage1Menu.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/network/PosePage1ButtonMessage.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/client/gui/PosePage1Screen.java"
+        ]
+      },
+      "path": "~/Misc/Items/Book"
+    },
+    {
+      "name": "PosePage2",
+      "type": "gui",
+      "sortid": 116,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pose_page_2",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fnafbitsandpieces/world/inventory/PosePage2Menu.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/network/PosePage2ButtonMessage.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/client/gui/PosePage2Screen.java"
+        ]
+      },
+      "path": "~/Misc/Items/Book"
+    },
+    {
+      "name": "PosePage3",
+      "type": "gui",
+      "sortid": 117,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pose_page_3",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fnafbitsandpieces/world/inventory/PosePage3Menu.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/network/PosePage3ButtonMessage.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/client/gui/PosePage3Screen.java"
+        ]
+      },
+      "path": "~/Misc/Items/Book"
+    },
+    {
+      "name": "PosePage4",
+      "type": "gui",
+      "sortid": 118,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pose_page_4",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fnafbitsandpieces/world/inventory/PosePage4Menu.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/client/gui/PosePage4Screen.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/network/PosePage4ButtonMessage.java"
+        ]
+      },
+      "path": "~/Misc/Items/Book"
+    },
+    {
+      "name": "PosePage5",
+      "type": "gui",
+      "sortid": 119,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pose_page_5",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fnafbitsandpieces/world/inventory/PosePage5Menu.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/network/PosePage5ButtonMessage.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/client/gui/PosePage5Screen.java"
+        ]
+      },
+      "path": "~/Misc/Items/Book"
+    },
+    {
+      "name": "PosePage6",
+      "type": "gui",
+      "sortid": 120,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pose_page_6",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fnafbitsandpieces/network/PosePage6ButtonMessage.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/world/inventory/PosePage6Menu.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/client/gui/PosePage6Screen.java"
+        ]
+      },
+      "path": "~/Misc/Items/Book"
+    },
+    {
+      "name": "PosePage7",
+      "type": "gui",
+      "sortid": 121,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pose_page_7",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fnafbitsandpieces/client/gui/PosePage7Screen.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/network/PosePage7ButtonMessage.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/world/inventory/PosePage7Menu.java"
+        ]
+      },
+      "path": "~/Misc/Items/Book"
+    },
+    {
+      "name": "PosePage8",
+      "type": "gui",
+      "sortid": 122,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pose_page_8",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fnafbitsandpieces/client/gui/PosePage8Screen.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/world/inventory/PosePage8Menu.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/network/PosePage8ButtonMessage.java"
+        ]
+      },
+      "path": "~/Misc/Items/Book"
+    },
+    {
+      "name": "PosePage9",
+      "type": "gui",
+      "sortid": 123,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pose_page_9",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fnafbitsandpieces/world/inventory/PosePage9Menu.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/network/PosePage9ButtonMessage.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/client/gui/PosePage9Screen.java"
+        ]
+      },
+      "path": "~/Misc/Items/Book"
+    },
+    {
+      "name": "PosePage10",
+      "type": "gui",
+      "sortid": 124,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pose_page_10",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fnafbitsandpieces/world/inventory/PosePage10Menu.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/client/gui/PosePage10Screen.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/network/PosePage10ButtonMessage.java"
+        ]
+      },
+      "path": "~/Misc/Items/Book"
+    },
+    {
+      "name": "PosePage11",
+      "type": "gui",
+      "sortid": 125,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pose_page_11",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fnafbitsandpieces/client/gui/PosePage11Screen.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/network/PosePage11ButtonMessage.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/world/inventory/PosePage11Menu.java"
+        ]
+      },
+      "path": "~/Misc/Items/Book"
+    },
+    {
+      "name": "BookOpen",
+      "type": "procedure",
+      "sortid": 126,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "book_open",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fnafbitsandpieces/procedures/BookOpenProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Misc/Items/Book"
+    },
+    {
+      "name": "PosePage12",
+      "type": "gui",
+      "sortid": 127,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pose_page_12",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fnafbitsandpieces/client/gui/PosePage12Screen.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/world/inventory/PosePage12Menu.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/network/PosePage12ButtonMessage.java"
+        ]
+      },
+      "path": "~/Misc/Items/Book"
+    },
+    {
+      "name": "PosePage13",
+      "type": "gui",
+      "sortid": 128,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pose_page_13",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fnafbitsandpieces/client/gui/PosePage13Screen.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/network/PosePage13ButtonMessage.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/world/inventory/PosePage13Menu.java"
+        ]
+      },
+      "path": "~/Misc/Items/Book"
+    },
+    {
+      "name": "PosePage14",
+      "type": "gui",
+      "sortid": 129,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pose_page_14",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fnafbitsandpieces/network/PosePage14ButtonMessage.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/client/gui/PosePage14Screen.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/world/inventory/PosePage14Menu.java"
+        ]
+      },
+      "path": "~/Misc/Items/Book"
+    },
+    {
+      "name": "PosePage15",
+      "type": "gui",
+      "sortid": 130,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pose_page_15",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fnafbitsandpieces/client/gui/PosePage15Screen.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/network/PosePage15ButtonMessage.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/world/inventory/PosePage15Menu.java"
+        ]
+      },
+      "path": "~/Misc/Items/Book"
+    },
+    {
+      "name": "UnwitheredFreddyHead",
+      "type": "animatedblock",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "unwithered_freddy_head",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/model/UnwitheredFreddyHeadBlockModel.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/entity/UnwitheredFreddyHeadTileEntity.java",
+          "src/main/resources/assets/fnaf_bits_and_pieces/blockstates/unwithered_freddy_head.json",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/UnwitheredFreddyHeadBlock.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/renderer/UnwitheredFreddyHeadTileRenderer.java",
+          "src/main/resources/assets/fnaf_bits_and_pieces/models/custom/unwithered_freddy_head_particle.json",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/model/UnwitheredFreddyHeadDisplayModel.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/renderer/UnwitheredFreddyHeadDisplayItemRenderer.java",
+          "src/main/resources/assets/fnaf_bits_and_pieces/models/item/unwithered_freddy_head.json",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/display/UnwitheredFreddyHeadDisplayItem.java"
+        ]
+      },
+      "path": "~/Fredbears/Unwithered Freddy"
+    },
+    {
+      "name": "UnwitheredFreddyTorso",
+      "type": "animatedblock",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "unwithered_freddy_torso",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/model/UnwitheredFreddyTorsoDisplayModel.java",
+          "src/main/resources/assets/fnaf_bits_and_pieces/blockstates/unwithered_freddy_torso.json",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/display/UnwitheredFreddyTorsoDisplayItem.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/renderer/UnwitheredFreddyTorsoTileRenderer.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/model/UnwitheredFreddyTorsoBlockModel.java",
+          "src/main/resources/assets/fnaf_bits_and_pieces/models/item/unwithered_freddy_torso.json",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/UnwitheredFreddyTorsoBlock.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/entity/UnwitheredFreddyTorsoTileEntity.java",
+          "src/main/resources/assets/fnaf_bits_and_pieces/models/custom/unwithered_freddy_torso_particle.json",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/renderer/UnwitheredFreddyTorsoDisplayItemRenderer.java"
+        ]
+      },
+      "path": "~/Fredbears/Unwithered Freddy"
+    },
+    {
+      "name": "UnwitheredFreddyLeftArm",
+      "type": "animatedblock",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "unwithered_freddy_left_arm",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/renderer/UnwitheredFreddyLeftArmDisplayItemRenderer.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/model/UnwitheredFreddyLeftArmBlockModel.java",
+          "src/main/resources/assets/fnaf_bits_and_pieces/blockstates/unwithered_freddy_left_arm.json",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/UnwitheredFreddyLeftArmBlock.java",
+          "src/main/resources/assets/fnaf_bits_and_pieces/models/custom/unwithered_freddy_left_arm_particle.json",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/display/UnwitheredFreddyLeftArmDisplayItem.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/renderer/UnwitheredFreddyLeftArmTileRenderer.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/model/UnwitheredFreddyLeftArmDisplayModel.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/entity/UnwitheredFreddyLeftArmTileEntity.java",
+          "src/main/resources/assets/fnaf_bits_and_pieces/models/item/unwithered_freddy_left_arm.json"
+        ]
+      },
+      "path": "~/Fredbears/Unwithered Freddy"
+    },
+    {
+      "name": "UnwitheredFreddyRightArm",
+      "type": "animatedblock",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "unwithered_freddy_right_arm",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/entity/UnwitheredFreddyRightArmTileEntity.java",
+          "src/main/resources/assets/fnaf_bits_and_pieces/models/item/unwithered_freddy_right_arm.json",
+          "src/main/resources/assets/fnaf_bits_and_pieces/models/custom/unwithered_freddy_right_arm_particle.json",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/renderer/UnwitheredFreddyRightArmDisplayItemRenderer.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/model/UnwitheredFreddyRightArmDisplayModel.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/renderer/UnwitheredFreddyRightArmTileRenderer.java",
+          "src/main/resources/assets/fnaf_bits_and_pieces/blockstates/unwithered_freddy_right_arm.json",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/UnwitheredFreddyRightArmBlock.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/model/UnwitheredFreddyRightArmBlockModel.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/display/UnwitheredFreddyRightArmDisplayItem.java"
+        ]
+      },
+      "path": "~/Fredbears/Unwithered Freddy"
+    },
+    {
+      "name": "UnwitheredFreddyLeftLeg",
+      "type": "animatedblock",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "unwithered_freddy_left_leg",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fnaf_bits_and_pieces/blockstates/unwithered_freddy_left_leg.json",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/model/UnwitheredFreddyLeftLegBlockModel.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/display/UnwitheredFreddyLeftLegDisplayItem.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/UnwitheredFreddyLeftLegBlock.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/model/UnwitheredFreddyLeftLegDisplayModel.java",
+          "src/main/resources/assets/fnaf_bits_and_pieces/models/custom/unwithered_freddy_left_leg_particle.json",
+          "src/main/resources/assets/fnaf_bits_and_pieces/models/item/unwithered_freddy_left_leg.json",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/renderer/UnwitheredFreddyLeftLegTileRenderer.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/entity/UnwitheredFreddyLeftLegTileEntity.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/renderer/UnwitheredFreddyLeftLegDisplayItemRenderer.java"
+        ]
+      },
+      "path": "~/Fredbears/Unwithered Freddy"
+    },
+    {
+      "name": "UnwitheredFreddyRightLeg",
+      "type": "animatedblock",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "unwithered_freddy_right_leg",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/model/UnwitheredFreddyRightLegBlockModel.java",
+          "src/main/resources/assets/fnaf_bits_and_pieces/models/item/unwithered_freddy_right_leg.json",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/display/UnwitheredFreddyRightLegDisplayItem.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/renderer/UnwitheredFreddyRightLegDisplayItemRenderer.java",
+          "src/main/resources/assets/fnaf_bits_and_pieces/models/custom/unwithered_freddy_right_leg_particle.json",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/renderer/UnwitheredFreddyRightLegTileRenderer.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/entity/UnwitheredFreddyRightLegTileEntity.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/model/UnwitheredFreddyRightLegDisplayModel.java",
+          "src/main/resources/assets/fnaf_bits_and_pieces/blockstates/unwithered_freddy_right_leg.json",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/UnwitheredFreddyRightLegBlock.java"
+        ]
+      },
+      "path": "~/Fredbears/Unwithered Freddy"
+    },
+    {
+      "name": "UnwitheredBonnieHead",
+      "type": "animatedblock",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "unwithered_bonnie_head",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/model/UnwitheredBonnieHeadBlockModel.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/UnwitheredBonnieHeadBlock.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/display/UnwitheredBonnieHeadDisplayItem.java",
+          "src/main/resources/assets/fnaf_bits_and_pieces/models/custom/unwithered_bonnie_head_particle.json",
+          "src/main/resources/assets/fnaf_bits_and_pieces/blockstates/unwithered_bonnie_head.json",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/renderer/UnwitheredBonnieHeadTileRenderer.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/renderer/UnwitheredBonnieHeadDisplayItemRenderer.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/model/UnwitheredBonnieHeadDisplayModel.java",
+          "src/main/resources/assets/fnaf_bits_and_pieces/models/item/unwithered_bonnie_head.json",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/entity/UnwitheredBonnieHeadTileEntity.java"
+        ]
+      },
+      "path": "~/Fredbears/Unwithered Bonnie"
+    },
+    {
+      "name": "UnwitheredChicaHead",
+      "type": "animatedblock",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "unwithered_chica_head",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/entity/UnwitheredChicaHeadTileEntity.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/renderer/UnwitheredChicaHeadDisplayItemRenderer.java",
+          "src/main/resources/assets/fnaf_bits_and_pieces/blockstates/unwithered_chica_head.json",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/UnwitheredChicaHeadBlock.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/renderer/UnwitheredChicaHeadTileRenderer.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/model/UnwitheredChicaHeadDisplayModel.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/display/UnwitheredChicaHeadDisplayItem.java",
+          "src/main/resources/assets/fnaf_bits_and_pieces/models/custom/unwithered_chica_head_particle.json",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/model/UnwitheredChicaHeadBlockModel.java",
+          "src/main/resources/assets/fnaf_bits_and_pieces/models/item/unwithered_chica_head.json"
+        ]
+      },
+      "path": "~/Fredbears/Unwithered Chica"
+    },
+    {
+      "name": "FredBearHead",
+      "type": "animatedblock",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fred_bear_head",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/model/FredBearHeadBlockModel.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/FredBearHeadBlock.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/renderer/FredBearHeadTileRenderer.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/model/FredBearHeadDisplayModel.java",
+          "src/main/resources/assets/fnaf_bits_and_pieces/models/item/fred_bear_head.json",
+          "src/main/resources/assets/fnaf_bits_and_pieces/blockstates/fred_bear_head.json",
+          "src/main/resources/assets/fnaf_bits_and_pieces/models/custom/fred_bear_head_particle.json",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/display/FredBearHeadDisplayItem.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/renderer/FredBearHeadDisplayItemRenderer.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/entity/FredBearHeadTileEntity.java"
+        ]
+      },
+      "path": "~/Fredbears/FredBear"
+    },
+    {
+      "name": "SpringBonnieHead",
+      "type": "animatedblock",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spring_bonnie_head",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/renderer/SpringBonnieHeadTileRenderer.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/display/SpringBonnieHeadDisplayItem.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/renderer/SpringBonnieHeadDisplayItemRenderer.java",
+          "src/main/resources/assets/fnaf_bits_and_pieces/models/custom/spring_bonnie_head_particle.json",
+          "src/main/resources/assets/fnaf_bits_and_pieces/blockstates/spring_bonnie_head.json",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/SpringBonnieHeadBlock.java",
+          "src/main/resources/assets/fnaf_bits_and_pieces/models/item/spring_bonnie_head.json",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/entity/SpringBonnieHeadTileEntity.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/model/SpringBonnieHeadDisplayModel.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/model/SpringBonnieHeadBlockModel.java"
+        ]
+      },
+      "path": "~/Fredbears/SpringBonnie"
+    },
+    {
+      "name": "UnwitheredBonnieTorso",
+      "type": "animatedblock",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "unwithered_bonnie_torso",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/model/UnwitheredBonnieTorsoDisplayModel.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/display/UnwitheredBonnieTorsoDisplayItem.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/renderer/UnwitheredBonnieTorsoTileRenderer.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/entity/UnwitheredBonnieTorsoTileEntity.java",
+          "src/main/resources/assets/fnaf_bits_and_pieces/models/custom/unwithered_bonnie_torso_particle.json",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/model/UnwitheredBonnieTorsoBlockModel.java",
+          "src/main/resources/assets/fnaf_bits_and_pieces/models/item/unwithered_bonnie_torso.json",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/renderer/UnwitheredBonnieTorsoDisplayItemRenderer.java",
+          "src/main/resources/assets/fnaf_bits_and_pieces/blockstates/unwithered_bonnie_torso.json",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/UnwitheredBonnieTorsoBlock.java"
+        ]
+      },
+      "path": "~/Fredbears/Unwithered Bonnie"
+    },
+    {
+      "name": "UnwitheredBonnieLeftArm",
+      "type": "animatedblock",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "unwithered_bonnie_left_arm",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/model/UnwitheredBonnieLeftArmBlockModel.java",
+          "src/main/resources/assets/fnaf_bits_and_pieces/blockstates/unwithered_bonnie_left_arm.json",
+          "src/main/resources/assets/fnaf_bits_and_pieces/models/item/unwithered_bonnie_left_arm.json",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/model/UnwitheredBonnieLeftArmDisplayModel.java",
+          "src/main/resources/assets/fnaf_bits_and_pieces/models/custom/unwithered_bonnie_left_arm_particle.json",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/renderer/UnwitheredBonnieLeftArmDisplayItemRenderer.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/renderer/UnwitheredBonnieLeftArmTileRenderer.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/display/UnwitheredBonnieLeftArmDisplayItem.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/UnwitheredBonnieLeftArmBlock.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/entity/UnwitheredBonnieLeftArmTileEntity.java"
+        ]
+      },
+      "path": "~/Fredbears/Unwithered Bonnie"
+    },
+    {
+      "name": "UnwitheredBonnieRightArm",
+      "type": "animatedblock",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "unwithered_bonnie_right_arm",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fnaf_bits_and_pieces/blockstates/unwithered_bonnie_right_arm.json",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/entity/UnwitheredBonnieRightArmTileEntity.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/renderer/UnwitheredBonnieRightArmTileRenderer.java",
+          "src/main/resources/assets/fnaf_bits_and_pieces/models/custom/unwithered_bonnie_right_arm_particle.json",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/model/UnwitheredBonnieRightArmDisplayModel.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/model/UnwitheredBonnieRightArmBlockModel.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/renderer/UnwitheredBonnieRightArmDisplayItemRenderer.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/display/UnwitheredBonnieRightArmDisplayItem.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/UnwitheredBonnieRightArmBlock.java",
+          "src/main/resources/assets/fnaf_bits_and_pieces/models/item/unwithered_bonnie_right_arm.json"
+        ]
+      },
+      "path": "~/Fredbears/Unwithered Bonnie"
+    },
+    {
+      "name": "UnwitheredBonnieLeftLeg",
+      "type": "animatedblock",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "unwithered_bonnie_left_leg",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fnaf_bits_and_pieces/models/item/unwithered_bonnie_left_leg.json",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/renderer/UnwitheredBonnieLeftLegDisplayItemRenderer.java",
+          "src/main/resources/assets/fnaf_bits_and_pieces/models/custom/unwithered_bonnie_left_leg_particle.json",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/model/UnwitheredBonnieLeftLegDisplayModel.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/display/UnwitheredBonnieLeftLegDisplayItem.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/entity/UnwitheredBonnieLeftLegTileEntity.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/UnwitheredBonnieLeftLegBlock.java",
+          "src/main/resources/assets/fnaf_bits_and_pieces/blockstates/unwithered_bonnie_left_leg.json",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/model/UnwitheredBonnieLeftLegBlockModel.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/renderer/UnwitheredBonnieLeftLegTileRenderer.java"
+        ]
+      },
+      "path": "~/Fredbears/Unwithered Bonnie"
+    },
+    {
+      "name": "UnwitheredBonnieRightLeg",
+      "type": "animatedblock",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "unwithered_bonnie_right_leg",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fnaf_bits_and_pieces/models/custom/unwithered_bonnie_right_leg_particle.json",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/renderer/UnwitheredBonnieRightLegTileRenderer.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/model/UnwitheredBonnieRightLegDisplayModel.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/UnwitheredBonnieRightLegBlock.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/entity/UnwitheredBonnieRightLegTileEntity.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/model/UnwitheredBonnieRightLegBlockModel.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/display/UnwitheredBonnieRightLegDisplayItem.java",
+          "src/main/resources/assets/fnaf_bits_and_pieces/models/item/unwithered_bonnie_right_leg.json",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/renderer/UnwitheredBonnieRightLegDisplayItemRenderer.java",
+          "src/main/resources/assets/fnaf_bits_and_pieces/blockstates/unwithered_bonnie_right_leg.json"
+        ]
+      },
+      "path": "~/Fredbears/Unwithered Bonnie"
+    },
+    {
+      "name": "UnwitheredChicaTorso",
+      "type": "animatedblock",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "unwithered_chica_torso",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/UnwitheredChicaTorsoBlock.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/renderer/UnwitheredChicaTorsoTileRenderer.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/display/UnwitheredChicaTorsoDisplayItem.java",
+          "src/main/resources/assets/fnaf_bits_and_pieces/blockstates/unwithered_chica_torso.json",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/model/UnwitheredChicaTorsoDisplayModel.java",
+          "src/main/resources/assets/fnaf_bits_and_pieces/models/item/unwithered_chica_torso.json",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/model/UnwitheredChicaTorsoBlockModel.java",
+          "src/main/resources/assets/fnaf_bits_and_pieces/models/custom/unwithered_chica_torso_particle.json",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/renderer/UnwitheredChicaTorsoDisplayItemRenderer.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/entity/UnwitheredChicaTorsoTileEntity.java"
+        ]
+      },
+      "path": "~/Fredbears/Unwithered Chica"
+    },
+    {
+      "name": "UnwitheredChicaLeftArm",
+      "type": "animatedblock",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "unwithered_chica_left_arm",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/model/UnwitheredChicaLeftArmDisplayModel.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/entity/UnwitheredChicaLeftArmTileEntity.java",
+          "src/main/resources/assets/fnaf_bits_and_pieces/models/custom/unwithered_chica_left_arm_particle.json",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/renderer/UnwitheredChicaLeftArmTileRenderer.java",
+          "src/main/resources/assets/fnaf_bits_and_pieces/blockstates/unwithered_chica_left_arm.json",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/display/UnwitheredChicaLeftArmDisplayItem.java",
+          "src/main/resources/assets/fnaf_bits_and_pieces/models/item/unwithered_chica_left_arm.json",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/model/UnwitheredChicaLeftArmBlockModel.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/renderer/UnwitheredChicaLeftArmDisplayItemRenderer.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/UnwitheredChicaLeftArmBlock.java"
+        ]
+      },
+      "path": "~/Fredbears/Unwithered Chica"
+    },
+    {
+      "name": "UnwitheredChicaRightArm",
+      "type": "animatedblock",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "unwithered_chica_right_arm",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fnaf_bits_and_pieces/models/custom/unwithered_chica_right_arm_particle.json",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/renderer/UnwitheredChicaRightArmDisplayItemRenderer.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/model/UnwitheredChicaRightArmDisplayModel.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/renderer/UnwitheredChicaRightArmTileRenderer.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/UnwitheredChicaRightArmBlock.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/display/UnwitheredChicaRightArmDisplayItem.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/model/UnwitheredChicaRightArmBlockModel.java",
+          "src/main/resources/assets/fnaf_bits_and_pieces/models/item/unwithered_chica_right_arm.json",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/entity/UnwitheredChicaRightArmTileEntity.java",
+          "src/main/resources/assets/fnaf_bits_and_pieces/blockstates/unwithered_chica_right_arm.json"
+        ]
+      },
+      "path": "~/Fredbears/Unwithered Chica"
+    },
+    {
+      "name": "UnwitheredChicaLeftLeg",
+      "type": "animatedblock",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "unwithered_chica_left_leg",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fnaf_bits_and_pieces/models/custom/unwithered_chica_left_leg_particle.json",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/renderer/UnwitheredChicaLeftLegTileRenderer.java",
+          "src/main/resources/assets/fnaf_bits_and_pieces/blockstates/unwithered_chica_left_leg.json",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/display/UnwitheredChicaLeftLegDisplayItem.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/model/UnwitheredChicaLeftLegDisplayModel.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/renderer/UnwitheredChicaLeftLegDisplayItemRenderer.java",
+          "src/main/resources/assets/fnaf_bits_and_pieces/models/item/unwithered_chica_left_leg.json",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/entity/UnwitheredChicaLeftLegTileEntity.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/UnwitheredChicaLeftLegBlock.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/model/UnwitheredChicaLeftLegBlockModel.java"
+        ]
+      },
+      "path": "~/Fredbears/Unwithered Chica"
+    },
+    {
+      "name": "UnwitheredChicaRightLeg",
+      "type": "animatedblock",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "unwithered_chica_right_leg",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/entity/UnwitheredChicaRightLegTileEntity.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/renderer/UnwitheredChicaRightLegTileRenderer.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/model/UnwitheredChicaRightLegBlockModel.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/renderer/UnwitheredChicaRightLegDisplayItemRenderer.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/display/UnwitheredChicaRightLegDisplayItem.java",
+          "src/main/resources/assets/fnaf_bits_and_pieces/blockstates/unwithered_chica_right_leg.json",
+          "src/main/resources/assets/fnaf_bits_and_pieces/models/item/unwithered_chica_right_leg.json",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/UnwitheredChicaRightLegBlock.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/model/UnwitheredChicaRightLegDisplayModel.java",
+          "src/main/resources/assets/fnaf_bits_and_pieces/models/custom/unwithered_chica_right_leg_particle.json"
+        ]
+      },
+      "path": "~/Fredbears/Unwithered Chica"
+    },
+    {
+      "name": "SpringBonnieTorso",
+      "type": "animatedblock",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spring_bonnie_torso",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fnaf_bits_and_pieces/blockstates/spring_bonnie_torso.json",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/model/SpringBonnieTorsoBlockModel.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/model/SpringBonnieTorsoDisplayModel.java",
+          "src/main/resources/assets/fnaf_bits_and_pieces/models/item/spring_bonnie_torso.json",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/renderer/SpringBonnieTorsoDisplayItemRenderer.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/display/SpringBonnieTorsoDisplayItem.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/entity/SpringBonnieTorsoTileEntity.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/SpringBonnieTorsoBlock.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/renderer/SpringBonnieTorsoTileRenderer.java",
+          "src/main/resources/assets/fnaf_bits_and_pieces/models/custom/spring_bonnie_torso_particle.json"
+        ]
+      },
+      "path": "~/Fredbears/SpringBonnie"
+    },
+    {
+      "name": "SpringBonnieLeftArm",
+      "type": "animatedblock",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spring_bonnie_left_arm",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/renderer/SpringBonnieLeftArmTileRenderer.java",
+          "src/main/resources/assets/fnaf_bits_and_pieces/models/item/spring_bonnie_left_arm.json",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/model/SpringBonnieLeftArmBlockModel.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/display/SpringBonnieLeftArmDisplayItem.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/entity/SpringBonnieLeftArmTileEntity.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/model/SpringBonnieLeftArmDisplayModel.java",
+          "src/main/resources/assets/fnaf_bits_and_pieces/models/custom/spring_bonnie_left_arm_particle.json",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/renderer/SpringBonnieLeftArmDisplayItemRenderer.java",
+          "src/main/resources/assets/fnaf_bits_and_pieces/blockstates/spring_bonnie_left_arm.json",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/SpringBonnieLeftArmBlock.java"
+        ]
+      },
+      "path": "~/Fredbears/SpringBonnie"
+    },
+    {
+      "name": "SpringBonnieRightArm",
+      "type": "animatedblock",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spring_bonnie_right_arm",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/renderer/SpringBonnieRightArmTileRenderer.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/model/SpringBonnieRightArmDisplayModel.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/model/SpringBonnieRightArmBlockModel.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/renderer/SpringBonnieRightArmDisplayItemRenderer.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/entity/SpringBonnieRightArmTileEntity.java",
+          "src/main/resources/assets/fnaf_bits_and_pieces/models/custom/spring_bonnie_right_arm_particle.json",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/display/SpringBonnieRightArmDisplayItem.java",
+          "src/main/resources/assets/fnaf_bits_and_pieces/blockstates/spring_bonnie_right_arm.json",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/SpringBonnieRightArmBlock.java",
+          "src/main/resources/assets/fnaf_bits_and_pieces/models/item/spring_bonnie_right_arm.json"
+        ]
+      },
+      "path": "~/Fredbears/SpringBonnie"
+    },
+    {
+      "name": "SpringBonnieLeftLeg",
+      "type": "animatedblock",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spring_bonnie_left_leg",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fnaf_bits_and_pieces/models/item/spring_bonnie_left_leg.json",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/SpringBonnieLeftLegBlock.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/display/SpringBonnieLeftLegDisplayItem.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/renderer/SpringBonnieLeftLegTileRenderer.java",
+          "src/main/resources/assets/fnaf_bits_and_pieces/models/custom/spring_bonnie_left_leg_particle.json",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/entity/SpringBonnieLeftLegTileEntity.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/model/SpringBonnieLeftLegDisplayModel.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/model/SpringBonnieLeftLegBlockModel.java",
+          "src/main/resources/assets/fnaf_bits_and_pieces/blockstates/spring_bonnie_left_leg.json",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/renderer/SpringBonnieLeftLegDisplayItemRenderer.java"
+        ]
+      },
+      "path": "~/Fredbears/SpringBonnie"
+    },
+    {
+      "name": "SpringBonnieRightLeg",
+      "type": "animatedblock",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spring_bonnie_right_leg",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/model/SpringBonnieRightLegDisplayModel.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/SpringBonnieRightLegBlock.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/display/SpringBonnieRightLegDisplayItem.java",
+          "src/main/resources/assets/fnaf_bits_and_pieces/models/item/spring_bonnie_right_leg.json",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/renderer/SpringBonnieRightLegTileRenderer.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/entity/SpringBonnieRightLegTileEntity.java",
+          "src/main/resources/assets/fnaf_bits_and_pieces/blockstates/spring_bonnie_right_leg.json",
+          "src/main/resources/assets/fnaf_bits_and_pieces/models/custom/spring_bonnie_right_leg_particle.json",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/model/SpringBonnieRightLegBlockModel.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/renderer/SpringBonnieRightLegDisplayItemRenderer.java"
+        ]
+      },
+      "path": "~/Fredbears/SpringBonnie"
+    },
+    {
+      "name": "FredbearTorso",
+      "type": "animatedblock",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fredbear_torso",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/display/FredbearTorsoDisplayItem.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/entity/FredbearTorsoTileEntity.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/renderer/FredbearTorsoDisplayItemRenderer.java",
+          "src/main/resources/assets/fnaf_bits_and_pieces/blockstates/fredbear_torso.json",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/FredbearTorsoBlock.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/renderer/FredbearTorsoTileRenderer.java",
+          "src/main/resources/assets/fnaf_bits_and_pieces/models/item/fredbear_torso.json",
+          "src/main/resources/assets/fnaf_bits_and_pieces/models/custom/fredbear_torso_particle.json",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/model/FredbearTorsoDisplayModel.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/model/FredbearTorsoBlockModel.java"
+        ]
+      },
+      "path": "~/Fredbears/FredBear"
+    },
+    {
+      "name": "FredbearLeftArm",
+      "type": "animatedblock",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fredbear_left_arm",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fnaf_bits_and_pieces/models/custom/fredbear_left_arm_particle.json",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/model/FredbearLeftArmBlockModel.java",
+          "src/main/resources/assets/fnaf_bits_and_pieces/blockstates/fredbear_left_arm.json",
+          "src/main/resources/assets/fnaf_bits_and_pieces/models/item/fredbear_left_arm.json",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/display/FredbearLeftArmDisplayItem.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/renderer/FredbearLeftArmDisplayItemRenderer.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/entity/FredbearLeftArmTileEntity.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/renderer/FredbearLeftArmTileRenderer.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/model/FredbearLeftArmDisplayModel.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/FredbearLeftArmBlock.java"
+        ]
+      },
+      "path": "~/Fredbears/FredBear"
+    },
+    {
+      "name": "FredbearRightArm",
+      "type": "animatedblock",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fredbear_right_arm",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/renderer/FredbearRightArmTileRenderer.java",
+          "src/main/resources/assets/fnaf_bits_and_pieces/blockstates/fredbear_right_arm.json",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/renderer/FredbearRightArmDisplayItemRenderer.java",
+          "src/main/resources/assets/fnaf_bits_and_pieces/models/custom/fredbear_right_arm_particle.json",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/model/FredbearRightArmDisplayModel.java",
+          "src/main/resources/assets/fnaf_bits_and_pieces/models/item/fredbear_right_arm.json",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/entity/FredbearRightArmTileEntity.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/FredbearRightArmBlock.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/model/FredbearRightArmBlockModel.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/display/FredbearRightArmDisplayItem.java"
+        ]
+      },
+      "path": "~/Fredbears/FredBear"
+    },
+    {
+      "name": "FredbearLeftLeg",
+      "type": "animatedblock",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fredbear_left_leg",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/model/FredbearLeftLegBlockModel.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/display/FredbearLeftLegDisplayItem.java",
+          "src/main/resources/assets/fnaf_bits_and_pieces/blockstates/fredbear_left_leg.json",
+          "src/main/resources/assets/fnaf_bits_and_pieces/models/item/fredbear_left_leg.json",
+          "src/main/resources/assets/fnaf_bits_and_pieces/models/custom/fredbear_left_leg_particle.json",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/entity/FredbearLeftLegTileEntity.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/renderer/FredbearLeftLegDisplayItemRenderer.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/FredbearLeftLegBlock.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/renderer/FredbearLeftLegTileRenderer.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/model/FredbearLeftLegDisplayModel.java"
+        ]
+      },
+      "path": "~/Fredbears/FredBear"
+    },
+    {
+      "name": "FredbearRightLeg",
+      "type": "animatedblock",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fredbear_right_leg",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/renderer/FredbearRightLegTileRenderer.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/entity/FredbearRightLegTileEntity.java",
+          "src/main/resources/assets/fnaf_bits_and_pieces/blockstates/fredbear_right_leg.json",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/FredbearRightLegBlock.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/model/FredbearRightLegBlockModel.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/renderer/FredbearRightLegDisplayItemRenderer.java",
+          "src/main/resources/assets/fnaf_bits_and_pieces/models/custom/fredbear_right_leg_particle.json",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/model/FredbearRightLegDisplayModel.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/display/FredbearRightLegDisplayItem.java",
+          "src/main/resources/assets/fnaf_bits_and_pieces/models/item/fredbear_right_leg.json"
+        ]
+      },
+      "path": "~/Fredbears/FredBear"
+    },
+    {
+      "name": "PhoneCalls",
+      "type": "tab",
+      "sortid": 131,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "phone_calls",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Misc/Tabs"
+    },
+    {
+      "name": "UnwitheredGoldenFreddyHead",
+      "type": "animatedblock",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "unwithered_golden_freddy_head",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/model/UnwitheredGoldenFreddyHeadBlockModel.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/model/UnwitheredGoldenFreddyHeadDisplayModel.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/display/UnwitheredGoldenFreddyHeadDisplayItem.java",
+          "src/main/resources/assets/fnaf_bits_and_pieces/blockstates/unwithered_golden_freddy_head.json",
+          "src/main/resources/assets/fnaf_bits_and_pieces/models/custom/unwithered_golden_freddy_head_particle.json",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/renderer/UnwitheredGoldenFreddyHeadTileRenderer.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/UnwitheredGoldenFreddyHeadBlock.java",
+          "src/main/resources/assets/fnaf_bits_and_pieces/models/item/unwithered_golden_freddy_head.json",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/renderer/UnwitheredGoldenFreddyHeadDisplayItemRenderer.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/entity/UnwitheredGoldenFreddyHeadTileEntity.java"
+        ]
+      },
+      "path": "~/Fredbears/Unwithered Golden Freddy"
+    },
+    {
+      "name": "UnwitheredGoldenFreddyTorso",
+      "type": "animatedblock",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "unwithered_golden_freddy_torso",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/entity/UnwitheredGoldenFreddyTorsoTileEntity.java",
+          "src/main/resources/assets/fnaf_bits_and_pieces/blockstates/unwithered_golden_freddy_torso.json",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/display/UnwitheredGoldenFreddyTorsoDisplayItem.java",
+          "src/main/resources/assets/fnaf_bits_and_pieces/models/item/unwithered_golden_freddy_torso.json",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/UnwitheredGoldenFreddyTorsoBlock.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/model/UnwitheredGoldenFreddyTorsoDisplayModel.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/renderer/UnwitheredGoldenFreddyTorsoTileRenderer.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/model/UnwitheredGoldenFreddyTorsoBlockModel.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/renderer/UnwitheredGoldenFreddyTorsoDisplayItemRenderer.java",
+          "src/main/resources/assets/fnaf_bits_and_pieces/models/custom/unwithered_golden_freddy_torso_particle.json"
+        ]
+      },
+      "path": "~/Fredbears/Unwithered Golden Freddy"
+    },
+    {
+      "name": "UnwitheredGoldenFreddyLeftArm",
+      "type": "animatedblock",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "unwithered_golden_freddy_left_arm",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fnaf_bits_and_pieces/blockstates/unwithered_golden_freddy_left_arm.json",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/renderer/UnwitheredGoldenFreddyLeftArmDisplayItemRenderer.java",
+          "src/main/resources/assets/fnaf_bits_and_pieces/models/item/unwithered_golden_freddy_left_arm.json",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/renderer/UnwitheredGoldenFreddyLeftArmTileRenderer.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/model/UnwitheredGoldenFreddyLeftArmBlockModel.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/display/UnwitheredGoldenFreddyLeftArmDisplayItem.java",
+          "src/main/resources/assets/fnaf_bits_and_pieces/models/custom/unwithered_golden_freddy_left_arm_particle.json",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/UnwitheredGoldenFreddyLeftArmBlock.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/entity/UnwitheredGoldenFreddyLeftArmTileEntity.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/model/UnwitheredGoldenFreddyLeftArmDisplayModel.java"
+        ]
+      },
+      "path": "~/Fredbears/Unwithered Golden Freddy"
+    },
+    {
+      "name": "UnwitheredGoldenFreddyRightArm",
+      "type": "animatedblock",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "unwithered_golden_freddy_right_arm",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/model/UnwitheredGoldenFreddyRightArmDisplayModel.java",
+          "src/main/resources/assets/fnaf_bits_and_pieces/models/item/unwithered_golden_freddy_right_arm.json",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/model/UnwitheredGoldenFreddyRightArmBlockModel.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/UnwitheredGoldenFreddyRightArmBlock.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/renderer/UnwitheredGoldenFreddyRightArmDisplayItemRenderer.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/entity/UnwitheredGoldenFreddyRightArmTileEntity.java",
+          "src/main/resources/assets/fnaf_bits_and_pieces/blockstates/unwithered_golden_freddy_right_arm.json",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/display/UnwitheredGoldenFreddyRightArmDisplayItem.java",
+          "src/main/resources/assets/fnaf_bits_and_pieces/models/custom/unwithered_golden_freddy_right_arm_particle.json",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/renderer/UnwitheredGoldenFreddyRightArmTileRenderer.java"
+        ]
+      },
+      "path": "~/Fredbears/Unwithered Golden Freddy"
+    },
+    {
+      "name": "UnwitheredGoldenFreddyLeftLeg",
+      "type": "animatedblock",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "unwithered_golden_freddy_left_leg",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/renderer/UnwitheredGoldenFreddyLeftLegDisplayItemRenderer.java",
+          "src/main/resources/assets/fnaf_bits_and_pieces/models/item/unwithered_golden_freddy_left_leg.json",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/model/UnwitheredGoldenFreddyLeftLegBlockModel.java",
+          "src/main/resources/assets/fnaf_bits_and_pieces/blockstates/unwithered_golden_freddy_left_leg.json",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/entity/UnwitheredGoldenFreddyLeftLegTileEntity.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/display/UnwitheredGoldenFreddyLeftLegDisplayItem.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/renderer/UnwitheredGoldenFreddyLeftLegTileRenderer.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/model/UnwitheredGoldenFreddyLeftLegDisplayModel.java",
+          "src/main/resources/assets/fnaf_bits_and_pieces/models/custom/unwithered_golden_freddy_left_leg_particle.json",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/UnwitheredGoldenFreddyLeftLegBlock.java"
+        ]
+      },
+      "path": "~/Fredbears/Unwithered Golden Freddy"
+    },
+    {
+      "name": "UnwitheredGoldenFreddyRightLeg",
+      "type": "animatedblock",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "unwithered_golden_freddy_right_leg",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/UnwitheredGoldenFreddyRightLegBlock.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/model/UnwitheredGoldenFreddyRightLegDisplayModel.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/entity/UnwitheredGoldenFreddyRightLegTileEntity.java",
+          "src/main/resources/assets/fnaf_bits_and_pieces/models/item/unwithered_golden_freddy_right_leg.json",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/model/UnwitheredGoldenFreddyRightLegBlockModel.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/display/UnwitheredGoldenFreddyRightLegDisplayItem.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/renderer/UnwitheredGoldenFreddyRightLegTileRenderer.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/renderer/UnwitheredGoldenFreddyRightLegDisplayItemRenderer.java",
+          "src/main/resources/assets/fnaf_bits_and_pieces/blockstates/unwithered_golden_freddy_right_leg.json",
+          "src/main/resources/assets/fnaf_bits_and_pieces/models/custom/unwithered_golden_freddy_right_leg_particle.json"
+        ]
+      },
+      "path": "~/Fredbears/Unwithered Golden Freddy"
+    },
+    {
+      "name": "UnwitheredGoldenBonnieHead",
+      "type": "animatedblock",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "unwithered_golden_bonnie_head",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fnaf_bits_and_pieces/models/custom/unwithered_golden_bonnie_head_particle.json",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/UnwitheredGoldenBonnieHeadBlock.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/model/UnwitheredGoldenBonnieHeadDisplayModel.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/display/UnwitheredGoldenBonnieHeadDisplayItem.java",
+          "src/main/resources/assets/fnaf_bits_and_pieces/blockstates/unwithered_golden_bonnie_head.json",
+          "src/main/resources/assets/fnaf_bits_and_pieces/models/item/unwithered_golden_bonnie_head.json",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/model/UnwitheredGoldenBonnieHeadBlockModel.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/entity/UnwitheredGoldenBonnieHeadTileEntity.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/renderer/UnwitheredGoldenBonnieHeadTileRenderer.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/renderer/UnwitheredGoldenBonnieHeadDisplayItemRenderer.java"
+        ]
+      },
+      "path": "~/Fredbears/Unwithered Golden Bonnie"
+    },
+    {
+      "name": "UnwitheredGoldenBonnieTorso",
+      "type": "animatedblock",
+      "sortid": 53,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "unwithered_golden_bonnie_torso",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/model/UnwitheredGoldenBonnieTorsoBlockModel.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/display/UnwitheredGoldenBonnieTorsoDisplayItem.java",
+          "src/main/resources/assets/fnaf_bits_and_pieces/models/custom/unwithered_golden_bonnie_torso_particle.json",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/renderer/UnwitheredGoldenBonnieTorsoDisplayItemRenderer.java",
+          "src/main/resources/assets/fnaf_bits_and_pieces/blockstates/unwithered_golden_bonnie_torso.json",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/model/UnwitheredGoldenBonnieTorsoDisplayModel.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/renderer/UnwitheredGoldenBonnieTorsoTileRenderer.java",
+          "src/main/resources/assets/fnaf_bits_and_pieces/models/item/unwithered_golden_bonnie_torso.json",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/UnwitheredGoldenBonnieTorsoBlock.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/entity/UnwitheredGoldenBonnieTorsoTileEntity.java"
+        ]
+      },
+      "path": "~/Fredbears/Unwithered Golden Bonnie"
+    },
+    {
+      "name": "UnwitheredGoldenBonnieLeftArm",
+      "type": "animatedblock",
+      "sortid": 55,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "unwithered_golden_bonnie_left_arm",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/display/UnwitheredGoldenBonnieLeftArmDisplayItem.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/model/UnwitheredGoldenBonnieLeftArmBlockModel.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/model/UnwitheredGoldenBonnieLeftArmDisplayModel.java",
+          "src/main/resources/assets/fnaf_bits_and_pieces/models/item/unwithered_golden_bonnie_left_arm.json",
+          "src/main/resources/assets/fnaf_bits_and_pieces/blockstates/unwithered_golden_bonnie_left_arm.json",
+          "src/main/resources/assets/fnaf_bits_and_pieces/models/custom/unwithered_golden_bonnie_left_arm_particle.json",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/UnwitheredGoldenBonnieLeftArmBlock.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/entity/UnwitheredGoldenBonnieLeftArmTileEntity.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/renderer/UnwitheredGoldenBonnieLeftArmDisplayItemRenderer.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/renderer/UnwitheredGoldenBonnieLeftArmTileRenderer.java"
+        ]
+      },
+      "path": "~/Fredbears/Unwithered Golden Bonnie"
+    },
+    {
+      "name": "UnwitheredGoldenBonnieRightArm",
+      "type": "animatedblock",
+      "sortid": 54,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "unwithered_golden_bonnie_right_arm",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fnaf_bits_and_pieces/blockstates/unwithered_golden_bonnie_right_arm.json",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/model/UnwitheredGoldenBonnieRightArmDisplayModel.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/renderer/UnwitheredGoldenBonnieRightArmDisplayItemRenderer.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/display/UnwitheredGoldenBonnieRightArmDisplayItem.java",
+          "src/main/resources/assets/fnaf_bits_and_pieces/models/item/unwithered_golden_bonnie_right_arm.json",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/renderer/UnwitheredGoldenBonnieRightArmTileRenderer.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/UnwitheredGoldenBonnieRightArmBlock.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/model/UnwitheredGoldenBonnieRightArmBlockModel.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/entity/UnwitheredGoldenBonnieRightArmTileEntity.java",
+          "src/main/resources/assets/fnaf_bits_and_pieces/models/custom/unwithered_golden_bonnie_right_arm_particle.json"
+        ]
+      },
+      "path": "~/Fredbears/Unwithered Golden Bonnie"
+    },
+    {
+      "name": "UnwitheredGoldenBonnieLeftLeg",
+      "type": "animatedblock",
+      "sortid": 57,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "unwithered_golden_bonnie_left_leg",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/UnwitheredGoldenBonnieLeftLegBlock.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/model/UnwitheredGoldenBonnieLeftLegBlockModel.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/display/UnwitheredGoldenBonnieLeftLegDisplayItem.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/entity/UnwitheredGoldenBonnieLeftLegTileEntity.java",
+          "src/main/resources/assets/fnaf_bits_and_pieces/models/item/unwithered_golden_bonnie_left_leg.json",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/renderer/UnwitheredGoldenBonnieLeftLegDisplayItemRenderer.java",
+          "src/main/resources/assets/fnaf_bits_and_pieces/models/custom/unwithered_golden_bonnie_left_leg_particle.json",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/renderer/UnwitheredGoldenBonnieLeftLegTileRenderer.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/model/UnwitheredGoldenBonnieLeftLegDisplayModel.java",
+          "src/main/resources/assets/fnaf_bits_and_pieces/blockstates/unwithered_golden_bonnie_left_leg.json"
+        ]
+      },
+      "path": "~/Fredbears/Unwithered Golden Bonnie"
+    },
+    {
+      "name": "UnwitheredGoldenBonnieRightLeg",
+      "type": "animatedblock",
+      "sortid": 56,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "unwithered_golden_bonnie_right_leg",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/renderer/UnwitheredGoldenBonnieRightLegDisplayItemRenderer.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/entity/UnwitheredGoldenBonnieRightLegTileEntity.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/model/UnwitheredGoldenBonnieRightLegBlockModel.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/display/UnwitheredGoldenBonnieRightLegDisplayItem.java",
+          "src/main/resources/assets/fnaf_bits_and_pieces/models/item/unwithered_golden_bonnie_right_leg.json",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/model/UnwitheredGoldenBonnieRightLegDisplayModel.java",
+          "src/main/resources/assets/fnaf_bits_and_pieces/models/custom/unwithered_golden_bonnie_right_leg_particle.json",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/UnwitheredGoldenBonnieRightLegBlock.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/renderer/UnwitheredGoldenBonnieRightLegTileRenderer.java",
+          "src/main/resources/assets/fnaf_bits_and_pieces/blockstates/unwithered_golden_bonnie_right_leg.json"
+        ]
+      },
+      "path": "~/Fredbears/Unwithered Golden Bonnie"
+    },
+    {
+      "name": "UnwitheredGoldenBonnieShowtime",
+      "type": "animatedblock",
+      "sortid": 58,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "unwithered_golden_bonnie_showtime",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/entity/UnwitheredGoldenBonnieShowtimeTileEntity.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/renderer/UnwitheredGoldenBonnieShowtimeTileRenderer.java",
+          "src/main/resources/assets/fnaf_bits_and_pieces/blockstates/unwithered_golden_bonnie_showtime.json",
+          "src/main/resources/assets/fnaf_bits_and_pieces/models/item/unwithered_golden_bonnie_showtime.json",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/renderer/UnwitheredGoldenBonnieShowtimeDisplayItemRenderer.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/model/UnwitheredGoldenBonnieShowtimeBlockModel.java",
+          "src/main/resources/assets/fnaf_bits_and_pieces/models/custom/unwithered_golden_bonnie_showtime_particle.json",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/UnwitheredGoldenBonnieShowtimeBlock.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/model/UnwitheredGoldenBonnieShowtimeDisplayModel.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/display/UnwitheredGoldenBonnieShowtimeDisplayItem.java"
+        ]
+      },
+      "path": "~/Fredbears/Unwithered Golden Bonnie"
+    },
+    {
+      "name": "UnwitheredGoldenBonnieShowtimeA",
+      "type": "animatedblock",
+      "sortid": 132,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "unwithered_golden_bonnie_showtime_a",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/UnwitheredGoldenBonnieShowtimeABlock.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/renderer/UnwitheredGoldenBonnieShowtimeADisplayItemRenderer.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/renderer/UnwitheredGoldenBonnieShowtimeATileRenderer.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/entity/UnwitheredGoldenBonnieShowtimeATileEntity.java",
+          "src/main/resources/assets/fnaf_bits_and_pieces/blockstates/unwithered_golden_bonnie_showtime_a.json",
+          "src/main/resources/assets/fnaf_bits_and_pieces/models/custom/unwithered_golden_bonnie_showtime_a_particle.json",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/model/UnwitheredGoldenBonnieShowtimeADisplayModel.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/model/UnwitheredGoldenBonnieShowtimeABlockModel.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/display/UnwitheredGoldenBonnieShowtimeADisplayItem.java",
+          "src/main/resources/assets/fnaf_bits_and_pieces/models/item/unwithered_golden_bonnie_showtime_a.json"
+        ]
+      },
+      "path": "~/Fredbears/Unwithered Golden Bonnie"
+    },
+    {
+      "name": "GBonnieShowtime",
+      "type": "procedure",
+      "sortid": 133,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "g_bonnie_showtime",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fnafbitsandpieces/procedures/GBonnieShowtimeProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Fredbears/Unwithered Golden Bonnie"
+    },
+    {
+      "name": "GBonnieCrafting",
+      "type": "recipe",
+      "sortid": 134,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "g_bonnie_crafting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fnaf_bits_and_pieces/recipes/g_bonnie_crafting.json"
+        ]
+      },
+      "path": "~/Fredbears/Unwithered Golden Bonnie"
+    },
+    {
+      "name": "UnwitheredFoxyShowtime",
+      "type": "animatedblock",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "unwithered_foxy_showtime",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fnaf_bits_and_pieces/blockstates/unwithered_foxy_showtime.json",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/UnwitheredFoxyShowtimeBlock.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/renderer/UnwitheredFoxyShowtimeTileRenderer.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/renderer/UnwitheredFoxyShowtimeDisplayItemRenderer.java",
+          "src/main/resources/assets/fnaf_bits_and_pieces/models/custom/unwithered_foxy_showtime_particle.json",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/model/UnwitheredFoxyShowtimeDisplayModel.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/display/UnwitheredFoxyShowtimeDisplayItem.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/model/UnwitheredFoxyShowtimeBlockModel.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/entity/UnwitheredFoxyShowtimeTileEntity.java",
+          "src/main/resources/assets/fnaf_bits_and_pieces/models/item/unwithered_foxy_showtime.json"
+        ]
+      },
+      "path": "~/Fredbears/Unwithered Foxy"
+    },
+    {
+      "name": "UnwitheredFoxyShowtimeRedstoneOn",
+      "type": "procedure",
+      "sortid": 135,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "unwithered_foxy_showtime_redstone_on",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fnafbitsandpieces/procedures/UnwitheredFoxyShowtimeRedstoneOnProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Fredbears/Unwithered Foxy"
+    },
+    {
+      "name": "UnwitheredFoxyShowtimeA",
+      "type": "animatedblock",
+      "sortid": 136,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "unwithered_foxy_showtime_a",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/entity/UnwitheredFoxyShowtimeATileEntity.java",
+          "src/main/resources/assets/fnaf_bits_and_pieces/blockstates/unwithered_foxy_showtime_a.json",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/model/UnwitheredFoxyShowtimeABlockModel.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/renderer/UnwitheredFoxyShowtimeADisplayItemRenderer.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/UnwitheredFoxyShowtimeABlock.java",
+          "src/main/resources/assets/fnaf_bits_and_pieces/models/item/unwithered_foxy_showtime_a.json",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/renderer/UnwitheredFoxyShowtimeATileRenderer.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/model/UnwitheredFoxyShowtimeADisplayModel.java",
+          "src/main/resources/assets/fnaf_bits_and_pieces/models/custom/unwithered_foxy_showtime_a_particle.json",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/display/UnwitheredFoxyShowtimeADisplayItem.java"
+        ]
+      },
+      "path": "~/Fredbears/Unwithered Foxy"
+    },
+    {
+      "name": "UnwitheredFoxyRecipe",
+      "type": "recipe",
+      "sortid": 137,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "unwithered_foxy_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fnaf_bits_and_pieces/recipes/unwithered_foxy_recipe.json"
+        ]
+      },
+      "path": "~/Fredbears/Unwithered Foxy"
+    },
+    {
+      "name": "UnwitheredFreddyShowtimeRedstoneOn",
+      "type": "procedure",
+      "sortid": 138,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "unwithered_freddy_showtime_redstone_on",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fnafbitsandpieces/procedures/UnwitheredFreddyShowtimeRedstoneOnProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Fredbears/Unwithered Freddy"
+    },
+    {
+      "name": "UnwitheredFreddyShowtime",
+      "type": "animatedblock",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "unwithered_freddy_showtime",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/model/UnwitheredFreddyShowtimeBlockModel.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/model/UnwitheredFreddyShowtimeDisplayModel.java",
+          "src/main/resources/assets/fnaf_bits_and_pieces/blockstates/unwithered_freddy_showtime.json",
+          "src/main/resources/assets/fnaf_bits_and_pieces/models/item/unwithered_freddy_showtime.json",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/renderer/UnwitheredFreddyShowtimeTileRenderer.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/display/UnwitheredFreddyShowtimeDisplayItem.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/UnwitheredFreddyShowtimeBlock.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/entity/UnwitheredFreddyShowtimeTileEntity.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/renderer/UnwitheredFreddyShowtimeDisplayItemRenderer.java",
+          "src/main/resources/assets/fnaf_bits_and_pieces/models/custom/unwithered_freddy_showtime_particle.json"
+        ]
+      },
+      "path": "~/Fredbears/Unwithered Freddy"
+    },
+    {
+      "name": "UnwitheredFreddyShowtimeA",
+      "type": "animatedblock",
+      "sortid": 139,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "unwithered_freddy_showtime_a",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/UnwitheredFreddyShowtimeABlock.java",
+          "src/main/resources/assets/fnaf_bits_and_pieces/models/item/unwithered_freddy_showtime_a.json",
+          "src/main/resources/assets/fnaf_bits_and_pieces/models/custom/unwithered_freddy_showtime_a_particle.json",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/model/UnwitheredFreddyShowtimeABlockModel.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/display/UnwitheredFreddyShowtimeADisplayItem.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/entity/UnwitheredFreddyShowtimeATileEntity.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/renderer/UnwitheredFreddyShowtimeADisplayItemRenderer.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/model/UnwitheredFreddyShowtimeADisplayModel.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/renderer/UnwitheredFreddyShowtimeATileRenderer.java",
+          "src/main/resources/assets/fnaf_bits_and_pieces/blockstates/unwithered_freddy_showtime_a.json"
+        ]
+      },
+      "path": "~/Fredbears/Unwithered Freddy"
+    },
+    {
+      "name": "UnwitheredFreddyRecipe",
+      "type": "recipe",
+      "sortid": 140,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "unwithered_freddy_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fnaf_bits_and_pieces/recipes/unwithered_freddy_recipe.json"
+        ]
+      },
+      "path": "~/Fredbears/Unwithered Freddy"
+    },
+    {
+      "name": "UnwitheredBonnieShowtimeRedstoneOn",
+      "type": "procedure",
+      "sortid": 141,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "unwithered_bonnie_showtime_redstone_on",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fnafbitsandpieces/procedures/UnwitheredBonnieShowtimeRedstoneOnProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Fredbears/Unwithered Bonnie"
+    },
+    {
+      "name": "UnwitheredBonnieShowtime",
+      "type": "animatedblock",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "unwithered_bonnie_showtime",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/renderer/UnwitheredBonnieShowtimeTileRenderer.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/model/UnwitheredBonnieShowtimeBlockModel.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/model/UnwitheredBonnieShowtimeDisplayModel.java",
+          "src/main/resources/assets/fnaf_bits_and_pieces/blockstates/unwithered_bonnie_showtime.json",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/UnwitheredBonnieShowtimeBlock.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/display/UnwitheredBonnieShowtimeDisplayItem.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/renderer/UnwitheredBonnieShowtimeDisplayItemRenderer.java",
+          "src/main/resources/assets/fnaf_bits_and_pieces/models/custom/unwithered_bonnie_showtime_particle.json",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/entity/UnwitheredBonnieShowtimeTileEntity.java",
+          "src/main/resources/assets/fnaf_bits_and_pieces/models/item/unwithered_bonnie_showtime.json"
+        ]
+      },
+      "path": "~/Fredbears/Unwithered Bonnie"
+    },
+    {
+      "name": "UnwitheredBonnieShowtimeA",
+      "type": "animatedblock",
+      "sortid": 142,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "unwithered_bonnie_showtime_a",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fnaf_bits_and_pieces/models/custom/unwithered_bonnie_showtime_a_particle.json",
+          "src/main/resources/assets/fnaf_bits_and_pieces/models/item/unwithered_bonnie_showtime_a.json",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/model/UnwitheredBonnieShowtimeABlockModel.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/UnwitheredBonnieShowtimeABlock.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/display/UnwitheredBonnieShowtimeADisplayItem.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/renderer/UnwitheredBonnieShowtimeADisplayItemRenderer.java",
+          "src/main/resources/assets/fnaf_bits_and_pieces/blockstates/unwithered_bonnie_showtime_a.json",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/entity/UnwitheredBonnieShowtimeATileEntity.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/model/UnwitheredBonnieShowtimeADisplayModel.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/renderer/UnwitheredBonnieShowtimeATileRenderer.java"
+        ]
+      },
+      "path": "~/Fredbears/Unwithered Bonnie"
+    },
+    {
+      "name": "UnwithererdBonnieRecipe",
+      "type": "recipe",
+      "sortid": 143,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "unwithererd_bonnie_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fnaf_bits_and_pieces/recipes/unwithererd_bonnie_recipe.json"
+        ]
+      },
+      "path": "~/Fredbears/Unwithered Bonnie"
+    },
+    {
+      "name": "UnwitheredChicaShowtimeRedstoneOn",
+      "type": "procedure",
+      "sortid": 144,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "unwithered_chica_showtime_redstone_on",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fnafbitsandpieces/procedures/UnwitheredChicaShowtimeRedstoneOnProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Fredbears/Unwithered Chica"
+    },
+    {
+      "name": "UnwitheredChicaShowtime",
+      "type": "animatedblock",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "unwithered_chica_showtime",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/display/UnwitheredChicaShowtimeDisplayItem.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/entity/UnwitheredChicaShowtimeTileEntity.java",
+          "src/main/resources/assets/fnaf_bits_and_pieces/models/custom/unwithered_chica_showtime_particle.json",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/model/UnwitheredChicaShowtimeBlockModel.java",
+          "src/main/resources/assets/fnaf_bits_and_pieces/models/item/unwithered_chica_showtime.json",
+          "src/main/resources/assets/fnaf_bits_and_pieces/blockstates/unwithered_chica_showtime.json",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/renderer/UnwitheredChicaShowtimeTileRenderer.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/model/UnwitheredChicaShowtimeDisplayModel.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/UnwitheredChicaShowtimeBlock.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/renderer/UnwitheredChicaShowtimeDisplayItemRenderer.java"
+        ]
+      },
+      "path": "~/Fredbears/Unwithered Chica"
+    },
+    {
+      "name": "UnwitheredChicaShowtimeA",
+      "type": "animatedblock",
+      "sortid": 145,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "unwithered_chica_showtime_a",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/entity/UnwitheredChicaShowtimeATileEntity.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/renderer/UnwitheredChicaShowtimeATileRenderer.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/renderer/UnwitheredChicaShowtimeADisplayItemRenderer.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/model/UnwitheredChicaShowtimeADisplayModel.java",
+          "src/main/resources/assets/fnaf_bits_and_pieces/models/custom/unwithered_chica_showtime_a_particle.json",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/model/UnwitheredChicaShowtimeABlockModel.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/UnwitheredChicaShowtimeABlock.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/display/UnwitheredChicaShowtimeADisplayItem.java",
+          "src/main/resources/assets/fnaf_bits_and_pieces/models/item/unwithered_chica_showtime_a.json",
+          "src/main/resources/assets/fnaf_bits_and_pieces/blockstates/unwithered_chica_showtime_a.json"
+        ]
+      },
+      "path": "~/Fredbears/Unwithered Chica"
+    },
+    {
+      "name": "UnwitheredChicaRecipe",
+      "type": "recipe",
+      "sortid": 146,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "unwithered_chica_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fnaf_bits_and_pieces/recipes/unwithered_chica_recipe.json"
+        ]
+      },
+      "path": "~/Fredbears/Unwithered Chica"
+    },
+    {
+      "name": "UnwitheredGoldenFreddyShowtimeRedstoneOn",
+      "type": "procedure",
+      "sortid": 147,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "unwithered_golden_freddy_showtime_redstone_on",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fnafbitsandpieces/procedures/UnwitheredGoldenFreddyShowtimeRedstoneOnProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Fredbears/Unwithered Golden Freddy"
+    },
+    {
+      "name": "UnwitheredGoldenFreddyShowtime",
+      "type": "animatedblock",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "unwithered_golden_freddy_showtime",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/display/UnwitheredGoldenFreddyShowtimeDisplayItem.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/renderer/UnwitheredGoldenFreddyShowtimeDisplayItemRenderer.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/entity/UnwitheredGoldenFreddyShowtimeTileEntity.java",
+          "src/main/resources/assets/fnaf_bits_and_pieces/blockstates/unwithered_golden_freddy_showtime.json",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/renderer/UnwitheredGoldenFreddyShowtimeTileRenderer.java",
+          "src/main/resources/assets/fnaf_bits_and_pieces/models/item/unwithered_golden_freddy_showtime.json",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/UnwitheredGoldenFreddyShowtimeBlock.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/model/UnwitheredGoldenFreddyShowtimeBlockModel.java",
+          "src/main/resources/assets/fnaf_bits_and_pieces/models/custom/unwithered_golden_freddy_showtime_particle.json",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/model/UnwitheredGoldenFreddyShowtimeDisplayModel.java"
+        ]
+      },
+      "path": "~/Fredbears/Unwithered Golden Freddy"
+    },
+    {
+      "name": "UnwitheredGoldenFreddyShowtimeA",
+      "type": "animatedblock",
+      "sortid": 148,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "unwithered_golden_freddy_showtime_a",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/entity/UnwitheredGoldenFreddyShowtimeATileEntity.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/UnwitheredGoldenFreddyShowtimeABlock.java",
+          "src/main/resources/assets/fnaf_bits_and_pieces/blockstates/unwithered_golden_freddy_showtime_a.json",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/renderer/UnwitheredGoldenFreddyShowtimeATileRenderer.java",
+          "src/main/resources/assets/fnaf_bits_and_pieces/models/item/unwithered_golden_freddy_showtime_a.json",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/model/UnwitheredGoldenFreddyShowtimeABlockModel.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/model/UnwitheredGoldenFreddyShowtimeADisplayModel.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/display/UnwitheredGoldenFreddyShowtimeADisplayItem.java",
+          "src/main/resources/assets/fnaf_bits_and_pieces/models/custom/unwithered_golden_freddy_showtime_a_particle.json",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/renderer/UnwitheredGoldenFreddyShowtimeADisplayItemRenderer.java"
+        ]
+      },
+      "path": "~/Fredbears/Unwithered Golden Freddy"
+    },
+    {
+      "name": "UnwitheredGoldenFreddyRecipe",
+      "type": "recipe",
+      "sortid": 149,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "unwithered_golden_freddy_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fnaf_bits_and_pieces/recipes/unwithered_golden_freddy_recipe.json"
+        ]
+      },
+      "path": "~/Fredbears/Unwithered Golden Freddy"
+    },
+    {
+      "name": "FredbearShowtimeRedstoneOn",
+      "type": "procedure",
+      "sortid": 150,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fredbear_showtime_redstone_on",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fnafbitsandpieces/procedures/FredbearShowtimeRedstoneOnProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Fredbears/FredBear"
+    },
+    {
+      "name": "FredbearShowtime",
+      "type": "animatedblock",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fredbear_showtime",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/display/FredbearShowtimeDisplayItem.java",
+          "src/main/resources/assets/fnaf_bits_and_pieces/models/custom/fredbear_showtime_particle.json",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/renderer/FredbearShowtimeTileRenderer.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/model/FredbearShowtimeBlockModel.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/renderer/FredbearShowtimeDisplayItemRenderer.java",
+          "src/main/resources/assets/fnaf_bits_and_pieces/models/item/fredbear_showtime.json",
+          "src/main/resources/assets/fnaf_bits_and_pieces/blockstates/fredbear_showtime.json",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/entity/FredbearShowtimeTileEntity.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/model/FredbearShowtimeDisplayModel.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/FredbearShowtimeBlock.java"
+        ]
+      },
+      "path": "~/Fredbears/FredBear"
+    },
+    {
+      "name": "FredBearShowtimeA",
+      "type": "animatedblock",
+      "sortid": 151,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fred_bear_showtime_a",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/model/FredBearShowtimeABlockModel.java",
+          "src/main/resources/assets/fnaf_bits_and_pieces/models/item/fred_bear_showtime_a.json",
+          "src/main/resources/assets/fnaf_bits_and_pieces/blockstates/fred_bear_showtime_a.json",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/FredBearShowtimeABlock.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/model/FredBearShowtimeADisplayModel.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/renderer/FredBearShowtimeADisplayItemRenderer.java",
+          "src/main/resources/assets/fnaf_bits_and_pieces/models/custom/fred_bear_showtime_a_particle.json",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/display/FredBearShowtimeADisplayItem.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/renderer/FredBearShowtimeATileRenderer.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/entity/FredBearShowtimeATileEntity.java"
+        ]
+      },
+      "path": "~/Fredbears/FredBear"
+    },
+    {
+      "name": "FredbearRecipe",
+      "type": "recipe",
+      "sortid": 152,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fredbear_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fnaf_bits_and_pieces/recipes/fredbear_recipe.json"
+        ]
+      },
+      "path": "~/Fredbears/FredBear"
+    },
+    {
+      "name": "SpringBonnieShowtimeRedstoneOn",
+      "type": "procedure",
+      "sortid": 153,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spring_bonnie_showtime_redstone_on",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fnafbitsandpieces/procedures/SpringBonnieShowtimeRedstoneOnProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Fredbears/SpringBonnie"
+    },
+    {
+      "name": "SpringBonnieShowtime",
+      "type": "animatedblock",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spring_bonnie_showtime",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fnaf_bits_and_pieces/blockstates/spring_bonnie_showtime.json",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/entity/SpringBonnieShowtimeTileEntity.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/renderer/SpringBonnieShowtimeDisplayItemRenderer.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/model/SpringBonnieShowtimeDisplayModel.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/SpringBonnieShowtimeBlock.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/renderer/SpringBonnieShowtimeTileRenderer.java",
+          "src/main/resources/assets/fnaf_bits_and_pieces/models/item/spring_bonnie_showtime.json",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/model/SpringBonnieShowtimeBlockModel.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/display/SpringBonnieShowtimeDisplayItem.java",
+          "src/main/resources/assets/fnaf_bits_and_pieces/models/custom/spring_bonnie_showtime_particle.json"
+        ]
+      },
+      "path": "~/Fredbears/SpringBonnie"
+    },
+    {
+      "name": "SpringBonnieShowtimeA",
+      "type": "animatedblock",
+      "sortid": 154,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spring_bonnie_showtime_a",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/entity/SpringBonnieShowtimeATileEntity.java",
+          "src/main/resources/assets/fnaf_bits_and_pieces/models/item/spring_bonnie_showtime_a.json",
+          "src/main/resources/assets/fnaf_bits_and_pieces/blockstates/spring_bonnie_showtime_a.json",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/renderer/SpringBonnieShowtimeATileRenderer.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/display/SpringBonnieShowtimeADisplayItem.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/SpringBonnieShowtimeABlock.java",
+          "src/main/resources/assets/fnaf_bits_and_pieces/models/custom/spring_bonnie_showtime_a_particle.json",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/model/SpringBonnieShowtimeADisplayModel.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/renderer/SpringBonnieShowtimeADisplayItemRenderer.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/model/SpringBonnieShowtimeABlockModel.java"
+        ]
+      },
+      "path": "~/Fredbears/SpringBonnie"
+    },
+    {
+      "name": "SpringBonnieRecipe",
+      "type": "recipe",
+      "sortid": 155,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spring_bonnie_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fnaf_bits_and_pieces/recipes/spring_bonnie_recipe.json"
+        ]
+      },
+      "path": "~/Fredbears/SpringBonnie"
+    },
+    {
+      "name": "DinerFoxyHead",
+      "type": "animatedblock",
+      "sortid": 59,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diner_foxy_head",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/renderer/DinerFoxyHeadDisplayItemRenderer.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/display/DinerFoxyHeadDisplayItem.java",
+          "src/main/resources/assets/fnaf_bits_and_pieces/models/custom/diner_foxy_head_particle.json",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/entity/DinerFoxyHeadTileEntity.java",
+          "src/main/resources/assets/fnaf_bits_and_pieces/models/item/diner_foxy_head.json",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/DinerFoxyHeadBlock.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/model/DinerFoxyHeadDisplayModel.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/model/DinerFoxyHeadBlockModel.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/renderer/DinerFoxyHeadTileRenderer.java",
+          "src/main/resources/assets/fnaf_bits_and_pieces/blockstates/diner_foxy_head.json"
+        ]
+      },
+      "path": "~/Fredbears/Diner Foxy"
+    },
+    {
+      "name": "DinerFoxyTorso",
+      "type": "animatedblock",
+      "sortid": 60,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diner_foxy_torso",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/entity/DinerFoxyTorsoTileEntity.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/DinerFoxyTorsoBlock.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/renderer/DinerFoxyTorsoTileRenderer.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/model/DinerFoxyTorsoBlockModel.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/model/DinerFoxyTorsoDisplayModel.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/renderer/DinerFoxyTorsoDisplayItemRenderer.java",
+          "src/main/resources/assets/fnaf_bits_and_pieces/models/custom/diner_foxy_torso_particle.json",
+          "src/main/resources/assets/fnaf_bits_and_pieces/blockstates/diner_foxy_torso.json",
+          "src/main/resources/assets/fnaf_bits_and_pieces/models/item/diner_foxy_torso.json",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/display/DinerFoxyTorsoDisplayItem.java"
+        ]
+      },
+      "path": "~/Fredbears/Diner Foxy"
+    },
+    {
+      "name": "DinerFoxyLeftArm",
+      "type": "animatedblock",
+      "sortid": 62,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diner_foxy_left_arm",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/renderer/DinerFoxyLeftArmDisplayItemRenderer.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/model/DinerFoxyLeftArmDisplayModel.java",
+          "src/main/resources/assets/fnaf_bits_and_pieces/models/custom/diner_foxy_left_arm_particle.json",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/display/DinerFoxyLeftArmDisplayItem.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/model/DinerFoxyLeftArmBlockModel.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/renderer/DinerFoxyLeftArmTileRenderer.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/DinerFoxyLeftArmBlock.java",
+          "src/main/resources/assets/fnaf_bits_and_pieces/blockstates/diner_foxy_left_arm.json",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/entity/DinerFoxyLeftArmTileEntity.java",
+          "src/main/resources/assets/fnaf_bits_and_pieces/models/item/diner_foxy_left_arm.json"
+        ]
+      },
+      "path": "~/Fredbears/Diner Foxy"
+    },
+    {
+      "name": "DinerFoxyRightArm",
+      "type": "animatedblock",
+      "sortid": 61,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diner_foxy_right_arm",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fnaf_bits_and_pieces/models/custom/diner_foxy_right_arm_particle.json",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/renderer/DinerFoxyRightArmDisplayItemRenderer.java",
+          "src/main/resources/assets/fnaf_bits_and_pieces/models/item/diner_foxy_right_arm.json",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/renderer/DinerFoxyRightArmTileRenderer.java",
+          "src/main/resources/assets/fnaf_bits_and_pieces/blockstates/diner_foxy_right_arm.json",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/DinerFoxyRightArmBlock.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/model/DinerFoxyRightArmBlockModel.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/display/DinerFoxyRightArmDisplayItem.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/entity/DinerFoxyRightArmTileEntity.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/model/DinerFoxyRightArmDisplayModel.java"
+        ]
+      },
+      "path": "~/Fredbears/Diner Foxy"
+    },
+    {
+      "name": "DinerFoxyLeftLeg",
+      "type": "animatedblock",
+      "sortid": 64,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diner_foxy_left_leg",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/model/DinerFoxyLeftLegBlockModel.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/renderer/DinerFoxyLeftLegTileRenderer.java",
+          "src/main/resources/assets/fnaf_bits_and_pieces/models/custom/diner_foxy_left_leg_particle.json",
+          "src/main/resources/assets/fnaf_bits_and_pieces/models/item/diner_foxy_left_leg.json",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/entity/DinerFoxyLeftLegTileEntity.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/renderer/DinerFoxyLeftLegDisplayItemRenderer.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/model/DinerFoxyLeftLegDisplayModel.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/DinerFoxyLeftLegBlock.java",
+          "src/main/resources/assets/fnaf_bits_and_pieces/blockstates/diner_foxy_left_leg.json",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/display/DinerFoxyLeftLegDisplayItem.java"
+        ]
+      },
+      "path": "~/Fredbears/Diner Foxy"
+    },
+    {
+      "name": "DinerFoxyRightLeg",
+      "type": "animatedblock",
+      "sortid": 63,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diner_foxy_right_leg",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/model/DinerFoxyRightLegBlockModel.java",
+          "src/main/resources/assets/fnaf_bits_and_pieces/models/item/diner_foxy_right_leg.json",
+          "src/main/resources/assets/fnaf_bits_and_pieces/blockstates/diner_foxy_right_leg.json",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/renderer/DinerFoxyRightLegDisplayItemRenderer.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/renderer/DinerFoxyRightLegTileRenderer.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/entity/DinerFoxyRightLegTileEntity.java",
+          "src/main/resources/assets/fnaf_bits_and_pieces/models/custom/diner_foxy_right_leg_particle.json",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/DinerFoxyRightLegBlock.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/model/DinerFoxyRightLegDisplayModel.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/display/DinerFoxyRightLegDisplayItem.java"
+        ]
+      },
+      "path": "~/Fredbears/Diner Foxy"
+    },
+    {
+      "name": "DinerFoxyShowtime",
+      "type": "animatedblock",
+      "sortid": 65,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diner_foxy_showtime",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/entity/DinerFoxyShowtimeTileEntity.java",
+          "src/main/resources/assets/fnaf_bits_and_pieces/models/item/diner_foxy_showtime.json",
+          "src/main/resources/assets/fnaf_bits_and_pieces/models/custom/diner_foxy_showtime_particle.json",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/display/DinerFoxyShowtimeDisplayItem.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/renderer/DinerFoxyShowtimeTileRenderer.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/model/DinerFoxyShowtimeDisplayModel.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/renderer/DinerFoxyShowtimeDisplayItemRenderer.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/model/DinerFoxyShowtimeBlockModel.java",
+          "src/main/resources/assets/fnaf_bits_and_pieces/blockstates/diner_foxy_showtime.json",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/DinerFoxyShowtimeBlock.java"
+        ]
+      },
+      "path": "~/Fredbears/Diner Foxy"
+    },
+    {
+      "name": "DinerFoxyShowtimeA",
+      "type": "animatedblock",
+      "sortid": 156,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diner_foxy_showtime_a",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/entity/DinerFoxyShowtimeATileEntity.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/DinerFoxyShowtimeABlock.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/model/DinerFoxyShowtimeADisplayModel.java",
+          "src/main/resources/assets/fnaf_bits_and_pieces/models/item/diner_foxy_showtime_a.json",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/renderer/DinerFoxyShowtimeATileRenderer.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/display/DinerFoxyShowtimeADisplayItem.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/model/DinerFoxyShowtimeABlockModel.java",
+          "src/main/resources/assets/fnaf_bits_and_pieces/blockstates/diner_foxy_showtime_a.json",
+          "src/main/resources/assets/fnaf_bits_and_pieces/models/custom/diner_foxy_showtime_a_particle.json",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/renderer/DinerFoxyShowtimeADisplayItemRenderer.java"
+        ]
+      },
+      "path": "~/Fredbears/Diner Foxy"
+    },
+    {
+      "name": "DinerFoxyShowtimeRedstoneOn",
+      "type": "procedure",
+      "sortid": 157,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diner_foxy_showtime_redstone_on",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fnafbitsandpieces/procedures/DinerFoxyShowtimeRedstoneOnProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Fredbears/Diner Foxy"
+    },
+    {
+      "name": "DinerFoxyRecipe",
+      "type": "recipe",
+      "sortid": 158,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diner_foxy_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fnaf_bits_and_pieces/recipes/diner_foxy_recipe.json"
+        ]
+      },
+      "path": "~/Fredbears/Diner Foxy"
+    },
+    {
+      "name": "DinerFreddyHead",
+      "type": "animatedblock",
+      "sortid": 66,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diner_freddy_head",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fnaf_bits_and_pieces/blockstates/diner_freddy_head.json",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/renderer/DinerFreddyHeadDisplayItemRenderer.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/entity/DinerFreddyHeadTileEntity.java",
+          "src/main/resources/assets/fnaf_bits_and_pieces/models/item/diner_freddy_head.json",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/display/DinerFreddyHeadDisplayItem.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/model/DinerFreddyHeadBlockModel.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/renderer/DinerFreddyHeadTileRenderer.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/model/DinerFreddyHeadDisplayModel.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/DinerFreddyHeadBlock.java",
+          "src/main/resources/assets/fnaf_bits_and_pieces/models/custom/diner_freddy_head_particle.json"
+        ]
+      },
+      "path": "~/Fredbears/Diner Freddy"
+    },
+    {
+      "name": "DinerFreddyTorso",
+      "type": "animatedblock",
+      "sortid": 67,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diner_freddy_torso",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/display/DinerFreddyTorsoDisplayItem.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/DinerFreddyTorsoBlock.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/model/DinerFreddyTorsoDisplayModel.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/entity/DinerFreddyTorsoTileEntity.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/renderer/DinerFreddyTorsoDisplayItemRenderer.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/model/DinerFreddyTorsoBlockModel.java",
+          "src/main/resources/assets/fnaf_bits_and_pieces/models/custom/diner_freddy_torso_particle.json",
+          "src/main/resources/assets/fnaf_bits_and_pieces/blockstates/diner_freddy_torso.json",
+          "src/main/resources/assets/fnaf_bits_and_pieces/models/item/diner_freddy_torso.json",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/renderer/DinerFreddyTorsoTileRenderer.java"
+        ]
+      },
+      "path": "~/Fredbears/Diner Freddy"
+    },
+    {
+      "name": "DinerFreddyLeftArm",
+      "type": "animatedblock",
+      "sortid": 69,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diner_freddy_left_arm",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/DinerFreddyLeftArmBlock.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/entity/DinerFreddyLeftArmTileEntity.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/model/DinerFreddyLeftArmDisplayModel.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/display/DinerFreddyLeftArmDisplayItem.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/renderer/DinerFreddyLeftArmTileRenderer.java",
+          "src/main/resources/assets/fnaf_bits_and_pieces/models/custom/diner_freddy_left_arm_particle.json",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/model/DinerFreddyLeftArmBlockModel.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/renderer/DinerFreddyLeftArmDisplayItemRenderer.java",
+          "src/main/resources/assets/fnaf_bits_and_pieces/models/item/diner_freddy_left_arm.json",
+          "src/main/resources/assets/fnaf_bits_and_pieces/blockstates/diner_freddy_left_arm.json"
+        ]
+      },
+      "path": "~/Fredbears/Diner Freddy"
+    },
+    {
+      "name": "DinerFreddyRightArm",
+      "type": "animatedblock",
+      "sortid": 68,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diner_freddy_right_arm",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/model/DinerFreddyRightArmDisplayModel.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/model/DinerFreddyRightArmBlockModel.java",
+          "src/main/resources/assets/fnaf_bits_and_pieces/blockstates/diner_freddy_right_arm.json",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/DinerFreddyRightArmBlock.java",
+          "src/main/resources/assets/fnaf_bits_and_pieces/models/item/diner_freddy_right_arm.json",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/entity/DinerFreddyRightArmTileEntity.java",
+          "src/main/resources/assets/fnaf_bits_and_pieces/models/custom/diner_freddy_right_arm_particle.json",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/renderer/DinerFreddyRightArmTileRenderer.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/display/DinerFreddyRightArmDisplayItem.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/renderer/DinerFreddyRightArmDisplayItemRenderer.java"
+        ]
+      },
+      "path": "~/Fredbears/Diner Freddy"
+    },
+    {
+      "name": "DinerFreddyLeftLeg",
+      "type": "animatedblock",
+      "sortid": 71,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diner_freddy_left_leg",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/model/DinerFreddyLeftLegBlockModel.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/renderer/DinerFreddyLeftLegTileRenderer.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/model/DinerFreddyLeftLegDisplayModel.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/renderer/DinerFreddyLeftLegDisplayItemRenderer.java",
+          "src/main/resources/assets/fnaf_bits_and_pieces/blockstates/diner_freddy_left_leg.json",
+          "src/main/resources/assets/fnaf_bits_and_pieces/models/custom/diner_freddy_left_leg_particle.json",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/entity/DinerFreddyLeftLegTileEntity.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/DinerFreddyLeftLegBlock.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/display/DinerFreddyLeftLegDisplayItem.java",
+          "src/main/resources/assets/fnaf_bits_and_pieces/models/item/diner_freddy_left_leg.json"
+        ]
+      },
+      "path": "~/Fredbears/Diner Freddy"
+    },
+    {
+      "name": "DinerFreddyRightLeg",
+      "type": "animatedblock",
+      "sortid": 70,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diner_freddy_right_leg",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/model/DinerFreddyRightLegDisplayModel.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/entity/DinerFreddyRightLegTileEntity.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/DinerFreddyRightLegBlock.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/renderer/DinerFreddyRightLegTileRenderer.java",
+          "src/main/resources/assets/fnaf_bits_and_pieces/blockstates/diner_freddy_right_leg.json",
+          "src/main/resources/assets/fnaf_bits_and_pieces/models/item/diner_freddy_right_leg.json",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/model/DinerFreddyRightLegBlockModel.java",
+          "src/main/resources/assets/fnaf_bits_and_pieces/models/custom/diner_freddy_right_leg_particle.json",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/renderer/DinerFreddyRightLegDisplayItemRenderer.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/display/DinerFreddyRightLegDisplayItem.java"
+        ]
+      },
+      "path": "~/Fredbears/Diner Freddy"
+    },
+    {
+      "name": "DinerFreddyShowtimeRedstoneOn",
+      "type": "procedure",
+      "sortid": 159,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diner_freddy_showtime_redstone_on",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fnafbitsandpieces/procedures/DinerFreddyShowtimeRedstoneOnProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Fredbears/Diner Freddy"
+    },
+    {
+      "name": "DinerFreddyShowtime",
+      "type": "animatedblock",
+      "sortid": 72,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diner_freddy_showtime",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/DinerFreddyShowtimeBlock.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/renderer/DinerFreddyShowtimeTileRenderer.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/model/DinerFreddyShowtimeBlockModel.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/display/DinerFreddyShowtimeDisplayItem.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/entity/DinerFreddyShowtimeTileEntity.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/model/DinerFreddyShowtimeDisplayModel.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/renderer/DinerFreddyShowtimeDisplayItemRenderer.java",
+          "src/main/resources/assets/fnaf_bits_and_pieces/blockstates/diner_freddy_showtime.json",
+          "src/main/resources/assets/fnaf_bits_and_pieces/models/custom/diner_freddy_showtime_particle.json",
+          "src/main/resources/assets/fnaf_bits_and_pieces/models/item/diner_freddy_showtime.json"
+        ]
+      },
+      "path": "~/Fredbears/Diner Freddy"
+    },
+    {
+      "name": "DinerFreddyShowtimeA",
+      "type": "animatedblock",
+      "sortid": 160,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diner_freddy_showtime_a",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/display/DinerFreddyShowtimeADisplayItem.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/renderer/DinerFreddyShowtimeADisplayItemRenderer.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/DinerFreddyShowtimeABlock.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/entity/DinerFreddyShowtimeATileEntity.java",
+          "src/main/resources/assets/fnaf_bits_and_pieces/models/custom/diner_freddy_showtime_a_particle.json",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/model/DinerFreddyShowtimeADisplayModel.java",
+          "src/main/resources/assets/fnaf_bits_and_pieces/blockstates/diner_freddy_showtime_a.json",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/model/DinerFreddyShowtimeABlockModel.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/renderer/DinerFreddyShowtimeATileRenderer.java",
+          "src/main/resources/assets/fnaf_bits_and_pieces/models/item/diner_freddy_showtime_a.json"
+        ]
+      },
+      "path": "~/Fredbears/Diner Freddy"
+    },
+    {
+      "name": "DinerFreddyrecipe",
+      "type": "recipe",
+      "sortid": 161,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diner_freddyrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fnaf_bits_and_pieces/recipes/diner_freddyrecipe.json"
+        ]
+      },
+      "path": "~/Fredbears/Diner Freddy"
+    },
+    {
+      "name": "DinerBonnieHead",
+      "type": "animatedblock",
+      "sortid": 73,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diner_bonnie_head",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/entity/DinerBonnieHeadTileEntity.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/renderer/DinerBonnieHeadDisplayItemRenderer.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/model/DinerBonnieHeadBlockModel.java",
+          "src/main/resources/assets/fnaf_bits_and_pieces/models/item/diner_bonnie_head.json",
+          "src/main/resources/assets/fnaf_bits_and_pieces/blockstates/diner_bonnie_head.json",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/model/DinerBonnieHeadDisplayModel.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/renderer/DinerBonnieHeadTileRenderer.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/display/DinerBonnieHeadDisplayItem.java",
+          "src/main/resources/assets/fnaf_bits_and_pieces/models/custom/diner_bonnie_head_particle.json",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/DinerBonnieHeadBlock.java"
+        ]
+      },
+      "path": "~/Fredbears/Diner Bonnie"
+    },
+    {
+      "name": "DinerBonnieTorso",
+      "type": "animatedblock",
+      "sortid": 74,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diner_bonnie_torso",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/display/DinerBonnieTorsoDisplayItem.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/model/DinerBonnieTorsoBlockModel.java",
+          "src/main/resources/assets/fnaf_bits_and_pieces/models/item/diner_bonnie_torso.json",
+          "src/main/resources/assets/fnaf_bits_and_pieces/models/custom/diner_bonnie_torso_particle.json",
+          "src/main/resources/assets/fnaf_bits_and_pieces/blockstates/diner_bonnie_torso.json",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/DinerBonnieTorsoBlock.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/renderer/DinerBonnieTorsoDisplayItemRenderer.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/model/DinerBonnieTorsoDisplayModel.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/renderer/DinerBonnieTorsoTileRenderer.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/entity/DinerBonnieTorsoTileEntity.java"
+        ]
+      },
+      "path": "~/Fredbears/Diner Bonnie"
+    },
+    {
+      "name": "DinerBonnieLeftArm",
+      "type": "animatedblock",
+      "sortid": 76,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diner_bonnie_left_arm",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/renderer/DinerBonnieLeftArmTileRenderer.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/DinerBonnieLeftArmBlock.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/model/DinerBonnieLeftArmDisplayModel.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/display/DinerBonnieLeftArmDisplayItem.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/renderer/DinerBonnieLeftArmDisplayItemRenderer.java",
+          "src/main/resources/assets/fnaf_bits_and_pieces/blockstates/diner_bonnie_left_arm.json",
+          "src/main/resources/assets/fnaf_bits_and_pieces/models/custom/diner_bonnie_left_arm_particle.json",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/model/DinerBonnieLeftArmBlockModel.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/entity/DinerBonnieLeftArmTileEntity.java",
+          "src/main/resources/assets/fnaf_bits_and_pieces/models/item/diner_bonnie_left_arm.json"
+        ]
+      },
+      "path": "~/Fredbears/Diner Bonnie"
+    },
+    {
+      "name": "DinerBonnieRightArm",
+      "type": "animatedblock",
+      "sortid": 75,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diner_bonnie_right_arm",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fnaf_bits_and_pieces/blockstates/diner_bonnie_right_arm.json",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/DinerBonnieRightArmBlock.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/model/DinerBonnieRightArmDisplayModel.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/renderer/DinerBonnieRightArmTileRenderer.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/renderer/DinerBonnieRightArmDisplayItemRenderer.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/display/DinerBonnieRightArmDisplayItem.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/model/DinerBonnieRightArmBlockModel.java",
+          "src/main/resources/assets/fnaf_bits_and_pieces/models/item/diner_bonnie_right_arm.json",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/entity/DinerBonnieRightArmTileEntity.java",
+          "src/main/resources/assets/fnaf_bits_and_pieces/models/custom/diner_bonnie_right_arm_particle.json"
+        ]
+      },
+      "path": "~/Fredbears/Diner Bonnie"
+    },
+    {
+      "name": "DinerBonnieLeftLeg",
+      "type": "animatedblock",
+      "sortid": 78,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diner_bonnie_left_leg",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/renderer/DinerBonnieLeftLegDisplayItemRenderer.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/DinerBonnieLeftLegBlock.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/model/DinerBonnieLeftLegBlockModel.java",
+          "src/main/resources/assets/fnaf_bits_and_pieces/models/custom/diner_bonnie_left_leg_particle.json",
+          "src/main/resources/assets/fnaf_bits_and_pieces/blockstates/diner_bonnie_left_leg.json",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/model/DinerBonnieLeftLegDisplayModel.java",
+          "src/main/resources/assets/fnaf_bits_and_pieces/models/item/diner_bonnie_left_leg.json",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/renderer/DinerBonnieLeftLegTileRenderer.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/entity/DinerBonnieLeftLegTileEntity.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/display/DinerBonnieLeftLegDisplayItem.java"
+        ]
+      },
+      "path": "~/Fredbears/Diner Bonnie"
+    },
+    {
+      "name": "DinerBonnieRightLeg",
+      "type": "animatedblock",
+      "sortid": 77,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diner_bonnie_right_leg",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/renderer/DinerBonnieRightLegDisplayItemRenderer.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/renderer/DinerBonnieRightLegTileRenderer.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/entity/DinerBonnieRightLegTileEntity.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/model/DinerBonnieRightLegBlockModel.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/display/DinerBonnieRightLegDisplayItem.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/model/DinerBonnieRightLegDisplayModel.java",
+          "src/main/resources/assets/fnaf_bits_and_pieces/models/custom/diner_bonnie_right_leg_particle.json",
+          "src/main/resources/assets/fnaf_bits_and_pieces/models/item/diner_bonnie_right_leg.json",
+          "src/main/resources/assets/fnaf_bits_and_pieces/blockstates/diner_bonnie_right_leg.json",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/DinerBonnieRightLegBlock.java"
+        ]
+      },
+      "path": "~/Fredbears/Diner Bonnie"
+    },
+    {
+      "name": "DinerBonnieShowtimeRedstoneOn",
+      "type": "procedure",
+      "sortid": 162,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diner_bonnie_showtime_redstone_on",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fnafbitsandpieces/procedures/DinerBonnieShowtimeRedstoneOnProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Fredbears/Diner Bonnie"
+    },
+    {
+      "name": "DinerBonnieShowtime",
+      "type": "animatedblock",
+      "sortid": 79,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diner_bonnie_showtime",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/display/DinerBonnieShowtimeDisplayItem.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/entity/DinerBonnieShowtimeTileEntity.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/DinerBonnieShowtimeBlock.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/model/DinerBonnieShowtimeDisplayModel.java",
+          "src/main/resources/assets/fnaf_bits_and_pieces/models/item/diner_bonnie_showtime.json",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/model/DinerBonnieShowtimeBlockModel.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/renderer/DinerBonnieShowtimeDisplayItemRenderer.java",
+          "src/main/resources/assets/fnaf_bits_and_pieces/blockstates/diner_bonnie_showtime.json",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/renderer/DinerBonnieShowtimeTileRenderer.java",
+          "src/main/resources/assets/fnaf_bits_and_pieces/models/custom/diner_bonnie_showtime_particle.json"
+        ]
+      },
+      "path": "~/Fredbears/Diner Bonnie"
+    },
+    {
+      "name": "DinerBonnieShowtimeA",
+      "type": "animatedblock",
+      "sortid": 163,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diner_bonnie_showtime_a",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/DinerBonnieShowtimeABlock.java",
+          "src/main/resources/assets/fnaf_bits_and_pieces/models/custom/diner_bonnie_showtime_a_particle.json",
+          "src/main/resources/assets/fnaf_bits_and_pieces/blockstates/diner_bonnie_showtime_a.json",
+          "src/main/resources/assets/fnaf_bits_and_pieces/models/item/diner_bonnie_showtime_a.json",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/display/DinerBonnieShowtimeADisplayItem.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/model/DinerBonnieShowtimeADisplayModel.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/entity/DinerBonnieShowtimeATileEntity.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/model/DinerBonnieShowtimeABlockModel.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/renderer/DinerBonnieShowtimeADisplayItemRenderer.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/renderer/DinerBonnieShowtimeATileRenderer.java"
+        ]
+      },
+      "path": "~/Fredbears/Diner Bonnie"
+    },
+    {
+      "name": "DinerBonnieRecipe",
+      "type": "recipe",
+      "sortid": 164,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diner_bonnie_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fnaf_bits_and_pieces/recipes/diner_bonnie_recipe.json"
+        ]
+      },
+      "path": "~/Fredbears/Diner Bonnie"
+    },
+    {
+      "name": "DinerChicaHead",
+      "type": "animatedblock",
+      "sortid": 80,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diner_chica_head",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fnaf_bits_and_pieces/models/item/diner_chica_head.json",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/display/DinerChicaHeadDisplayItem.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/entity/DinerChicaHeadTileEntity.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/renderer/DinerChicaHeadDisplayItemRenderer.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/renderer/DinerChicaHeadTileRenderer.java",
+          "src/main/resources/assets/fnaf_bits_and_pieces/models/custom/diner_chica_head_particle.json",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/model/DinerChicaHeadBlockModel.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/model/DinerChicaHeadDisplayModel.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/DinerChicaHeadBlock.java",
+          "src/main/resources/assets/fnaf_bits_and_pieces/blockstates/diner_chica_head.json"
+        ]
+      },
+      "path": "~/Fredbears/Diner Chica"
+    },
+    {
+      "name": "DinerChicaTorso",
+      "type": "animatedblock",
+      "sortid": 81,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diner_chica_torso",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fnaf_bits_and_pieces/blockstates/diner_chica_torso.json",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/model/DinerChicaTorsoBlockModel.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/renderer/DinerChicaTorsoTileRenderer.java",
+          "src/main/resources/assets/fnaf_bits_and_pieces/models/item/diner_chica_torso.json",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/renderer/DinerChicaTorsoDisplayItemRenderer.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/model/DinerChicaTorsoDisplayModel.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/display/DinerChicaTorsoDisplayItem.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/entity/DinerChicaTorsoTileEntity.java",
+          "src/main/resources/assets/fnaf_bits_and_pieces/models/custom/diner_chica_torso_particle.json",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/DinerChicaTorsoBlock.java"
+        ]
+      },
+      "path": "~/Fredbears/Diner Chica"
+    },
+    {
+      "name": "DinerChicaLeftArm",
+      "type": "animatedblock",
+      "sortid": 83,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diner_chica_left_arm",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fnaf_bits_and_pieces/models/custom/diner_chica_left_arm_particle.json",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/display/DinerChicaLeftArmDisplayItem.java",
+          "src/main/resources/assets/fnaf_bits_and_pieces/models/item/diner_chica_left_arm.json",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/renderer/DinerChicaLeftArmDisplayItemRenderer.java",
+          "src/main/resources/assets/fnaf_bits_and_pieces/blockstates/diner_chica_left_arm.json",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/DinerChicaLeftArmBlock.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/model/DinerChicaLeftArmBlockModel.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/model/DinerChicaLeftArmDisplayModel.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/renderer/DinerChicaLeftArmTileRenderer.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/entity/DinerChicaLeftArmTileEntity.java"
+        ]
+      },
+      "path": "~/Fredbears/Diner Chica"
+    },
+    {
+      "name": "DinerChicaRightArm",
+      "type": "animatedblock",
+      "sortid": 82,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diner_chica_right_arm",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/display/DinerChicaRightArmDisplayItem.java",
+          "src/main/resources/assets/fnaf_bits_and_pieces/models/custom/diner_chica_right_arm_particle.json",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/model/DinerChicaRightArmBlockModel.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/renderer/DinerChicaRightArmDisplayItemRenderer.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/model/DinerChicaRightArmDisplayModel.java",
+          "src/main/resources/assets/fnaf_bits_and_pieces/models/item/diner_chica_right_arm.json",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/DinerChicaRightArmBlock.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/renderer/DinerChicaRightArmTileRenderer.java",
+          "src/main/resources/assets/fnaf_bits_and_pieces/blockstates/diner_chica_right_arm.json",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/entity/DinerChicaRightArmTileEntity.java"
+        ]
+      },
+      "path": "~/Fredbears/Diner Chica"
+    },
+    {
+      "name": "DinerChicaLeftLeg",
+      "type": "animatedblock",
+      "sortid": 85,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diner_chica_left_leg",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/renderer/DinerChicaLeftLegDisplayItemRenderer.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/entity/DinerChicaLeftLegTileEntity.java",
+          "src/main/resources/assets/fnaf_bits_and_pieces/blockstates/diner_chica_left_leg.json",
+          "src/main/resources/assets/fnaf_bits_and_pieces/models/custom/diner_chica_left_leg_particle.json",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/DinerChicaLeftLegBlock.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/model/DinerChicaLeftLegDisplayModel.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/renderer/DinerChicaLeftLegTileRenderer.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/display/DinerChicaLeftLegDisplayItem.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/model/DinerChicaLeftLegBlockModel.java",
+          "src/main/resources/assets/fnaf_bits_and_pieces/models/item/diner_chica_left_leg.json"
+        ]
+      },
+      "path": "~/Fredbears/Diner Chica"
+    },
+    {
+      "name": "DinerChicaRightLeg",
+      "type": "animatedblock",
+      "sortid": 84,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diner_chica_right_leg",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/display/DinerChicaRightLegDisplayItem.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/entity/DinerChicaRightLegTileEntity.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/renderer/DinerChicaRightLegTileRenderer.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/model/DinerChicaRightLegBlockModel.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/renderer/DinerChicaRightLegDisplayItemRenderer.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/model/DinerChicaRightLegDisplayModel.java",
+          "src/main/resources/assets/fnaf_bits_and_pieces/models/item/diner_chica_right_leg.json",
+          "src/main/resources/assets/fnaf_bits_and_pieces/blockstates/diner_chica_right_leg.json",
+          "src/main/resources/assets/fnaf_bits_and_pieces/models/custom/diner_chica_right_leg_particle.json",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/DinerChicaRightLegBlock.java"
+        ]
+      },
+      "path": "~/Fredbears/Diner Chica"
+    },
+    {
+      "name": "DinerChicaShowtimeRedstoneOn",
+      "type": "procedure",
+      "sortid": 165,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diner_chica_showtime_redstone_on",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fnafbitsandpieces/procedures/DinerChicaShowtimeRedstoneOnProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Fredbears/Diner Chica"
+    },
+    {
+      "name": "DinerChicaShowtime",
+      "type": "animatedblock",
+      "sortid": 86,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diner_chica_showtime",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/renderer/DinerChicaShowtimeDisplayItemRenderer.java",
+          "src/main/resources/assets/fnaf_bits_and_pieces/models/custom/diner_chica_showtime_particle.json",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/renderer/DinerChicaShowtimeTileRenderer.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/model/DinerChicaShowtimeDisplayModel.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/entity/DinerChicaShowtimeTileEntity.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/DinerChicaShowtimeBlock.java",
+          "src/main/resources/assets/fnaf_bits_and_pieces/blockstates/diner_chica_showtime.json",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/display/DinerChicaShowtimeDisplayItem.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/model/DinerChicaShowtimeBlockModel.java",
+          "src/main/resources/assets/fnaf_bits_and_pieces/models/item/diner_chica_showtime.json"
+        ]
+      },
+      "path": "~/Fredbears/Diner Chica"
+    },
+    {
+      "name": "DinerChicaShowtimeA",
+      "type": "animatedblock",
+      "sortid": 166,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diner_chica_showtime_a",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fnaf_bits_and_pieces/models/item/diner_chica_showtime_a.json",
+          "src/main/resources/assets/fnaf_bits_and_pieces/models/custom/diner_chica_showtime_a_particle.json",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/renderer/DinerChicaShowtimeATileRenderer.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/renderer/DinerChicaShowtimeADisplayItemRenderer.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/entity/DinerChicaShowtimeATileEntity.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/model/DinerChicaShowtimeADisplayModel.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/display/DinerChicaShowtimeADisplayItem.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/DinerChicaShowtimeABlock.java",
+          "src/main/resources/assets/fnaf_bits_and_pieces/blockstates/diner_chica_showtime_a.json",
+          "src/main/java/net/mcreator/fnafbitsandpieces/block/model/DinerChicaShowtimeABlockModel.java"
+        ]
+      },
+      "path": "~/Fredbears/Diner Chica"
+    },
+    {
+      "name": "DinerChicaRecipe",
+      "type": "recipe",
+      "sortid": 167,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diner_chica_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fnaf_bits_and_pieces/recipes/diner_chica_recipe.json"
+        ]
+      },
+      "path": "~/Fredbears/Diner Chica"
+    },
+    {
+      "name": "Ticket",
+      "type": "item",
+      "sortid": 168,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ticket",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fnaf_bits_and_pieces/models/item/ticket.json",
+          "src/main/java/net/mcreator/fnafbitsandpieces/item/TicketItem.java"
+        ]
+      },
+      "path": "~/Misc/Items"
+    },
+    {
+      "name": "PuppetKey",
+      "type": "item",
+      "sortid": 169,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "puppet_key",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fnaf_bits_and_pieces/models/item/puppet_key.json",
+          "src/main/java/net/mcreator/fnafbitsandpieces/item/PuppetKeyItem.java"
+        ]
+      },
+      "path": "~/Misc/Items"
+    },
+    {
+      "name": "PuppetBox",
+      "type": "gui",
+      "sortid": 170,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "puppet_box",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fnafbitsandpieces/network/PuppetBoxButtonMessage.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/world/inventory/PuppetBoxMenu.java",
+          "src/main/java/net/mcreator/fnafbitsandpieces/client/gui/PuppetBoxScreen.java"
+        ]
+      },
+      "path": "~/Misc/Blocks/PuppetBox"
+    },
+    {
+      "name": "PuppetBoxDefaultButton",
+      "type": "procedure",
+      "sortid": 171,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "puppet_box_default_button",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fnafbitsandpieces/procedures/PuppetBoxDefaultButtonProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Misc/Blocks/PuppetBox"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [
+    {
+      "name": "coins",
+      "files": [
+        "coins"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "fnaf1n1",
+      "files": [
+        "fnaf1-night1"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "fnaf1n2",
+      "files": [
+        "fnaf1-night2"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "fnaf1n3",
+      "files": [
+        "fnaf1-night3"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "fnaf1n4",
+      "files": [
+        "fnaf1-night4"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "fnaf1n5",
+      "files": [
+        "fnaf1-night5"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "fnaf2n1",
+      "files": [
+        "fnaf2-night1"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "fnaf2n2",
+      "files": [
+        "fnaf2-night2"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "fnaf2n3",
+      "files": [
+        "fnaf2-night3"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "fnaf2n4",
+      "files": [
+        "fnaf2-night4"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "fnaf2n5",
+      "files": [
+        "fnaf2-night5"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "fnaf2n6",
+      "files": [
+        "fnaf2-night6"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "fnaf3n1",
+      "files": [
+        "fnaf3-night1"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "fnaf3n2",
+      "files": [
+        "fnaf3-night2"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "fnaf3n3",
+      "files": [
+        "fnaf3-night3"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "fnaf3n4",
+      "files": [
+        "fnaf3-night4"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "fnaf3n5",
+      "files": [
+        "fnaf3-night5"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "fnaf3n6",
+      "files": [
+        "fnaf3-night6"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "fnafallcall",
+      "files": [
+        "fnafcallchaos"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    }
+  ],
+  "language_map": {
+    "en_us": {
+      "subtitles.fnaf3n2": "",
+      "block.fnaf_bits_and_pieces.diner_foxy_left_leg": "Diner Foxy Left Leg",
+      "subtitles.fnaf3n1": "",
+      "block.fnaf_bits_and_pieces.diner_bonnie_head": "Diner Bonnie Head",
+      "subtitles.fnaf3n6": "",
+      "subtitles.fnaf3n5": "",
+      "block.fnaf_bits_and_pieces.unwithered_foxy_left_arm": "Unwithered Foxy Left Arm",
+      "subtitles.fnaf3n4": "",
+      "block.fnaf_bits_and_pieces.diner_foxy_showtime": "Diner Foxy Showtime",
+      "subtitles.fnaf3n3": "",
+      "block.fnaf_bits_and_pieces.unwithered_freddy_left_arm": "Unwithered Freddy Left Arm",
+      "block.fnaf_bits_and_pieces.diner_foxy_torso": "Diner Foxy Torso",
+      "block.fnaf_bits_and_pieces.diner_bonnie_left_arm": "Diner Bonnie Left Arm",
+      "item.fnaf_bits_and_pieces.f_3_n_6.desc": "Voicemail 17",
+      "block.fnaf_bits_and_pieces.diner_chica_left_leg": "Diner Chica Left Leg",
+      "item.fnaf_bits_and_pieces.f_2_n_6": "Night 6",
+      "item.fnaf_bits_and_pieces.f_3_n_5.desc": "Voicemail 16",
+      "block.fnaf_bits_and_pieces.unwithered_chica_right_arm": "Unwithered Chica Right Arm",
+      "block.fnaf_bits_and_pieces.unwithered_golden_bonnie_showtime": "Unwithered Golden Bonnie Showtime",
+      "block.fnaf_bits_and_pieces.diner_chica_showtime": "Diner Chica Showtime",
+      "block.fnaf_bits_and_pieces.unwithered_golden_bonnie_left_leg": "Unwithered Golden Bonnie Left Leg",
+      "block.fnaf_bits_and_pieces.unwithered_freddy_right_leg": "Unwithered Freddy Right Leg",
+      "block.fnaf_bits_and_pieces.unwithered_golden_freddy_right_arm": "Unwithered Golden Freddy Right Arm",
+      "item.fnaf_bits_and_pieces.f_1_n_1.desc": "Voicemail 1",
+      "block.fnaf_bits_and_pieces.unwithered_bonnie_left_leg": "Unwithered Bonnie Left Leg",
+      "block.fnaf_bits_and_pieces.diner_bonnie_right_arm": "Diner Bonnie Right Arm",
+      "block.fnaf_bits_and_pieces.diner_bonnie_showtime_a": "Diner Bonnie Showtime",
+      "item.fnaf_bits_and_pieces.f_2_n_6.desc": "Voicemail 11",
+      "block.fnaf_bits_and_pieces.diner_chica_torso": "Diner Chica Torso",
+      "block.fnaf_bits_and_pieces.diner_chica_right_leg": "Diner Chica Right Leg",
+      "block.fnaf_bits_and_pieces.unwithered_freddy_showtime": "Unwithered Freddy Showtime",
+      "block.fnaf_bits_and_pieces.diner_bonnie_right_leg": "Diner Bonnie Right Leg",
+      "block.fnaf_bits_and_pieces.diner_bonnie_showtime": "Diner Bonnie Showtime",
+      "block.fnaf_bits_and_pieces.fred_bear_showtime_a": "Fredbear Showtime",
+      "block.fnaf_bits_and_pieces.diner_freddy_right_leg": "Diner Freddy Right Leg",
+      "block.fnaf_bits_and_pieces.unwithered_golden_freddy_torso": "Unwithered Golden Freddy Torso",
+      "subtitles.fnafallcall": "",
+      "item.fnaf_bits_and_pieces.f_3_n_4.desc": "Voicemail 15",
+      "block.fnaf_bits_and_pieces.diner_freddy_left_leg": "Diner Freddy Left Leg",
+      "block.fnaf_bits_and_pieces.unwithered_chica_torso": "Unwithered Chica Torso",
+      "itemGroup.tabfnaf_3": "Fnaf 3",
+      "block.fnaf_bits_and_pieces.unwithered_bonnie_showtime": "Unwithered Bonnie Showtime",
+      "itemGroup.tabfnaf_1": "Fnaf 1",
+      "itemGroup.tabfnaf_2": "Fnaf 2",
+      "block.fnaf_bits_and_pieces.spring_bonnie_right_leg": "SpringBonnie Right Leg",
+      "gui.fnaf_bits_and_pieces.puppet_box.label_024": "02.4%",
+      "block.fnaf_bits_and_pieces.unwithered_foxy_showtime_a": "Unwithered Foxy Showtime",
+      "block.fnaf_bits_and_pieces.unwithered_bonnie_torso": "Unwithered Bonnie Torso",
+      "subtitles.coins": "",
+      "item.fnaf_bits_and_pieces.f_1_n_3.desc": "Voicemail 3",
+      "block.fnaf_bits_and_pieces.unwithered_golden_freddy_left_arm": "Unwithered Golden Freddy Left Arm",
+      "block.fnaf_bits_and_pieces.diner_bonnie_left_leg": "Diner Bonnie Left Leg",
+      "block.fnaf_bits_and_pieces.diner_chica_showtime_a": "Diner Chica Showtime",
+      "block.fnaf_bits_and_pieces.fredbear_right_leg": "Fredbear Right Leg",
+      "block.fnaf_bits_and_pieces.unwithered_foxytorso": "Unwithered Foxy Torso",
+      "item.fnaf_bits_and_pieces.f_2_n_5": "Night 5",
+      "item.fnaf_bits_and_pieces.f_2_n_4": "Night 4",
+      "block.fnaf_bits_and_pieces.unwithered_golden_bonnie_left_arm": "Unwithered Golden Bonnie Left Arm",
+      "item.fnaf_bits_and_pieces.f_2_n_3": "Night 3",
+      "item.fnaf_bits_and_pieces.f_2_n_2": "Night 2",
+      "item.fnaf_bits_and_pieces.f_2_n_1": "Night 1",
+      "item.fnaf_bits_and_pieces.f_2_n_2.desc": "Voicemail 7",
+      "item.fnaf_bits_and_pieces.f_2_n_5.desc": "Voicemail 10",
+      "block.fnaf_bits_and_pieces.diner_foxy_right_arm": "Diner Foxy Right Arm",
+      "gui.fnaf_bits_and_pieces.puppet_box.label_037": "03.7%",
+      "block.fnaf_bits_and_pieces.fredbear_left_arm": "Fredbear Left Arm",
+      "block.fnaf_bits_and_pieces.diner_freddy_showtime": "Diner Freddy Showtime",
+      "block.fnaf_bits_and_pieces.unwithered_golden_bonnie_torso": "Unwithered Golden Bonnie Torso",
+      "block.fnaf_bits_and_pieces.unwithered_golden_freddy_head": "Unwithered Golden Freddy Head",
+      "block.fnaf_bits_and_pieces.unwithered_freddy_right_arm": "Unwithered Freddy Right Arm",
+      "gui.fnaf_bits_and_pieces.puppet_box.label_439": "43.9%",
+      "itemGroup.tabfred_bears": "FredBear\u0027s",
+      "block.fnaf_bits_and_pieces.unwithered_foxy_right_leg": "Unwithered Foxy Right Leg",
+      "block.fnaf_bits_and_pieces.fred_bear_head": "Fredbear Head",
+      "block.fnaf_bits_and_pieces.spring_bonnie_right_arm": "SpringBonnie Right Arm",
+      "item.fnaf_bits_and_pieces.fazbear_employee_manual": "Fazbear Employee Manual",
+      "itemGroup.tabbp_items": "B\u0026P Items",
+      "subtitles.fnaf1n4": "",
+      "item.fnaf_bits_and_pieces.f_3_n_1.desc": "Voicemail 12",
+      "subtitles.fnaf1n3": "",
+      "subtitles.fnaf1n2": "",
+      "subtitles.fnaf1n1": "",
+      "gui.fnaf_bits_and_pieces.puppet_box.label_011": "01.1%",
+      "item.fnaf_bits_and_pieces.f_1_n_5.desc": "Voicemail 5",
+      "item.fnaf_bits_and_pieces.f_2_n_3.desc": "Voicemail 8",
+      "subtitles.fnaf1n5": "",
+      "block.fnaf_bits_and_pieces.diner_freddy_showtime_a": "Diner Freddy Showtime",
+      "block.fnaf_bits_and_pieces.diner_freddy_right_arm": "Diner Freddy Right Arm",
+      "gui.fnaf_bits_and_pieces.puppet_box.label_488": "48.8%",
+      "block.fnaf_bits_and_pieces.unwithered_chica_right_leg": "Unwithered Chica Right Leg",
+      "block.fnaf_bits_and_pieces.unwithered_bonnie_showtime_a": "Unwithered Bonnie Showtime",
+      "block.fnaf_bits_and_pieces.spring_bonnie_showtime": "Spring Bonnie Showtime",
+      "block.fnaf_bits_and_pieces.unwithered_bonnie_head": "Unwithered Bonnie Head",
+      "block.fnaf_bits_and_pieces.unwithered_golden_bonnie_right_arm": "Unwithered Golden Bonnie Right Arm",
+      "item.fnaf_bits_and_pieces.ticket": "Ticket",
+      "item.fnaf_bits_and_pieces.f_2_n_4.desc": "Voicemail 9",
+      "item.fnaf_bits_and_pieces.f_3_n_2.desc": "Voicemail 13",
+      "block.fnaf_bits_and_pieces.unwithered_golden_bonnie_head": "Unwithered Golden Bonnie Head",
+      "block.fnaf_bits_and_pieces.diner_chica_left_arm": "Diner Chica Left Arm",
+      "block.fnaf_bits_and_pieces.unwithered_golden_bonnie_showtime_a": "Unwithered Golden Bonnie Showtime",
+      "block.fnaf_bits_and_pieces.unwithered_freddy_torso": "Unwithered Freddy Torso",
+      "item.fnaf_bits_and_pieces.f_3_n_5": "Night 5",
+      "block.fnaf_bits_and_pieces.spring_bonnie_left_leg": "SpringBonnie Left Leg",
+      "item.fnaf_bits_and_pieces.f_3_n_6": "Night 6",
+      "block.fnaf_bits_and_pieces.unwithered_bonnie_right_arm": "Unwithered Bonnie Right Arm",
+      "block.fnaf_bits_and_pieces.unwithered_chica_showtime": "Unwithered Chica Showtime",
+      "item.fnaf_bits_and_pieces.mysterious_cassette.desc": "???",
+      "block.fnaf_bits_and_pieces.spring_bonnie_torso": "SpringBonnie Torso",
+      "block.fnaf_bits_and_pieces.unwithered_golden_freddy_left_leg": "Unwithered Golden Freddy Left Leg",
+      "block.fnaf_bits_and_pieces.unwithered_golden_freddy_showtime": "Unwithered Golden Freddy Showtime",
+      "item.fnaf_bits_and_pieces.f_3_n_3.desc": "Voicemail 14",
+      "item.fnaf_bits_and_pieces.f_1_n_4.desc": "Voicemail 4",
+      "block.fnaf_bits_and_pieces.unwithered_chica_left_leg": "Unwithered Chica Left Leg",
+      "block.fnaf_bits_and_pieces.fredbear_right_arm": "Fredbear Right Arm",
+      "item.fnaf_bits_and_pieces.hand_crank": "Hand Crank",
+      "block.fnaf_bits_and_pieces.diner_foxy_showtime_a": "Diner Foxy Showtime",
+      "block.fnaf_bits_and_pieces.unwithered_freddy_left_leg": "Unwithered Freddy Left Leg",
+      "block.fnaf_bits_and_pieces.fredbear_left_leg": "Fredbear Left Leg",
+      "subtitles.fnaf2n3": "",
+      "block.fnaf_bits_and_pieces.unwithered_foxy_left_leg": "Unwithered Foxy Left Leg",
+      "subtitles.fnaf2n2": "",
+      "subtitles.fnaf2n1": "",
+      "subtitles.fnaf2n6": "",
+      "gui.fnaf_bits_and_pieces.puppet_box.button_default": "Default",
+      "subtitles.fnaf2n5": "",
+      "subtitles.fnaf2n4": "",
+      "item.fnaf_bits_and_pieces.puppet_key": "Puppet Key",
+      "block.fnaf_bits_and_pieces.diner_foxy_right_leg": "Diner Foxy Left Leg",
+      "item.fnaf_bits_and_pieces.f_1_n_2.desc": "Voicemail 2",
+      "block.fnaf_bits_and_pieces.unwithered_chica_showtime_a": "Unwithered Chica Showtime",
+      "block.fnaf_bits_and_pieces.diner_foxy_head": "Diner Foxy Head",
+      "block.fnaf_bits_and_pieces.unwithered_foxy_right_arm": "Unwithered Foxy Right Arm",
+      "block.fnaf_bits_and_pieces.spring_bonnie_left_arm": "SpringBonnie Left Arm",
+      "block.fnaf_bits_and_pieces.unwithered_golden_bonnie_right_leg": "Unwithered Golden Bonnie Right Leg",
+      "block.fnaf_bits_and_pieces.diner_bonnie_torso": "Diner Bonnie Torso",
+      "item.fnaf_bits_and_pieces.f_3_n_3": "Night 3",
+      "item.fnaf_bits_and_pieces.f_3_n_4": "Night 4",
+      "block.fnaf_bits_and_pieces.fredbear_showtime": "Fredbear Showtime",
+      "item.fnaf_bits_and_pieces.f_2_n_1.desc": "Voicemail 6",
+      "item.fnaf_bits_and_pieces.f_3_n_1": "Night 1",
+      "block.fnaf_bits_and_pieces.diner_foxy_left_arm": "Diner Foxy Left Arm",
+      "item.fnaf_bits_and_pieces.f_3_n_2": "Night 2",
+      "block.fnaf_bits_and_pieces.unwithered_chica_left_arm": "Unwithered Chica Left Arm",
+      "block.fnaf_bits_and_pieces.diner_freddy_torso": "Diner Freddy Torso",
+      "block.fnaf_bits_and_pieces.unwithered_golden_freddy_showtime_a": "Unwithered Golden Freddy Showtime",
+      "block.fnaf_bits_and_pieces.unwithered_foxy_head": "Unwithered Foxy Head",
+      "block.fnaf_bits_and_pieces.unwithered_bonnie_right_leg": "Unwithered Bonnie Right Leg",
+      "block.fnaf_bits_and_pieces.spring_bonnie_head": "SpringBonnie Head",
+      "gui.fnaf_bits_and_pieces.puppet_box.label_001": "00.1%",
+      "block.fnaf_bits_and_pieces.fredbear_torso": "Fredbear Torso",
+      "block.fnaf_bits_and_pieces.diner_chica_head": "Diner Chica Head",
+      "block.fnaf_bits_and_pieces.diner_chica_right_arm": "Diner Chica Right Arm",
+      "block.fnaf_bits_and_pieces.unwithered_chica_head": "Unwithered Chica Head",
+      "item.fnaf_bits_and_pieces.f_1_n_2": "Night 2",
+      "block.fnaf_bits_and_pieces.diner_freddy_head": "Diner Freddy Head",
+      "item.fnaf_bits_and_pieces.f_1_n_1": "Night 1",
+      "item.fnaf_bits_and_pieces.f_1_n_4": "Night 4",
+      "block.fnaf_bits_and_pieces.diner_freddy_left_arm": "Diner Freddy Left Arm",
+      "item.fnaf_bits_and_pieces.f_1_n_3": "Night 3",
+      "item.fnaf_bits_and_pieces.f_1_n_5": "Night 5",
+      "block.fnaf_bits_and_pieces.unwithered_freddy_head": "Unwithered Freddy Head",
+      "block.fnaf_bits_and_pieces.unwithered_foxy_showtime": "Unwithered Foxy Showtime",
+      "block.fnaf_bits_and_pieces.spring_bonnie_showtime_a": "Spring Bonnie Showtime",
+      "block.fnaf_bits_and_pieces.unwithered_bonnie_left_arm": "Unwithered Bonnie Left Arm",
+      "block.fnaf_bits_and_pieces.unwithered_golden_freddy_right_leg": "Unwithered Golden Freddy Right Leg",
+      "block.fnaf_bits_and_pieces.unwithered_freddy_showtime_a": "Unwithered Freddy Showtime",
+      "item.fnaf_bits_and_pieces.mysterious_cassette": "Mysterious Cassette",
+      "itemGroup.tabphone_calls": "Phone Calls"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "Fredbears",
+        "children": [
+          {
+            "name": "Procedures",
+            "children": []
+          },
+          {
+            "name": "Unwithered Foxy",
+            "children": []
+          },
+          {
+            "name": "Unwithered Freddy",
+            "children": []
+          },
+          {
+            "name": "Unwithered Bonnie",
+            "children": []
+          },
+          {
+            "name": "Unwithered Chica",
+            "children": []
+          },
+          {
+            "name": "FredBear",
+            "children": []
+          },
+          {
+            "name": "SpringBonnie",
+            "children": []
+          },
+          {
+            "name": "Diner Foxy",
+            "children": []
+          },
+          {
+            "name": "Diner Freddy",
+            "children": []
+          },
+          {
+            "name": "Diner Bonnie",
+            "children": []
+          },
+          {
+            "name": "Diner Chica",
+            "children": []
+          },
+          {
+            "name": "Unwithered Golden Freddy",
+            "children": []
+          },
+          {
+            "name": "Unwithered Golden Bonnie",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "Fnaf1",
+        "children": [
+          {
+            "name": "Parts",
+            "children": []
+          },
+          {
+            "name": "Showtimes",
+            "children": []
+          },
+          {
+            "name": "Statues",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "Fnaf2",
+        "children": []
+      },
+      {
+        "name": "Fnaf3",
+        "children": []
+      },
+      {
+        "name": "Fnaf4",
+        "children": []
+      },
+      {
+        "name": "FnafSisterLocation",
+        "children": []
+      },
+      {
+        "name": "FFPS",
+        "children": []
+      },
+      {
+        "name": "FnafSecurityBreach",
+        "children": []
+      },
+      {
+        "name": "FnafRuin",
+        "children": []
+      },
+      {
+        "name": "FnafHelpWanteds",
+        "children": []
+      },
+      {
+        "name": "FnafBooks",
+        "children": []
+      },
+      {
+        "name": "FnafFanmades",
+        "children": []
+      },
+      {
+        "name": "Misc",
+        "children": [
+          {
+            "name": "Tabs",
+            "children": []
+          },
+          {
+            "name": "Items",
+            "children": [
+              {
+                "name": "Book",
+                "children": []
+              },
+              {
+                "name": "Music Disks",
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "Blocks",
+            "children": [
+              {
+                "name": "PuppetBox",
+                "children": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "fnaf_bits_and_pieces",
+    "modName": "Fnaf Bits and Pieces",
+    "version": "1.0.0",
+    "author": "Nicholas, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [
+      "geckolib"
+    ],
+    "currentGenerator": "forge-1.19.2",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.fnafbitsandpieces",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300224119
+}

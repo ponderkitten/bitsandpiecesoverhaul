@@ -1,0 +1,19 @@
+{
+  "_fv": 43,
+  "_type": "musicdisc",
+  "definition": {
+    "name": "Night 6",
+    "texture": "fnaf2cassette",
+    "description": "Voicemail 11",
+    "creativeTab": {
+      "value": "CUSTOM:PhoneCalls"
+    },
+    "specialInfo": [],
+    "hasGlow": false,
+    "music": {
+      "value": "CUSTOM:fnaf2n6"
+    },
+    "lengthInTicks": 100,
+    "analogOutput": 15
+  }
+}

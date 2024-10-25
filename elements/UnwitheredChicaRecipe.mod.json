@@ -1,0 +1,48 @@
+{
+  "_fv": 43,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:UnwitheredChicaHead"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:UnwitheredChicaRightArm"
+      },
+      {
+        "value": "CUSTOM:UnwitheredChicaTorso"
+      },
+      {
+        "value": "CUSTOM:UnwitheredChicaLeftArm"
+      },
+      {
+        "value": "CUSTOM:UnwitheredChicaRightLeg"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:UnwitheredChicaLeftLeg"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:UnwitheredChicaShowtime"
+    },
+    "name": "unwithered_chica_recipe",
+    "namespace": "mod"
+  }
+}

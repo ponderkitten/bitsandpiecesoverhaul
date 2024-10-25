@@ -1,0 +1,7 @@
+{
+  "parent": "fnaf_bits_and_pieces:custom/hand_crank2",
+  "textures": {
+    "2": "fnaf_bits_and_pieces:blocks/handcrank2",
+    "particle": "fnaf_bits_and_pieces:items/handcrank2"
+  }
+}
