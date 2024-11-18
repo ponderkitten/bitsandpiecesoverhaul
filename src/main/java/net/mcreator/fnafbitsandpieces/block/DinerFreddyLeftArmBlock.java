@@ -46,7 +46,7 @@ import java.util.List;
 import java.util.Collections;
 
 public class DinerFreddyLeftArmBlock extends BaseEntityBlock implements EntityBlock {
-	public static final IntegerProperty ANIMATION = IntegerProperty.create("animation", 0, (int) 16);
+	public static final IntegerProperty ANIMATION = IntegerProperty.create("animation", 0, (int) 64);
 	public static final DirectionProperty FACING = HorizontalDirectionalBlock.FACING;
 
 	public DinerFreddyLeftArmBlock() {

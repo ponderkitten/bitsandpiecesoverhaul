@@ -19,6 +19,6 @@ public class DinerBonnieShowtimeBlockModel extends AnimatedGeoModel<DinerBonnieS
 
 	@Override
 	public ResourceLocation getTextureResource(DinerBonnieShowtimeTileEntity entity) {
-		return new ResourceLocation("fnaf_bits_and_pieces", "textures/blocks/dinerbonnie.png");
+		return new ResourceLocation("fnaf_bits_and_pieces", "textures/blocks/dinerbonnieshowtime.png");
 	}
 }

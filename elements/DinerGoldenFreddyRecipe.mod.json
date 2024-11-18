@@ -1,0 +1,48 @@
+{
+  "_fv": 43,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:DinerGoldenFreddyHead"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:DinerGoldenFreddyRightArm"
+      },
+      {
+        "value": "CUSTOM:DinerGoldenFreddyTorso"
+      },
+      {
+        "value": "CUSTOM:DinerGoldenFreddyLeftArm"
+      },
+      {
+        "value": "CUSTOM:DinerGoldenFreddyRightLeg"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:DinerGoldenFreddyLeftLeg"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:DinerGoldenFreddyShowtime"
+    },
+    "name": "diner_golden_freddy_recipe",
+    "namespace": "mod"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 1 ",
+    "345",
+    "6 8"
+  ],
+  "key": {
+    "1": {
+      "item": "fnaf_bits_and_pieces:golden_toy_bonnie_head"
+    },
+    "3": {
+      "item": "fnaf_bits_and_pieces:golden_toy_bonnie_right_arm"
+    },
+    "4": {
+      "item": "fnaf_bits_and_pieces:golden_toy_bonnie_torso"
+    },
+    "5": {
+      "item": "fnaf_bits_and_pieces:golden_toy_bonnie_left_arm"
+    },
+    "6": {
+      "item": "fnaf_bits_and_pieces:golden_toy_bonnie_left_leg"
+    },
+    "8": {
+      "item": "fnaf_bits_and_pieces:golden_toy_bonnie_left_leg"
+    }
+  },
+  "result": {
+    "item": "fnaf_bits_and_pieces:golden_toy_bonnie_showtime",
+    "count": 1
+  }
+}

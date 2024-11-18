@@ -19,6 +19,6 @@ public class UnwitheredChicaShowtimeADisplayModel extends AnimatedGeoModel<Unwit
 
 	@Override
 	public ResourceLocation getTextureResource(UnwitheredChicaShowtimeADisplayItem entity) {
-		return new ResourceLocation("fnaf_bits_and_pieces", "textures/blocks/unwithered_chica.png");
+		return new ResourceLocation("fnaf_bits_and_pieces", "textures/blocks/unwitheredchicashowtime.png");
 	}
 }

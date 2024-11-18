@@ -2,7 +2,7 @@
   "_fv": 43,
   "_type": "animatedblock",
   "definition": {
-    "texture": "dinerchica",
+    "texture": "dinerchicashowtime",
     "textureTop": "",
     "textureLeft": "",
     "textureFront": "",
@@ -27,7 +27,7 @@
         "my": 0.0,
         "mz": 0.0,
         "Mx": 16.0,
-        "My": 15.9,
+        "My": 32.0,
         "Mz": 16.0,
         "subtract": false
       }
@@ -123,8 +123,11 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
+    "onRightClicked": {
+      "name": "ShowtimeRightClick"
+    },
     "onRedstoneOn": {
-      "name": "DinerChicaShowtimeRedstoneOn"
+      "name": "ShowtimeUniversal"
     },
     "spawnWorldTypes": [],
     "restrictionBiomes": [],

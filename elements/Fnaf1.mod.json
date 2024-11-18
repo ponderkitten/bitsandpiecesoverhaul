@@ -2,9 +2,9 @@
   "_fv": 43,
   "_type": "tab",
   "definition": {
-    "name": "Fnaf 1",
+    "name": "FNaF 1",
     "icon": {
-      "value": "Blocks.WOOL#12"
+      "value": "CUSTOM:FreddyFazbearHead"
     },
     "showSearch": false
   }

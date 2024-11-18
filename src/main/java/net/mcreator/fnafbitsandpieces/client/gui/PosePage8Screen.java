@@ -7,9 +7,11 @@ import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.chat.Component;
 import net.minecraft.client.gui.screens.inventory.AbstractContainerScreen;
 import net.minecraft.client.gui.components.ImageButton;
+import net.minecraft.client.gui.components.Button;
 import net.minecraft.client.Minecraft;
 
 import net.mcreator.fnafbitsandpieces.world.inventory.PosePage8Menu;
+import net.mcreator.fnafbitsandpieces.procedures.BookcheatsshowProcedure;
 import net.mcreator.fnafbitsandpieces.network.PosePage8ButtonMessage;
 import net.mcreator.fnafbitsandpieces.FnafBitsAndPiecesMod;
 
@@ -23,6 +25,7 @@ public class PosePage8Screen extends AbstractContainerScreen<PosePage8Menu> {
 	private final Level world;
 	private final int x, y, z;
 	private final Player entity;
+	Button button_yoink;
 	ImageButton imagebutton_pagecornerleft;
 	ImageButton imagebutton_pagecornerright;
 
@@ -88,18 +91,32 @@ public class PosePage8Screen extends AbstractContainerScreen<PosePage8Menu> {
 	public void init() {
 		super.init();
 		this.minecraft.keyboardHandler.setSendRepeatsToGui(true);
-		imagebutton_pagecornerleft = new ImageButton(this.leftPos + -39, this.topPos + 143, 13, 14, 0, 0, 14, new ResourceLocation("fnaf_bits_and_pieces:textures/screens/atlas/imagebutton_pagecornerleft.png"), 13, 28, e -> {
-			if (true) {
+		button_yoink = new Button(this.leftPos + 135, this.topPos + -4, 51, 20, Component.translatable("gui.fnaf_bits_and_pieces.pose_page_8.button_yoink"), e -> {
+			if (BookcheatsshowProcedure.execute(entity)) {
 				FnafBitsAndPiecesMod.PACKET_HANDLER.sendToServer(new PosePage8ButtonMessage(0, x, y, z));
 				PosePage8ButtonMessage.handleButtonAction(entity, 0, x, y, z);
+			}
+		}) {
+			@Override
+			public void render(PoseStack ms, int gx, int gy, float ticks) {
+				if (BookcheatsshowProcedure.execute(entity))
+					super.render(ms, gx, gy, ticks);
+			}
+		};
+		guistate.put("button:button_yoink", button_yoink);
+		this.addRenderableWidget(button_yoink);
+		imagebutton_pagecornerleft = new ImageButton(this.leftPos + -39, this.topPos + 143, 13, 14, 0, 0, 14, new ResourceLocation("fnaf_bits_and_pieces:textures/screens/atlas/imagebutton_pagecornerleft.png"), 13, 28, e -> {
+			if (true) {
+				FnafBitsAndPiecesMod.PACKET_HANDLER.sendToServer(new PosePage8ButtonMessage(1, x, y, z));
+				PosePage8ButtonMessage.handleButtonAction(entity, 1, x, y, z);
 			}
 		});
 		guistate.put("button:imagebutton_pagecornerleft", imagebutton_pagecornerleft);
 		this.addRenderableWidget(imagebutton_pagecornerleft);
 		imagebutton_pagecornerright = new ImageButton(this.leftPos + 205, this.topPos + 143, 13, 14, 0, 0, 14, new ResourceLocation("fnaf_bits_and_pieces:textures/screens/atlas/imagebutton_pagecornerright.png"), 13, 28, e -> {
 			if (true) {
-				FnafBitsAndPiecesMod.PACKET_HANDLER.sendToServer(new PosePage8ButtonMessage(1, x, y, z));
-				PosePage8ButtonMessage.handleButtonAction(entity, 1, x, y, z);
+				FnafBitsAndPiecesMod.PACKET_HANDLER.sendToServer(new PosePage8ButtonMessage(2, x, y, z));
+				PosePage8ButtonMessage.handleButtonAction(entity, 2, x, y, z);
 			}
 		});
 		guistate.put("button:imagebutton_pagecornerright", imagebutton_pagecornerright);

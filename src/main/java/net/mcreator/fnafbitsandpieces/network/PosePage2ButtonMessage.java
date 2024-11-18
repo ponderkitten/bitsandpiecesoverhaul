@@ -12,6 +12,7 @@ import net.minecraft.network.FriendlyByteBuf;
 import net.minecraft.core.BlockPos;
 
 import net.mcreator.fnafbitsandpieces.world.inventory.PosePage2Menu;
+import net.mcreator.fnafbitsandpieces.procedures.PoseGrabberProcedure;
 import net.mcreator.fnafbitsandpieces.procedures.PageUpProcedure;
 import net.mcreator.fnafbitsandpieces.procedures.PageDownProcedure;
 import net.mcreator.fnafbitsandpieces.FnafBitsAndPiecesMod;
@@ -65,9 +66,13 @@ public class PosePage2ButtonMessage {
 			return;
 		if (buttonID == 0) {
 
-			PageDownProcedure.execute(world, x, y, z, entity);
+			PoseGrabberProcedure.execute(entity);
 		}
 		if (buttonID == 1) {
+
+			PageDownProcedure.execute(world, x, y, z, entity);
+		}
+		if (buttonID == 2) {
 
 			PageUpProcedure.execute(world, x, y, z, entity);
 		}

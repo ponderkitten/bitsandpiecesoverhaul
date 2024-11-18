@@ -1,0 +1,48 @@
+{
+  "_fv": 43,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:CandyHead"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:CandyRightArm"
+      },
+      {
+        "value": "CUSTOM:CandyTorso"
+      },
+      {
+        "value": "CUSTOM:CandyLeftArm"
+      },
+      {
+        "value": "CUSTOM:CandyRightLeg"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:CandyLeftLeg"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:CandyShowtime"
+    },
+    "name": "candy_recipe",
+    "namespace": "mod"
+  }
+}

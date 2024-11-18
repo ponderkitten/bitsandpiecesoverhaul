@@ -15,6 +15,7 @@ public class FnafBitsAndPiecesModTabs {
 	public static CreativeModeTab TAB_FNAF_2;
 	public static CreativeModeTab TAB_FNAF_3;
 	public static CreativeModeTab TAB_PHONE_CALLS;
+	public static CreativeModeTab TAB_FNAC;
 
 	public static void load() {
 		TAB_FRED_BEARS = new CreativeModeTab("tabfred_bears") {
@@ -42,7 +43,7 @@ public class FnafBitsAndPiecesModTabs {
 		TAB_FNAF_1 = new CreativeModeTab("tabfnaf_1") {
 			@Override
 			public ItemStack makeIcon() {
-				return new ItemStack(Blocks.BROWN_WOOL);
+				return new ItemStack(FnafBitsAndPiecesModBlocks.FREDDY_FAZBEAR_HEAD.get());
 			}
 
 			@Override
@@ -53,7 +54,7 @@ public class FnafBitsAndPiecesModTabs {
 		TAB_FNAF_2 = new CreativeModeTab("tabfnaf_2") {
 			@Override
 			public ItemStack makeIcon() {
-				return new ItemStack(Blocks.LIGHT_BLUE_WOOL);
+				return new ItemStack(FnafBitsAndPiecesModBlocks.WITHERED_FOXY_HEAD.get());
 			}
 
 			@Override
@@ -76,6 +77,17 @@ public class FnafBitsAndPiecesModTabs {
 			@Override
 			public ItemStack makeIcon() {
 				return new ItemStack(FnafBitsAndPiecesModItems.MYSTERIOUS_CASSETTE.get());
+			}
+
+			@Override
+			public boolean hasSearchBar() {
+				return false;
+			}
+		};
+		TAB_FNAC = new CreativeModeTab("tabfnac") {
+			@Override
+			public ItemStack makeIcon() {
+				return new ItemStack(FnafBitsAndPiecesModBlocks.CANDY_HEAD.get());
 			}
 
 			@Override

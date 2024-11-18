@@ -1,0 +1,48 @@
+{
+  "_fv": 43,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:ChicaChickenHead"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:ChicaChickenRightArm"
+      },
+      {
+        "value": "CUSTOM:ChicaChickenTorso"
+      },
+      {
+        "value": "CUSTOM:ChicaChickenLeftArm"
+      },
+      {
+        "value": "CUSTOM:ChicaChickenRightLeg"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:ChicaChickenLeftLeg"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:ChicaChickenShowtime"
+    },
+    "name": "chica_chicken_recipe",
+    "namespace": "mod"
+  }
+}

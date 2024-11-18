@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0",
+    "1"
+  ],
+  "key": {
+    "0": {
+      "item": "fnaf_bits_and_pieces:penguin_head"
+    },
+    "1": {
+      "item": "fnaf_bits_and_pieces:penguin_body"
+    }
+  },
+  "result": {
+    "item": "fnaf_bits_and_pieces:penguin_showtime",
+    "count": 1
+  }
+}

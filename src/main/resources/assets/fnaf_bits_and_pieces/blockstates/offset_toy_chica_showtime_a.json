@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "fnaf_bits_and_pieces:custom/offset_toy_chica_showtime_a_particle"
+    },
+    "facing=east": {
+      "model": "fnaf_bits_and_pieces:custom/offset_toy_chica_showtime_a_particle",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "fnaf_bits_and_pieces:custom/offset_toy_chica_showtime_a_particle",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "fnaf_bits_and_pieces:custom/offset_toy_chica_showtime_a_particle",
+      "y": 270
+    }
+  }
+}

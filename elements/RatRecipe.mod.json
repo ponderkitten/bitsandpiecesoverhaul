@@ -1,0 +1,48 @@
+{
+  "_fv": 43,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:RatHead"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:RatRightArm"
+      },
+      {
+        "value": "CUSTOM:RatTorso"
+      },
+      {
+        "value": "CUSTOM:RatLeftArm"
+      },
+      {
+        "value": "CUSTOM:RatRightLeg"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:RatLeftLeg"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:RatShowtime"
+    },
+    "name": "rat_recipe",
+    "namespace": "mod"
+  }
+}

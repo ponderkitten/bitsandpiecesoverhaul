@@ -1,0 +1,48 @@
+{
+  "_fv": 43,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:ChesterHead"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:ChesterRightArm"
+      },
+      {
+        "value": "CUSTOM:ChesterTorso"
+      },
+      {
+        "value": "CUSTOM:ChesterLeftArm"
+      },
+      {
+        "value": "CUSTOM:ChesterRightLeg"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:ChesterLeftLeg"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:ChesterShowtime"
+    },
+    "name": "chester_recipe",
+    "namespace": "mod"
+  }
+}

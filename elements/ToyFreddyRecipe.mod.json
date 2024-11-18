@@ -1,0 +1,48 @@
+{
+  "_fv": 43,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:ToyFreddyHead"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:ToyFreddyRightArm"
+      },
+      {
+        "value": "CUSTOM:ToyFreddyTorso"
+      },
+      {
+        "value": "CUSTOM:ToyFreddyLeftArm"
+      },
+      {
+        "value": "CUSTOM:ToyFreddyRightLeg"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:ToyFreddyLeftLeg"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:ToyFreddyShowtime"
+    },
+    "name": "toy_freddy_recipe",
+    "namespace": "mod"
+  }
+}

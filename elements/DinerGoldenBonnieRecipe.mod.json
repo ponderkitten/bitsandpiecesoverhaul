@@ -1,0 +1,48 @@
+{
+  "_fv": 43,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:DinerGoldenBonnieHead"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:DinerGoldenBonnieRightArm"
+      },
+      {
+        "value": "CUSTOM:DinerGoldenBonnieTorso"
+      },
+      {
+        "value": "CUSTOM:DinerGoldenBonnieLeftArm"
+      },
+      {
+        "value": "CUSTOM:DinerGoldenBonnieRightLeg"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:DinerGoldenBonnieLeftLeg"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:DinerGoldenBonnieShowtime"
+    },
+    "name": "diner_golden_bonnie_recipe",
+    "namespace": "mod"
+  }
+}

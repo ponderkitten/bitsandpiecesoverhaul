@@ -1,0 +1,48 @@
+{
+  "_fv": 43,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:ToyBonnieHead"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:ToyBonnieRightArm"
+      },
+      {
+        "value": "CUSTOM:ToyBonnieTorso"
+      },
+      {
+        "value": "CUSTOM:ToyBonnieLeftArm"
+      },
+      {
+        "value": "CUSTOM:ToyBonnieRightLeg"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:ToyBonnieLeftLeg"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:ToyBonnieShowtime"
+    },
+    "name": "toy_bonnie_recipe",
+    "namespace": "mod"
+  }
+}

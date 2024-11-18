@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "fnaf_bits_and_pieces:custom/freddy_fazbear_left_leg_particle"
+    },
+    "facing=east": {
+      "model": "fnaf_bits_and_pieces:custom/freddy_fazbear_left_leg_particle",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "fnaf_bits_and_pieces:custom/freddy_fazbear_left_leg_particle",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "fnaf_bits_and_pieces:custom/freddy_fazbear_left_leg_particle",
+      "y": 270
+    }
+  }
+}

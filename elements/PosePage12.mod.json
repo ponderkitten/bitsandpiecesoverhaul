@@ -44,6 +44,23 @@
           "x": 331,
           "y": 180
         }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_yoink",
+          "text": "Yoink",
+          "onClick": {
+            "name": "PoseGrabber"
+          },
+          "displayCondition": {
+            "name": "Bookcheatsshow"
+          },
+          "width": 51,
+          "height": 20,
+          "x": 261,
+          "y": 33
+        }
       }
     ],
     "gridSettings": {
@@ -51,7 +68,7 @@
       "sy": 10,
       "ox": 4,
       "oy": 15,
-      "snapOnGrid": false
+      "snapOnGrid": true
     }
   }
 }

@@ -11,6 +11,7 @@ import net.minecraftforge.api.distmarker.Dist;
 
 import net.minecraft.client.gui.screens.MenuScreens;
 
+import net.mcreator.fnafbitsandpieces.client.gui.ShopScreen;
 import net.mcreator.fnafbitsandpieces.client.gui.PuppetBoxScreen;
 import net.mcreator.fnafbitsandpieces.client.gui.PosePage9Screen;
 import net.mcreator.fnafbitsandpieces.client.gui.PosePage8Screen;
@@ -21,6 +22,10 @@ import net.mcreator.fnafbitsandpieces.client.gui.PosePage4Screen;
 import net.mcreator.fnafbitsandpieces.client.gui.PosePage3Screen;
 import net.mcreator.fnafbitsandpieces.client.gui.PosePage2Screen;
 import net.mcreator.fnafbitsandpieces.client.gui.PosePage1Screen;
+import net.mcreator.fnafbitsandpieces.client.gui.PosePage19Screen;
+import net.mcreator.fnafbitsandpieces.client.gui.PosePage18Screen;
+import net.mcreator.fnafbitsandpieces.client.gui.PosePage17Screen;
+import net.mcreator.fnafbitsandpieces.client.gui.PosePage16Screen;
 import net.mcreator.fnafbitsandpieces.client.gui.PosePage15Screen;
 import net.mcreator.fnafbitsandpieces.client.gui.PosePage14Screen;
 import net.mcreator.fnafbitsandpieces.client.gui.PosePage13Screen;
@@ -51,6 +56,11 @@ public class FnafBitsAndPiecesModScreens {
 			MenuScreens.register(FnafBitsAndPiecesModMenus.POSE_PAGE_14.get(), PosePage14Screen::new);
 			MenuScreens.register(FnafBitsAndPiecesModMenus.POSE_PAGE_15.get(), PosePage15Screen::new);
 			MenuScreens.register(FnafBitsAndPiecesModMenus.PUPPET_BOX.get(), PuppetBoxScreen::new);
+			MenuScreens.register(FnafBitsAndPiecesModMenus.POSE_PAGE_16.get(), PosePage16Screen::new);
+			MenuScreens.register(FnafBitsAndPiecesModMenus.POSE_PAGE_17.get(), PosePage17Screen::new);
+			MenuScreens.register(FnafBitsAndPiecesModMenus.POSE_PAGE_18.get(), PosePage18Screen::new);
+			MenuScreens.register(FnafBitsAndPiecesModMenus.POSE_PAGE_19.get(), PosePage19Screen::new);
+			MenuScreens.register(FnafBitsAndPiecesModMenus.SHOP.get(), ShopScreen::new);
 		});
 	}
 }

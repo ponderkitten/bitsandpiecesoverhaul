@@ -1,0 +1,48 @@
+{
+  "_fv": 43,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:CindyHead"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:CindyRightArm"
+      },
+      {
+        "value": "CUSTOM:CindyTorso"
+      },
+      {
+        "value": "CUSTOM:CindyLeftArm"
+      },
+      {
+        "value": "CUSTOM:CindyRightLeg"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:CindyLeftLeg"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:CindyShowtime"
+    },
+    "name": "cindy_recipe",
+    "namespace": "mod"
+  }
+}

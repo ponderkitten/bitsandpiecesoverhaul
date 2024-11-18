@@ -19,6 +19,6 @@ public class UnwitheredFreddyShowtimeABlockModel extends AnimatedGeoModel<Unwith
 
 	@Override
 	public ResourceLocation getTextureResource(UnwitheredFreddyShowtimeATileEntity entity) {
-		return new ResourceLocation("fnaf_bits_and_pieces", "textures/blocks/unwithered_freddy.png");
+		return new ResourceLocation("fnaf_bits_and_pieces", "textures/blocks/unwitheredfreddyshowtime.png");
 	}
 }

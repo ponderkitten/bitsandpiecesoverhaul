@@ -61,7 +61,7 @@ public class PartsRightClickCodeProcedure {
 						return blockEntity.getPersistentData().getDouble(tag);
 					return -1;
 				}
-			}.getValue(world, new BlockPos(x, y, z), "crank") == 15) {
+			}.getValue(world, new BlockPos(x, y, z), "crank") == 19) {
 				if (!world.isClientSide()) {
 					BlockPos _bp = new BlockPos(x, y, z);
 					BlockEntity _blockEntity = world.getBlockEntity(_bp);
@@ -497,6 +497,27 @@ public class PartsRightClickCodeProcedure {
 			}
 			{
 				int _value = 18;
+				BlockPos _pos = new BlockPos(x, y, z);
+				BlockState _bs = world.getBlockState(_pos);
+				if (_bs.getBlock().getStateDefinition().getProperty("animation") instanceof IntegerProperty _integerProp && _integerProp.getPossibleValues().contains(_value))
+					world.setBlock(_pos, _bs.setValue(_integerProp, _value), 3);
+			}
+		} else if ((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getItem() == FnafBitsAndPiecesModItems.HAND_CRANK.get()
+				&& (entity instanceof LivingEntity _livEnt ? _livEnt.getOffhandItem() : ItemStack.EMPTY).getItem() == Blocks.LIGHT_BLUE_TERRACOTTA.asItem()) {
+			box = (world.getBlockState(new BlockPos(x, y, z)));
+			world.setBlock(new BlockPos(x, y, z), Blocks.AIR.defaultBlockState(), 3);
+			world.setBlock(new BlockPos(x, y, z), box, 3);
+			if (!world.isClientSide()) {
+				BlockPos _bp = new BlockPos(x, y, z);
+				BlockEntity _blockEntity = world.getBlockEntity(_bp);
+				BlockState _bs = world.getBlockState(_bp);
+				if (_blockEntity != null)
+					_blockEntity.getPersistentData().putDouble("crank", 19);
+				if (world instanceof Level _level)
+					_level.sendBlockUpdated(_bp, _bs, _bs, 3);
+			}
+			{
+				int _value = 19;
 				BlockPos _pos = new BlockPos(x, y, z);
 				BlockState _bs = world.getBlockState(_pos);
 				if (_bs.getBlock().getStateDefinition().getProperty("animation") instanceof IntegerProperty _integerProp && _integerProp.getPossibleValues().contains(_value))

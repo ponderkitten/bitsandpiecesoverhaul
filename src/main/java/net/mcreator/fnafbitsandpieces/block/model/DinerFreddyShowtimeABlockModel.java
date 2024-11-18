@@ -19,6 +19,6 @@ public class DinerFreddyShowtimeABlockModel extends AnimatedGeoModel<DinerFreddy
 
 	@Override
 	public ResourceLocation getTextureResource(DinerFreddyShowtimeATileEntity entity) {
-		return new ResourceLocation("fnaf_bits_and_pieces", "textures/blocks/dinerfreddy.png");
+		return new ResourceLocation("fnaf_bits_and_pieces", "textures/blocks/dinerfreddyshowtime.png");
 	}
 }

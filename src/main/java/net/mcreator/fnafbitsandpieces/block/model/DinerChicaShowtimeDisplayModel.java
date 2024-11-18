@@ -19,6 +19,6 @@ public class DinerChicaShowtimeDisplayModel extends AnimatedGeoModel<DinerChicaS
 
 	@Override
 	public ResourceLocation getTextureResource(DinerChicaShowtimeDisplayItem entity) {
-		return new ResourceLocation("fnaf_bits_and_pieces", "textures/blocks/dinerchica.png");
+		return new ResourceLocation("fnaf_bits_and_pieces", "textures/blocks/dinerchicashowtime.png");
 	}
 }

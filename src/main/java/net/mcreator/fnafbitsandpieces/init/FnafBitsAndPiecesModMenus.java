@@ -11,6 +11,7 @@ import net.minecraftforge.common.extensions.IForgeMenuType;
 
 import net.minecraft.world.inventory.MenuType;
 
+import net.mcreator.fnafbitsandpieces.world.inventory.ShopMenu;
 import net.mcreator.fnafbitsandpieces.world.inventory.PuppetBoxMenu;
 import net.mcreator.fnafbitsandpieces.world.inventory.PosePage9Menu;
 import net.mcreator.fnafbitsandpieces.world.inventory.PosePage8Menu;
@@ -21,6 +22,10 @@ import net.mcreator.fnafbitsandpieces.world.inventory.PosePage4Menu;
 import net.mcreator.fnafbitsandpieces.world.inventory.PosePage3Menu;
 import net.mcreator.fnafbitsandpieces.world.inventory.PosePage2Menu;
 import net.mcreator.fnafbitsandpieces.world.inventory.PosePage1Menu;
+import net.mcreator.fnafbitsandpieces.world.inventory.PosePage19Menu;
+import net.mcreator.fnafbitsandpieces.world.inventory.PosePage18Menu;
+import net.mcreator.fnafbitsandpieces.world.inventory.PosePage17Menu;
+import net.mcreator.fnafbitsandpieces.world.inventory.PosePage16Menu;
 import net.mcreator.fnafbitsandpieces.world.inventory.PosePage15Menu;
 import net.mcreator.fnafbitsandpieces.world.inventory.PosePage14Menu;
 import net.mcreator.fnafbitsandpieces.world.inventory.PosePage13Menu;
@@ -49,4 +54,9 @@ public class FnafBitsAndPiecesModMenus {
 	public static final RegistryObject<MenuType<PosePage14Menu>> POSE_PAGE_14 = REGISTRY.register("pose_page_14", () -> IForgeMenuType.create(PosePage14Menu::new));
 	public static final RegistryObject<MenuType<PosePage15Menu>> POSE_PAGE_15 = REGISTRY.register("pose_page_15", () -> IForgeMenuType.create(PosePage15Menu::new));
 	public static final RegistryObject<MenuType<PuppetBoxMenu>> PUPPET_BOX = REGISTRY.register("puppet_box", () -> IForgeMenuType.create(PuppetBoxMenu::new));
+	public static final RegistryObject<MenuType<PosePage16Menu>> POSE_PAGE_16 = REGISTRY.register("pose_page_16", () -> IForgeMenuType.create(PosePage16Menu::new));
+	public static final RegistryObject<MenuType<PosePage17Menu>> POSE_PAGE_17 = REGISTRY.register("pose_page_17", () -> IForgeMenuType.create(PosePage17Menu::new));
+	public static final RegistryObject<MenuType<PosePage18Menu>> POSE_PAGE_18 = REGISTRY.register("pose_page_18", () -> IForgeMenuType.create(PosePage18Menu::new));
+	public static final RegistryObject<MenuType<PosePage19Menu>> POSE_PAGE_19 = REGISTRY.register("pose_page_19", () -> IForgeMenuType.create(PosePage19Menu::new));
+	public static final RegistryObject<MenuType<ShopMenu>> SHOP = REGISTRY.register("shop", () -> IForgeMenuType.create(ShopMenu::new));
 }

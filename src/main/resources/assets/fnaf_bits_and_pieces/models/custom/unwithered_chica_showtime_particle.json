@@ -1,6 +1,6 @@
 {
   "parent": "fnaf_bits_and_pieces:displaysettings/fullanimatronic.item",
   "textures": {
-    "particle": "fnaf_bits_and_pieces:blocks/unwithered_chica"
+    "particle": "fnaf_bits_and_pieces:blocks/unwitheredchicashowtime"
   }
 }

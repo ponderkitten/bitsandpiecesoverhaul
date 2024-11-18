@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 1 ",
+    "345",
+    "6 8"
+  ],
+  "key": {
+    "1": {
+      "item": "fnaf_bits_and_pieces:chester_head"
+    },
+    "3": {
+      "item": "fnaf_bits_and_pieces:chester_right_arm"
+    },
+    "4": {
+      "item": "fnaf_bits_and_pieces:chester_torso"
+    },
+    "5": {
+      "item": "fnaf_bits_and_pieces:chester_left_arm"
+    },
+    "6": {
+      "item": "fnaf_bits_and_pieces:chester_right_leg"
+    },
+    "8": {
+      "item": "fnaf_bits_and_pieces:chester_left_leg"
+    }
+  },
+  "result": {
+    "item": "fnaf_bits_and_pieces:chester_showtime",
+    "count": 1
+  }
+}

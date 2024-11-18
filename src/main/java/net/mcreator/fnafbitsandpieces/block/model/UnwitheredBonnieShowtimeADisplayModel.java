@@ -19,6 +19,6 @@ public class UnwitheredBonnieShowtimeADisplayModel extends AnimatedGeoModel<Unwi
 
 	@Override
 	public ResourceLocation getTextureResource(UnwitheredBonnieShowtimeADisplayItem entity) {
-		return new ResourceLocation("fnaf_bits_and_pieces", "textures/blocks/unwithered_bonnie.png");
+		return new ResourceLocation("fnaf_bits_and_pieces", "textures/blocks/unwitheredbonnieshowtime.png");
 	}
 }

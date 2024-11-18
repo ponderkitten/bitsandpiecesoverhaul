@@ -5,100 +5,145 @@
 			"loop": true,
 			"bones": {
 				"Torso": {
-					"rotation": {
-						"vector": [0, 11, 0]
-					}
+					"rotation": [0, 11, 0]
 				},
 				"Neck": {
-					"rotation": {
-						"vector": [0, 0, 0]
-					}
+					"rotation": [0, 0, 0]
 				},
 				"Head": {
-					"rotation": {
-						"vector": [0, -15, 0]
-					}
+					"rotation": [0, -15, 0]
 				},
 				"Eyelids": {
-					"position": {
-						"vector": [0, 0, 0]
-					}
+					"position": [0, 0, 0]
 				},
 				"Eyes": {
-					"position": {
-						"vector": [0, 0, 0]
-					}
+					"position": [0, 0, 0]
 				},
 				"LeftArm": {
-					"rotation": {
-						"vector": [0, 7.5, -22.5]
-					}
+					"rotation": [0, 7.5, -22.5]
 				},
 				"LeftBottomArm": {
-					"rotation": {
-						"vector": [-89.51995, 11.86554, -19.25656]
-					}
+					"rotation": [-89.51995, 11.86554, -19.25656]
 				},
 				"LeftHand": {
-					"rotation": {
-						"vector": [0, -12.5, 0]
-					}
+					"rotation": [0, -12.5, 0]
 				},
 				"RightArm": {
-					"rotation": {
-						"vector": [0, 0, 27.5]
-					}
+					"rotation": [0, 0, 27.5]
 				},
 				"RightBottomArm": {
-					"rotation": {
-						"vector": [-90, 0, -15]
-					}
+					"rotation": [-90, 0, -15]
 				},
 				"RightHand": {
-					"rotation": {
-						"vector": [29.13367, 81.31604, 31.54495]
-					}
-				},
-				"Cupcake2": {
-					"position": {
-						"vector": [0, 0, -0.25]
-					}
+					"rotation": [29.13367, 81.31604, 31.54495]
 				},
 				"Body": {
-					"rotation": {
-						"vector": [0, 11, 0]
-					}
+					"rotation": [0, 11, 0]
 				},
 				"Jaw": {
-					"rotation": {
-						"vector": [0, 0, 0]
-					}
+					"rotation": [0, 0, 0]
 				},
 				"RightEyelidTop": {
-					"rotation": {
-						"vector": [0, 0, 0]
-					},
-					"position": {
-						"vector": [0, 0, 0]
-					}
+					"rotation": [0, 0, 0],
+					"position": [0, 0, 0]
 				},
 				"LeftEyelidTop": {
-					"rotation": {
-						"vector": [0, 0, 0]
-					},
-					"position": {
-						"vector": [0, 0, 0]
-					}
+					"rotation": [0, 0, 0],
+					"position": [0, 0, 0]
 				},
 				"EyeLeft": {
-					"position": {
-						"vector": [0, 0, 0]
-					}
+					"position": [0, 0, 0]
 				},
 				"EyeRight": {
-					"position": {
-						"vector": [0, 0, 0]
-					}
+					"position": [0, 0, 0]
+				},
+				"Body2": {
+					"rotation": [0, 11, 0]
+				},
+				"Head2": {
+					"rotation": [0, -15, 0]
+				},
+				"RightEyelidTop2": {
+					"rotation": [0, 0, 0],
+					"position": [0, 0, 0]
+				},
+				"LeftEyelidTop2": {
+					"rotation": [0, 0, 0],
+					"position": [0, 0, 0]
+				},
+				"EyeRight2": {
+					"position": [0, 0, 0]
+				},
+				"EyeLeft2": {
+					"position": [0, 0, 0]
+				},
+				"Jaw2": {
+					"rotation": [0, 0, 0]
+				},
+				"LeftArm2": {
+					"rotation": [0, 7.5, -22.5]
+				},
+				"LeftBottomArm2": {
+					"rotation": [-89.51995, 11.86554, -19.25656]
+				},
+				"LeftHand2": {
+					"rotation": [0, -12.5, 0]
+				},
+				"RightArm2": {
+					"rotation": [0, 0, 27.5]
+				},
+				"RightBottomArm2": {
+					"rotation": [-90, 0, -15]
+				},
+				"RightHand2": {
+					"rotation": [29.13367, 81.31604, 31.54495]
+				},
+				"Cupcake2": {
+					"position": [0, 0, -0.25]
+				},
+				"Body3": {
+					"rotation": [0, 11, 0]
+				},
+				"Head3": {
+					"rotation": [0, -15, 0]
+				},
+				"RightEyelidTop3": {
+					"rotation": [0, 0, 0],
+					"position": [0, 0, 0]
+				},
+				"LeftEyelidTop3": {
+					"rotation": [0, 0, 0],
+					"position": [0, 0, 0]
+				},
+				"EyeRight3": {
+					"position": [0, 0, 0]
+				},
+				"EyeLeft3": {
+					"position": [0, 0, 0]
+				},
+				"Jaw3": {
+					"rotation": [0, 0, 0]
+				},
+				"LeftArm3": {
+					"rotation": [0, 7.5, -22.5]
+				},
+				"LeftBottomArm3": {
+					"rotation": [-89.51995, 11.86554, -19.25656]
+				},
+				"LeftHand3": {
+					"rotation": [0, -12.5, 0]
+				},
+				"RightArm3": {
+					"rotation": [0, 0, 27.5]
+				},
+				"RightBottomArm3": {
+					"rotation": [-90, 0, -15]
+				},
+				"RightHand3": {
+					"rotation": [29.13367, 81.31604, 31.54495]
+				},
+				"Cupcake3": {
+					"position": [0, 0, -0.25]
 				}
 			}
 		}

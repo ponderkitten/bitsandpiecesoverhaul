@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "fnaf_bits_and_pieces:custom/broken_foxy_the_pirate_left_arm_particle"
+    },
+    "facing=east": {
+      "model": "fnaf_bits_and_pieces:custom/broken_foxy_the_pirate_left_arm_particle",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "fnaf_bits_and_pieces:custom/broken_foxy_the_pirate_left_arm_particle",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "fnaf_bits_and_pieces:custom/broken_foxy_the_pirate_left_arm_particle",
+      "y": 270
+    }
+  }
+}

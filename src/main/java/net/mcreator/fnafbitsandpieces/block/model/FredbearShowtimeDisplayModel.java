@@ -19,6 +19,6 @@ public class FredbearShowtimeDisplayModel extends AnimatedGeoModel<FredbearShowt
 
 	@Override
 	public ResourceLocation getTextureResource(FredbearShowtimeDisplayItem entity) {
-		return new ResourceLocation("fnaf_bits_and_pieces", "textures/blocks/fredbear4.png");
+		return new ResourceLocation("fnaf_bits_and_pieces", "textures/blocks/fredbearshowtime.png");
 	}
 }

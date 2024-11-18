@@ -19,6 +19,6 @@ public class SpringBonnieShowtimeADisplayModel extends AnimatedGeoModel<SpringBo
 
 	@Override
 	public ResourceLocation getTextureResource(SpringBonnieShowtimeADisplayItem entity) {
-		return new ResourceLocation("fnaf_bits_and_pieces", "textures/blocks/springbonnie.png");
+		return new ResourceLocation("fnaf_bits_and_pieces", "textures/blocks/springbonnieshowtime.png");
 	}
 }
