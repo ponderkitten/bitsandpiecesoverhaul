@@ -9,16 +9,16 @@ import net.mcreator.fnafbitsandpieces.block.display.AngledDinerGoldenBonnieShowt
 public class AngledDinerGoldenBonnieShowtimeADisplayModel extends AnimatedGeoModel<AngledDinerGoldenBonnieShowtimeADisplayItem> {
 	@Override
 	public ResourceLocation getAnimationResource(AngledDinerGoldenBonnieShowtimeADisplayItem animatable) {
-		return new ResourceLocation("fnaf_bits_and_pieces", "animations/dinerbonnieparts.animation.json");
+		return new ResourceLocation("fnaf_bits_and_pieces", "animations/dinerbonnieshowtimea.animation.json");
 	}
 
 	@Override
 	public ResourceLocation getModelResource(AngledDinerGoldenBonnieShowtimeADisplayItem animatable) {
-		return new ResourceLocation("fnaf_bits_and_pieces", "geo/dinerbonnieparts.geo.json");
+		return new ResourceLocation("fnaf_bits_and_pieces", "geo/dinerbonnieshowtimea.geo.json");
 	}
 
 	@Override
 	public ResourceLocation getTextureResource(AngledDinerGoldenBonnieShowtimeADisplayItem entity) {
-		return new ResourceLocation("fnaf_bits_and_pieces", "textures/blocks/dinergoldenbonnietorso.png");
+		return new ResourceLocation("fnaf_bits_and_pieces", "textures/blocks/dinergoldenbonnieangled.png");
 	}
 }

@@ -137,7 +137,7 @@ public class RatShowtimeATileEntity extends RandomizableContainerBlockEntity imp
 
 	@Override
 	public Component getDisplayName() {
-		return Component.literal("Freddy Fazbear Head");
+		return Component.literal("Rat Showtime");
 	}
 
 	@Override

@@ -27,11 +27,13 @@ import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.InteractionResult;
 import net.minecraft.world.InteractionHand;
+import net.minecraft.util.RandomSource;
+import net.minecraft.server.level.ServerLevel;
 import net.minecraft.core.Direction;
 import net.minecraft.core.BlockPos;
 
-import net.mcreator.fnafbitsandpieces.procedures.ShowtimeUniversalProcedure;
-import net.mcreator.fnafbitsandpieces.procedures.ShowtimeRightClickProcedure;
+import net.mcreator.fnafbitsandpieces.procedures.PartsTickUpdateProcedure;
+import net.mcreator.fnafbitsandpieces.procedures.PartsRightClickCodeProcedure;
 import net.mcreator.fnafbitsandpieces.init.FnafBitsAndPiecesModBlockEntities;
 
 import javax.annotation.Nullable;
@@ -107,11 +109,13 @@ public class BonnieBunnyRightLegBlock extends BaseEntityBlock implements EntityB
 	}
 
 	@Override
-	public void neighborChanged(BlockState blockstate, Level world, BlockPos pos, Block neighborBlock, BlockPos fromPos, boolean moving) {
-		super.neighborChanged(blockstate, world, pos, neighborBlock, fromPos, moving);
-		if (world.getBestNeighborSignal(pos) > 0) {
-			ShowtimeUniversalProcedure.execute(world, pos.getX(), pos.getY(), pos.getZ());
-		}
+	public void tick(BlockState blockstate, ServerLevel world, BlockPos pos, RandomSource random) {
+		super.tick(blockstate, world, pos, random);
+		int x = pos.getX();
+		int y = pos.getY();
+		int z = pos.getZ();
+
+		PartsTickUpdateProcedure.execute(world, x, y, z);
 	}
 
 	@Override
@@ -125,7 +129,7 @@ public class BonnieBunnyRightLegBlock extends BaseEntityBlock implements EntityB
 		double hitZ = hit.getLocation().z;
 		Direction direction = hit.getDirection();
 
-		ShowtimeRightClickProcedure.execute(world, x, y, z, entity);
+		PartsRightClickCodeProcedure.execute(world, x, y, z, entity);
 		return InteractionResult.SUCCESS;
 	}
 }

@@ -1,0 +1,19 @@
+{
+  "_fv": 43,
+  "_type": "musicdisc",
+  "definition": {
+    "name": "Fnaf Movie Theme (Intro)",
+    "texture": "moviedisc",
+    "description": "Fnaf Movie Theme (Intro)",
+    "creativeTab": {
+      "value": "CUSTOM:BPItems"
+    },
+    "specialInfo": [],
+    "hasGlow": false,
+    "music": {
+      "value": "CUSTOM:introfnafmovietheme"
+    },
+    "lengthInTicks": 100,
+    "analogOutput": 15
+  }
+}

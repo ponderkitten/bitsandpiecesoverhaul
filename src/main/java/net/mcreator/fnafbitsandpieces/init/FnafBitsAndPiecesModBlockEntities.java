@@ -27,6 +27,23 @@ import net.mcreator.fnafbitsandpieces.block.entity.YellowBearRightArmTileEntity;
 import net.mcreator.fnafbitsandpieces.block.entity.YellowBearLeftLegTileEntity;
 import net.mcreator.fnafbitsandpieces.block.entity.YellowBearLeftArmTileEntity;
 import net.mcreator.fnafbitsandpieces.block.entity.YellowBearHeadTileEntity;
+import net.mcreator.fnafbitsandpieces.block.entity.WitheredToyFreddyTorsoTileEntity;
+import net.mcreator.fnafbitsandpieces.block.entity.WitheredToyFreddyRightLegTileEntity;
+import net.mcreator.fnafbitsandpieces.block.entity.WitheredToyFreddyRightArmTileEntity;
+import net.mcreator.fnafbitsandpieces.block.entity.WitheredToyFreddyLeftLegTileEntity;
+import net.mcreator.fnafbitsandpieces.block.entity.WitheredToyFreddyLeftArmTileEntity;
+import net.mcreator.fnafbitsandpieces.block.entity.WitheredToyFreddyHeadTileEntity;
+import net.mcreator.fnafbitsandpieces.block.entity.WitheredToyChicaTorsoTileEntity;
+import net.mcreator.fnafbitsandpieces.block.entity.WitheredToyChicaRightLegTileEntity;
+import net.mcreator.fnafbitsandpieces.block.entity.WitheredToyChicaRightArmTileEntity;
+import net.mcreator.fnafbitsandpieces.block.entity.WitheredToyChicaLeftLegTileEntity;
+import net.mcreator.fnafbitsandpieces.block.entity.WitheredToyChicaLeftArmTileEntity;
+import net.mcreator.fnafbitsandpieces.block.entity.WitheredToyChicaHeadTileEntity;
+import net.mcreator.fnafbitsandpieces.block.entity.WitheredToyBonnieTorsoTileEntity;
+import net.mcreator.fnafbitsandpieces.block.entity.WitheredToyBonnieRightLegTileEntity;
+import net.mcreator.fnafbitsandpieces.block.entity.WitheredToyBonnieLeftLegTileEntity;
+import net.mcreator.fnafbitsandpieces.block.entity.WitheredToyBonnieLeftArmTileEntity;
+import net.mcreator.fnafbitsandpieces.block.entity.WitheredToyBonnieHeadTileEntity;
 import net.mcreator.fnafbitsandpieces.block.entity.WitheredRatTorsoTileEntity;
 import net.mcreator.fnafbitsandpieces.block.entity.WitheredRatRightLegTileEntity;
 import net.mcreator.fnafbitsandpieces.block.entity.WitheredRatRightArmTileEntity;
@@ -105,6 +122,7 @@ import net.mcreator.fnafbitsandpieces.block.entity.WitheredBlankRightArmTileEnti
 import net.mcreator.fnafbitsandpieces.block.entity.WitheredBlankLeftLegTileEntity;
 import net.mcreator.fnafbitsandpieces.block.entity.WitheredBlankLeftArmTileEntity;
 import net.mcreator.fnafbitsandpieces.block.entity.WitheredBlankHeadTileEntity;
+import net.mcreator.fnafbitsandpieces.block.entity.WallPuppetTileEntity;
 import net.mcreator.fnafbitsandpieces.block.entity.UnwitheredGoldenFreddyTorsoTileEntity;
 import net.mcreator.fnafbitsandpieces.block.entity.UnwitheredGoldenFreddyShowtimeTileEntity;
 import net.mcreator.fnafbitsandpieces.block.entity.UnwitheredGoldenFreddyShowtimeATileEntity;
@@ -185,6 +203,14 @@ import net.mcreator.fnafbitsandpieces.block.entity.ToyBonnieRightArmTileEntity;
 import net.mcreator.fnafbitsandpieces.block.entity.ToyBonnieLeftLegTileEntity;
 import net.mcreator.fnafbitsandpieces.block.entity.ToyBonnieLeftArmTileEntity;
 import net.mcreator.fnafbitsandpieces.block.entity.ToyBonnieHeadTileEntity;
+import net.mcreator.fnafbitsandpieces.block.entity.SpringtrapTorsoTileEntity;
+import net.mcreator.fnafbitsandpieces.block.entity.SpringtrapShowtimeTileEntity;
+import net.mcreator.fnafbitsandpieces.block.entity.SpringtrapShowtimeATileEntity;
+import net.mcreator.fnafbitsandpieces.block.entity.SpringtrapRightLegTileEntity;
+import net.mcreator.fnafbitsandpieces.block.entity.SpringtrapRightArmTileEntity;
+import net.mcreator.fnafbitsandpieces.block.entity.SpringtrapLeftLegTileEntity;
+import net.mcreator.fnafbitsandpieces.block.entity.SpringtrapLeftArmTileEntity;
+import net.mcreator.fnafbitsandpieces.block.entity.SpringtrapHeadTileEntity;
 import net.mcreator.fnafbitsandpieces.block.entity.SpringBonnieTorsoTileEntity;
 import net.mcreator.fnafbitsandpieces.block.entity.SpringBonnieShowtimeTileEntity;
 import net.mcreator.fnafbitsandpieces.block.entity.SpringBonnieShowtimeATileEntity;
@@ -193,6 +219,24 @@ import net.mcreator.fnafbitsandpieces.block.entity.SpringBonnieRightArmTileEntit
 import net.mcreator.fnafbitsandpieces.block.entity.SpringBonnieLeftLegTileEntity;
 import net.mcreator.fnafbitsandpieces.block.entity.SpringBonnieLeftArmTileEntity;
 import net.mcreator.fnafbitsandpieces.block.entity.SpringBonnieHeadTileEntity;
+import net.mcreator.fnafbitsandpieces.block.entity.SparkyTorsoTileEntity;
+import net.mcreator.fnafbitsandpieces.block.entity.SparkyRightLegTileEntity;
+import net.mcreator.fnafbitsandpieces.block.entity.SparkyRightArmTileEntity;
+import net.mcreator.fnafbitsandpieces.block.entity.SparkyLeftLegTileEntity;
+import net.mcreator.fnafbitsandpieces.block.entity.SparkyLeftArmTileEntity;
+import net.mcreator.fnafbitsandpieces.block.entity.SparkyHeadTileEntity;
+import net.mcreator.fnafbitsandpieces.block.entity.ShadowFreddyTorsoTileEntity;
+import net.mcreator.fnafbitsandpieces.block.entity.ShadowFreddyRightLegTileEntity;
+import net.mcreator.fnafbitsandpieces.block.entity.ShadowFreddyRightArmTileEntity;
+import net.mcreator.fnafbitsandpieces.block.entity.ShadowFreddyLeftLegTileEntity;
+import net.mcreator.fnafbitsandpieces.block.entity.ShadowFreddyLeftArmTileEntity;
+import net.mcreator.fnafbitsandpieces.block.entity.ShadowFreddyHeadTileEntity;
+import net.mcreator.fnafbitsandpieces.block.entity.ShadowBonnieTorsoTileEntity;
+import net.mcreator.fnafbitsandpieces.block.entity.ShadowBonnieRightLegTileEntity;
+import net.mcreator.fnafbitsandpieces.block.entity.ShadowBonnieRightArmTileEntity;
+import net.mcreator.fnafbitsandpieces.block.entity.ShadowBonnieLeftLegTileEntity;
+import net.mcreator.fnafbitsandpieces.block.entity.ShadowBonnieLeftArmTileEntity;
+import net.mcreator.fnafbitsandpieces.block.entity.ShadowBonnieHeadTileEntity;
 import net.mcreator.fnafbitsandpieces.block.entity.RatTorsoTileEntity;
 import net.mcreator.fnafbitsandpieces.block.entity.RatShowtimeTileEntity;
 import net.mcreator.fnafbitsandpieces.block.entity.RatShowtimeATileEntity;
@@ -201,6 +245,22 @@ import net.mcreator.fnafbitsandpieces.block.entity.RatRightArmTileEntity;
 import net.mcreator.fnafbitsandpieces.block.entity.RatLeftLegTileEntity;
 import net.mcreator.fnafbitsandpieces.block.entity.RatLeftArmTileEntity;
 import net.mcreator.fnafbitsandpieces.block.entity.RatHeadTileEntity;
+import net.mcreator.fnafbitsandpieces.block.entity.PurpleGuyTorsoTileEntity;
+import net.mcreator.fnafbitsandpieces.block.entity.PurpleGuyRightLegTileEntity;
+import net.mcreator.fnafbitsandpieces.block.entity.PurpleGuyRightArmTileEntity;
+import net.mcreator.fnafbitsandpieces.block.entity.PurpleGuyLeftlegTileEntity;
+import net.mcreator.fnafbitsandpieces.block.entity.PurpleGuyLeftArmTileEntity;
+import net.mcreator.fnafbitsandpieces.block.entity.PurpleGuyHeadTileEntity;
+import net.mcreator.fnafbitsandpieces.block.entity.PuppetBoxWindingTileEntity;
+import net.mcreator.fnafbitsandpieces.block.entity.PuppetBoxWindingEvenTileEntity;
+import net.mcreator.fnafbitsandpieces.block.entity.PuppetBoxTileEntity;
+import net.mcreator.fnafbitsandpieces.block.entity.PuppetBoxSlumpedTileEntity;
+import net.mcreator.fnafbitsandpieces.block.entity.PuppetBoxSlumpedEvenTileEntity;
+import net.mcreator.fnafbitsandpieces.block.entity.PuppetBoxJumpscareTileEntity;
+import net.mcreator.fnafbitsandpieces.block.entity.PuppetBoxJumpscareEvenTileEntity;
+import net.mcreator.fnafbitsandpieces.block.entity.PuppetBoxGiftTileEntity;
+import net.mcreator.fnafbitsandpieces.block.entity.PuppetBoxGiftEvenTileEntity;
+import net.mcreator.fnafbitsandpieces.block.entity.PuppetBoxEvenTileEntity;
 import net.mcreator.fnafbitsandpieces.block.entity.PenguinShowtimeTileEntity;
 import net.mcreator.fnafbitsandpieces.block.entity.PenguinShowtimeATileEntity;
 import net.mcreator.fnafbitsandpieces.block.entity.PenguinHeadTileEntity;
@@ -235,6 +295,8 @@ import net.mcreator.fnafbitsandpieces.block.entity.OffsetToyChicaShowtimeTileEnt
 import net.mcreator.fnafbitsandpieces.block.entity.OffsetToyChicaShowtimeATileEntity;
 import net.mcreator.fnafbitsandpieces.block.entity.OffsetToyBonnieShowtimeTileEntity;
 import net.mcreator.fnafbitsandpieces.block.entity.OffsetToyBonnieShowtimeATileEntity;
+import net.mcreator.fnafbitsandpieces.block.entity.OffsetSpringtrapShowtimeTileEntity;
+import net.mcreator.fnafbitsandpieces.block.entity.OffsetSpringtrapShowtimeATileEntity;
 import net.mcreator.fnafbitsandpieces.block.entity.OffsetSpringBonnieShowtimeTileEntity;
 import net.mcreator.fnafbitsandpieces.block.entity.OffsetSpringBonnieShowtimeATileEntity;
 import net.mcreator.fnafbitsandpieces.block.entity.OffsetRatShowtimeTileEntity;
@@ -303,6 +365,15 @@ import net.mcreator.fnafbitsandpieces.block.entity.GoldenFreddyRightArmTileEntit
 import net.mcreator.fnafbitsandpieces.block.entity.GoldenFreddyLeftLegTileEntity;
 import net.mcreator.fnafbitsandpieces.block.entity.GoldenFreddyLeftArmTileEntity;
 import net.mcreator.fnafbitsandpieces.block.entity.GoldenFreddyHeadTileEntity;
+import net.mcreator.fnafbitsandpieces.block.entity.Generator8TileEntity;
+import net.mcreator.fnafbitsandpieces.block.entity.Generator7TileEntity;
+import net.mcreator.fnafbitsandpieces.block.entity.Generator6TileEntity;
+import net.mcreator.fnafbitsandpieces.block.entity.Generator5TileEntity;
+import net.mcreator.fnafbitsandpieces.block.entity.Generator4TileEntity;
+import net.mcreator.fnafbitsandpieces.block.entity.Generator3TileEntity;
+import net.mcreator.fnafbitsandpieces.block.entity.Generator2TileEntity;
+import net.mcreator.fnafbitsandpieces.block.entity.Generator1TileEntity;
+import net.mcreator.fnafbitsandpieces.block.entity.Generator0TileEntity;
 import net.mcreator.fnafbitsandpieces.block.entity.FreddyFazbearTorsoTileEntity;
 import net.mcreator.fnafbitsandpieces.block.entity.FreddyFazbearShowtimeTileEntity;
 import net.mcreator.fnafbitsandpieces.block.entity.FreddyFazbearShowtimeATileEntity;
@@ -311,6 +382,9 @@ import net.mcreator.fnafbitsandpieces.block.entity.FreddyFazbearRightArmTileEnti
 import net.mcreator.fnafbitsandpieces.block.entity.FreddyFazbearLeftLegTileEntity;
 import net.mcreator.fnafbitsandpieces.block.entity.FreddyFazbearLeftArmTileEntity;
 import net.mcreator.fnafbitsandpieces.block.entity.FreddyFazbearHeadTileEntity;
+import net.mcreator.fnafbitsandpieces.block.entity.FreddyBoxTileEntity;
+import net.mcreator.fnafbitsandpieces.block.entity.FreddyBoxSpinTileEntity;
+import net.mcreator.fnafbitsandpieces.block.entity.FreddyBoxATileEntity;
 import net.mcreator.fnafbitsandpieces.block.entity.FredbearTorsoTileEntity;
 import net.mcreator.fnafbitsandpieces.block.entity.FredbearShowtimeTileEntity;
 import net.mcreator.fnafbitsandpieces.block.entity.FredbearShowtimeATileEntity;
@@ -347,6 +421,7 @@ import net.mcreator.fnafbitsandpieces.block.entity.Endo01HeadTileEntity;
 import net.mcreator.fnafbitsandpieces.block.entity.Endo01HeadFoxyTileEntity;
 import net.mcreator.fnafbitsandpieces.block.entity.Endo01HeadChicaTileEntity;
 import net.mcreator.fnafbitsandpieces.block.entity.Endo01HeadBonnieTileEntity;
+import net.mcreator.fnafbitsandpieces.block.entity.EmptyBoxTileEntity;
 import net.mcreator.fnafbitsandpieces.block.entity.DinerGoldenFreddyTorsoTileEntity;
 import net.mcreator.fnafbitsandpieces.block.entity.DinerGoldenFreddyShowtimeTileEntity;
 import net.mcreator.fnafbitsandpieces.block.entity.DinerGoldenFreddyShowtimeATileEntity;
@@ -492,6 +567,8 @@ import net.mcreator.fnafbitsandpieces.block.entity.AngledToyChicaShowtimeTileEnt
 import net.mcreator.fnafbitsandpieces.block.entity.AngledToyChicaShowtimeATileEntity;
 import net.mcreator.fnafbitsandpieces.block.entity.AngledToyBonnieShowtimeTileEntity;
 import net.mcreator.fnafbitsandpieces.block.entity.AngledToyBonnieShowtimeATileEntity;
+import net.mcreator.fnafbitsandpieces.block.entity.AngledSpringtrapShowtimeTileEntity;
+import net.mcreator.fnafbitsandpieces.block.entity.AngledSpringtrapShowtimeATileEntity;
 import net.mcreator.fnafbitsandpieces.block.entity.AngledSpringBonnieShowtimeTileEntity;
 import net.mcreator.fnafbitsandpieces.block.entity.AngledSpringBonnieShowtimeATileEntity;
 import net.mcreator.fnafbitsandpieces.block.entity.AngledRatShowtimeTileEntity;
@@ -755,10 +832,6 @@ public class FnafBitsAndPiecesModBlockEntities {
 			() -> BlockEntityType.Builder.of(DinerGoldenBonnieLeftLegTileEntity::new, FnafBitsAndPiecesModBlocks.DINER_GOLDEN_BONNIE_LEFT_LEG.get()).build(null));
 	public static final RegistryObject<BlockEntityType<DinerGoldenBonnieShowtimeTileEntity>> DINER_GOLDEN_BONNIE_SHOWTIME = REGISTRY.register("diner_golden_bonnie_showtime",
 			() -> BlockEntityType.Builder.of(DinerGoldenBonnieShowtimeTileEntity::new, FnafBitsAndPiecesModBlocks.DINER_GOLDEN_BONNIE_SHOWTIME.get()).build(null));
-	public static final RegistryObject<BlockEntityType<AngledDinerGoldenBonnieShowtimeATileEntity>> ANGLED_DINER_GOLDEN_BONNIE_SHOWTIME_A = REGISTRY.register("angled_diner_golden_bonnie_showtime_a",
-			() -> BlockEntityType.Builder.of(AngledDinerGoldenBonnieShowtimeATileEntity::new, FnafBitsAndPiecesModBlocks.ANGLED_DINER_GOLDEN_BONNIE_SHOWTIME_A.get()).build(null));
-	public static final RegistryObject<BlockEntityType<OffsetDinerGoldenBonnieShowtimeTileEntity>> OFFSET_DINER_GOLDEN_BONNIE_SHOWTIME = REGISTRY.register("offset_diner_golden_bonnie_showtime",
-			() -> BlockEntityType.Builder.of(OffsetDinerGoldenBonnieShowtimeTileEntity::new, FnafBitsAndPiecesModBlocks.OFFSET_DINER_GOLDEN_BONNIE_SHOWTIME.get()).build(null));
 	public static final RegistryObject<BlockEntityType<CandyHeadTileEntity>> CANDY_HEAD = REGISTRY.register("candy_head", () -> BlockEntityType.Builder.of(CandyHeadTileEntity::new, FnafBitsAndPiecesModBlocks.CANDY_HEAD.get()).build(null));
 	public static final RegistryObject<BlockEntityType<CandyTorsoTileEntity>> CANDY_TORSO = REGISTRY.register("candy_torso", () -> BlockEntityType.Builder.of(CandyTorsoTileEntity::new, FnafBitsAndPiecesModBlocks.CANDY_TORSO.get()).build(null));
 	public static final RegistryObject<BlockEntityType<CandyRightArmTileEntity>> CANDY_RIGHT_ARM = REGISTRY.register("candy_right_arm",
@@ -949,10 +1022,6 @@ public class FnafBitsAndPiecesModBlockEntities {
 			() -> BlockEntityType.Builder.of(WitheredRatRightLegTileEntity::new, FnafBitsAndPiecesModBlocks.WITHERED_RAT_RIGHT_LEG.get()).build(null));
 	public static final RegistryObject<BlockEntityType<WitheredRatLeftLegTileEntity>> WITHERED_RAT_LEFT_LEG = REGISTRY.register("withered_rat_left_leg",
 			() -> BlockEntityType.Builder.of(WitheredRatLeftLegTileEntity::new, FnafBitsAndPiecesModBlocks.WITHERED_RAT_LEFT_LEG.get()).build(null));
-	public static final RegistryObject<BlockEntityType<AngledCatShowtimeTileEntity>> ANGLED_CAT_SHOWTIME = REGISTRY.register("angled_cat_showtime",
-			() -> BlockEntityType.Builder.of(AngledCatShowtimeTileEntity::new, FnafBitsAndPiecesModBlocks.ANGLED_CAT_SHOWTIME.get()).build(null));
-	public static final RegistryObject<BlockEntityType<OffsetCatShowtimeTileEntity>> OFFSET_CAT_SHOWTIME = REGISTRY.register("offset_cat_showtime",
-			() -> BlockEntityType.Builder.of(OffsetCatShowtimeTileEntity::new, FnafBitsAndPiecesModBlocks.OFFSET_CAT_SHOWTIME.get()).build(null));
 	public static final RegistryObject<BlockEntityType<FreddyFazbearHeadTileEntity>> FREDDY_FAZBEAR_HEAD = REGISTRY.register("freddy_fazbear_head",
 			() -> BlockEntityType.Builder.of(FreddyFazbearHeadTileEntity::new, FnafBitsAndPiecesModBlocks.FREDDY_FAZBEAR_HEAD.get()).build(null));
 	public static final RegistryObject<BlockEntityType<FreddyFazbearTorsoTileEntity>> FREDDY_FAZBEAR_TORSO = REGISTRY.register("freddy_fazbear_torso",
@@ -1078,10 +1147,16 @@ public class FnafBitsAndPiecesModBlockEntities {
 			() -> BlockEntityType.Builder.of(YellowRabbitLeftLegTileEntity::new, FnafBitsAndPiecesModBlocks.YELLOW_RABBIT_LEFT_LEG.get()).build(null));
 	public static final RegistryObject<BlockEntityType<YellowRabbitShowtimeTileEntity>> YELLOW_RABBIT_SHOWTIME = REGISTRY.register("yellow_rabbit_showtime",
 			() -> BlockEntityType.Builder.of(YellowRabbitShowtimeTileEntity::new, FnafBitsAndPiecesModBlocks.YELLOW_RABBIT_SHOWTIME.get()).build(null));
-	public static final RegistryObject<BlockEntityType<RatShowtimeATileEntity>> RAT_SHOWTIME_A = REGISTRY.register("rat_showtime_a",
-			() -> BlockEntityType.Builder.of(RatShowtimeATileEntity::new, FnafBitsAndPiecesModBlocks.RAT_SHOWTIME_A.get()).build(null));
-	public static final RegistryObject<BlockEntityType<AngledFreddyFazbearShowtimeTileEntity>> ANGLED_FREDDY_FAZBEAR_SHOWTIME = REGISTRY.register("angled_freddy_fazbear_showtime",
-			() -> BlockEntityType.Builder.of(AngledFreddyFazbearShowtimeTileEntity::new, FnafBitsAndPiecesModBlocks.ANGLED_FREDDY_FAZBEAR_SHOWTIME.get()).build(null));
+	public static final RegistryObject<BlockEntityType<SparkyHeadTileEntity>> SPARKY_HEAD = REGISTRY.register("sparky_head", () -> BlockEntityType.Builder.of(SparkyHeadTileEntity::new, FnafBitsAndPiecesModBlocks.SPARKY_HEAD.get()).build(null));
+	public static final RegistryObject<BlockEntityType<SparkyTorsoTileEntity>> SPARKY_TORSO = REGISTRY.register("sparky_torso", () -> BlockEntityType.Builder.of(SparkyTorsoTileEntity::new, FnafBitsAndPiecesModBlocks.SPARKY_TORSO.get()).build(null));
+	public static final RegistryObject<BlockEntityType<SparkyRightArmTileEntity>> SPARKY_RIGHT_ARM = REGISTRY.register("sparky_right_arm",
+			() -> BlockEntityType.Builder.of(SparkyRightArmTileEntity::new, FnafBitsAndPiecesModBlocks.SPARKY_RIGHT_ARM.get()).build(null));
+	public static final RegistryObject<BlockEntityType<SparkyLeftArmTileEntity>> SPARKY_LEFT_ARM = REGISTRY.register("sparky_left_arm",
+			() -> BlockEntityType.Builder.of(SparkyLeftArmTileEntity::new, FnafBitsAndPiecesModBlocks.SPARKY_LEFT_ARM.get()).build(null));
+	public static final RegistryObject<BlockEntityType<SparkyRightLegTileEntity>> SPARKY_RIGHT_LEG = REGISTRY.register("sparky_right_leg",
+			() -> BlockEntityType.Builder.of(SparkyRightLegTileEntity::new, FnafBitsAndPiecesModBlocks.SPARKY_RIGHT_LEG.get()).build(null));
+	public static final RegistryObject<BlockEntityType<SparkyLeftLegTileEntity>> SPARKY_LEFT_LEG = REGISTRY.register("sparky_left_leg",
+			() -> BlockEntityType.Builder.of(SparkyLeftLegTileEntity::new, FnafBitsAndPiecesModBlocks.SPARKY_LEFT_LEG.get()).build(null));
 	public static final RegistryObject<BlockEntityType<ToyFreddyHeadTileEntity>> TOY_FREDDY_HEAD = REGISTRY.register("toy_freddy_head",
 			() -> BlockEntityType.Builder.of(ToyFreddyHeadTileEntity::new, FnafBitsAndPiecesModBlocks.TOY_FREDDY_HEAD.get()).build(null));
 	public static final RegistryObject<BlockEntityType<ToyFreddyTorsoTileEntity>> TOY_FREDDY_TORSO = REGISTRY.register("toy_freddy_torso",
@@ -1234,6 +1309,95 @@ public class FnafBitsAndPiecesModBlockEntities {
 			() -> BlockEntityType.Builder.of(WitheredGoldenBonnieRightLegTileEntity::new, FnafBitsAndPiecesModBlocks.WITHERED_GOLDEN_BONNIE_RIGHT_LEG.get()).build(null));
 	public static final RegistryObject<BlockEntityType<WitheredGoldenBonnieLeftLegTileEntity>> WITHERED_GOLDEN_BONNIE_LEFT_LEG = REGISTRY.register("withered_golden_bonnie_left_leg",
 			() -> BlockEntityType.Builder.of(WitheredGoldenBonnieLeftLegTileEntity::new, FnafBitsAndPiecesModBlocks.WITHERED_GOLDEN_BONNIE_LEFT_LEG.get()).build(null));
+	public static final RegistryObject<BlockEntityType<WitheredToyFreddyHeadTileEntity>> WITHERED_TOY_FREDDY_HEAD = REGISTRY.register("withered_toy_freddy_head",
+			() -> BlockEntityType.Builder.of(WitheredToyFreddyHeadTileEntity::new, FnafBitsAndPiecesModBlocks.WITHERED_TOY_FREDDY_HEAD.get()).build(null));
+	public static final RegistryObject<BlockEntityType<WitheredToyFreddyTorsoTileEntity>> WITHERED_TOY_FREDDY_TORSO = REGISTRY.register("withered_toy_freddy_torso",
+			() -> BlockEntityType.Builder.of(WitheredToyFreddyTorsoTileEntity::new, FnafBitsAndPiecesModBlocks.WITHERED_TOY_FREDDY_TORSO.get()).build(null));
+	public static final RegistryObject<BlockEntityType<WitheredToyFreddyRightArmTileEntity>> WITHERED_TOY_FREDDY_RIGHT_ARM = REGISTRY.register("withered_toy_freddy_right_arm",
+			() -> BlockEntityType.Builder.of(WitheredToyFreddyRightArmTileEntity::new, FnafBitsAndPiecesModBlocks.WITHERED_TOY_FREDDY_RIGHT_ARM.get()).build(null));
+	public static final RegistryObject<BlockEntityType<WitheredToyFreddyLeftArmTileEntity>> WITHERED_TOY_FREDDY_LEFT_ARM = REGISTRY.register("withered_toy_freddy_left_arm",
+			() -> BlockEntityType.Builder.of(WitheredToyFreddyLeftArmTileEntity::new, FnafBitsAndPiecesModBlocks.WITHERED_TOY_FREDDY_LEFT_ARM.get()).build(null));
+	public static final RegistryObject<BlockEntityType<WitheredToyFreddyRightLegTileEntity>> WITHERED_TOY_FREDDY_RIGHT_LEG = REGISTRY.register("withered_toy_freddy_right_leg",
+			() -> BlockEntityType.Builder.of(WitheredToyFreddyRightLegTileEntity::new, FnafBitsAndPiecesModBlocks.WITHERED_TOY_FREDDY_RIGHT_LEG.get()).build(null));
+	public static final RegistryObject<BlockEntityType<WitheredToyFreddyLeftLegTileEntity>> WITHERED_TOY_FREDDY_LEFT_LEG = REGISTRY.register("withered_toy_freddy_left_leg",
+			() -> BlockEntityType.Builder.of(WitheredToyFreddyLeftLegTileEntity::new, FnafBitsAndPiecesModBlocks.WITHERED_TOY_FREDDY_LEFT_LEG.get()).build(null));
+	public static final RegistryObject<BlockEntityType<WitheredToyBonnieHeadTileEntity>> WITHERED_TOY_BONNIE_HEAD = REGISTRY.register("withered_toy_bonnie_head",
+			() -> BlockEntityType.Builder.of(WitheredToyBonnieHeadTileEntity::new, FnafBitsAndPiecesModBlocks.WITHERED_TOY_BONNIE_HEAD.get()).build(null));
+	public static final RegistryObject<BlockEntityType<WitheredToyBonnieTorsoTileEntity>> WITHERED_TOY_BONNIE_TORSO = REGISTRY.register("withered_toy_bonnie_torso",
+			() -> BlockEntityType.Builder.of(WitheredToyBonnieTorsoTileEntity::new, FnafBitsAndPiecesModBlocks.WITHERED_TOY_BONNIE_TORSO.get()).build(null));
+	public static final RegistryObject<BlockEntityType<WitheredToyBonnieLeftArmTileEntity>> WITHERED_TOY_BONNIE_LEFT_ARM = REGISTRY.register("withered_toy_bonnie_left_arm",
+			() -> BlockEntityType.Builder.of(WitheredToyBonnieLeftArmTileEntity::new, FnafBitsAndPiecesModBlocks.WITHERED_TOY_BONNIE_LEFT_ARM.get()).build(null));
+	public static final RegistryObject<BlockEntityType<WitheredToyBonnieRightLegTileEntity>> WITHERED_TOY_BONNIE_RIGHT_LEG = REGISTRY.register("withered_toy_bonnie_right_leg",
+			() -> BlockEntityType.Builder.of(WitheredToyBonnieRightLegTileEntity::new, FnafBitsAndPiecesModBlocks.WITHERED_TOY_BONNIE_RIGHT_LEG.get()).build(null));
+	public static final RegistryObject<BlockEntityType<WitheredToyBonnieLeftLegTileEntity>> WITHERED_TOY_BONNIE_LEFT_LEG = REGISTRY.register("withered_toy_bonnie_left_leg",
+			() -> BlockEntityType.Builder.of(WitheredToyBonnieLeftLegTileEntity::new, FnafBitsAndPiecesModBlocks.WITHERED_TOY_BONNIE_LEFT_LEG.get()).build(null));
+	public static final RegistryObject<BlockEntityType<WitheredToyChicaHeadTileEntity>> WITHERED_TOY_CHICA_HEAD = REGISTRY.register("withered_toy_chica_head",
+			() -> BlockEntityType.Builder.of(WitheredToyChicaHeadTileEntity::new, FnafBitsAndPiecesModBlocks.WITHERED_TOY_CHICA_HEAD.get()).build(null));
+	public static final RegistryObject<BlockEntityType<WitheredToyChicaTorsoTileEntity>> WITHERED_TOY_CHICA_TORSO = REGISTRY.register("withered_toy_chica_torso",
+			() -> BlockEntityType.Builder.of(WitheredToyChicaTorsoTileEntity::new, FnafBitsAndPiecesModBlocks.WITHERED_TOY_CHICA_TORSO.get()).build(null));
+	public static final RegistryObject<BlockEntityType<WitheredToyChicaRightArmTileEntity>> WITHERED_TOY_CHICA_RIGHT_ARM = REGISTRY.register("withered_toy_chica_right_arm",
+			() -> BlockEntityType.Builder.of(WitheredToyChicaRightArmTileEntity::new, FnafBitsAndPiecesModBlocks.WITHERED_TOY_CHICA_RIGHT_ARM.get()).build(null));
+	public static final RegistryObject<BlockEntityType<WitheredToyChicaLeftArmTileEntity>> WITHERED_TOY_CHICA_LEFT_ARM = REGISTRY.register("withered_toy_chica_left_arm",
+			() -> BlockEntityType.Builder.of(WitheredToyChicaLeftArmTileEntity::new, FnafBitsAndPiecesModBlocks.WITHERED_TOY_CHICA_LEFT_ARM.get()).build(null));
+	public static final RegistryObject<BlockEntityType<WitheredToyChicaRightLegTileEntity>> WITHERED_TOY_CHICA_RIGHT_LEG = REGISTRY.register("withered_toy_chica_right_leg",
+			() -> BlockEntityType.Builder.of(WitheredToyChicaRightLegTileEntity::new, FnafBitsAndPiecesModBlocks.WITHERED_TOY_CHICA_RIGHT_LEG.get()).build(null));
+	public static final RegistryObject<BlockEntityType<WitheredToyChicaLeftLegTileEntity>> WITHERED_TOY_CHICA_LEFT_LEG = REGISTRY.register("withered_toy_chica_left_leg",
+			() -> BlockEntityType.Builder.of(WitheredToyChicaLeftLegTileEntity::new, FnafBitsAndPiecesModBlocks.WITHERED_TOY_CHICA_LEFT_LEG.get()).build(null));
+	public static final RegistryObject<BlockEntityType<PurpleGuyHeadTileEntity>> PURPLE_GUY_HEAD = REGISTRY.register("purple_guy_head",
+			() -> BlockEntityType.Builder.of(PurpleGuyHeadTileEntity::new, FnafBitsAndPiecesModBlocks.PURPLE_GUY_HEAD.get()).build(null));
+	public static final RegistryObject<BlockEntityType<PurpleGuyTorsoTileEntity>> PURPLE_GUY_TORSO = REGISTRY.register("purple_guy_torso",
+			() -> BlockEntityType.Builder.of(PurpleGuyTorsoTileEntity::new, FnafBitsAndPiecesModBlocks.PURPLE_GUY_TORSO.get()).build(null));
+	public static final RegistryObject<BlockEntityType<PurpleGuyRightArmTileEntity>> PURPLE_GUY_RIGHT_ARM = REGISTRY.register("purple_guy_right_arm",
+			() -> BlockEntityType.Builder.of(PurpleGuyRightArmTileEntity::new, FnafBitsAndPiecesModBlocks.PURPLE_GUY_RIGHT_ARM.get()).build(null));
+	public static final RegistryObject<BlockEntityType<PurpleGuyLeftArmTileEntity>> PURPLE_GUY_LEFT_ARM = REGISTRY.register("purple_guy_left_arm",
+			() -> BlockEntityType.Builder.of(PurpleGuyLeftArmTileEntity::new, FnafBitsAndPiecesModBlocks.PURPLE_GUY_LEFT_ARM.get()).build(null));
+	public static final RegistryObject<BlockEntityType<PurpleGuyRightLegTileEntity>> PURPLE_GUY_RIGHT_LEG = REGISTRY.register("purple_guy_right_leg",
+			() -> BlockEntityType.Builder.of(PurpleGuyRightLegTileEntity::new, FnafBitsAndPiecesModBlocks.PURPLE_GUY_RIGHT_LEG.get()).build(null));
+	public static final RegistryObject<BlockEntityType<PurpleGuyLeftlegTileEntity>> PURPLE_GUY_LEFTLEG = REGISTRY.register("purple_guy_leftleg",
+			() -> BlockEntityType.Builder.of(PurpleGuyLeftlegTileEntity::new, FnafBitsAndPiecesModBlocks.PURPLE_GUY_LEFTLEG.get()).build(null));
+	public static final RegistryObject<BlockEntityType<WallPuppetTileEntity>> WALL_PUPPET = REGISTRY.register("wall_puppet", () -> BlockEntityType.Builder.of(WallPuppetTileEntity::new, FnafBitsAndPiecesModBlocks.WALL_PUPPET.get()).build(null));
+	public static final RegistryObject<BlockEntityType<PuppetBoxTileEntity>> PUPPET_BOX = REGISTRY.register("puppet_box", () -> BlockEntityType.Builder.of(PuppetBoxTileEntity::new, FnafBitsAndPiecesModBlocks.PUPPET_BOX.get()).build(null));
+	public static final RegistryObject<BlockEntityType<EmptyBoxTileEntity>> EMPTY_BOX = REGISTRY.register("empty_box", () -> BlockEntityType.Builder.of(EmptyBoxTileEntity::new, FnafBitsAndPiecesModBlocks.EMPTY_BOX.get()).build(null));
+	public static final RegistryObject<BlockEntityType<FreddyBoxTileEntity>> FREDDY_BOX = REGISTRY.register("freddy_box", () -> BlockEntityType.Builder.of(FreddyBoxTileEntity::new, FnafBitsAndPiecesModBlocks.FREDDY_BOX.get()).build(null));
+	public static final RegistryObject<BlockEntityType<Generator0TileEntity>> GENERATOR_0 = REGISTRY.register("generator_0", () -> BlockEntityType.Builder.of(Generator0TileEntity::new, FnafBitsAndPiecesModBlocks.GENERATOR_0.get()).build(null));
+	public static final RegistryObject<BlockEntityType<SpringtrapHeadTileEntity>> SPRINGTRAP_HEAD = REGISTRY.register("springtrap_head",
+			() -> BlockEntityType.Builder.of(SpringtrapHeadTileEntity::new, FnafBitsAndPiecesModBlocks.SPRINGTRAP_HEAD.get()).build(null));
+	public static final RegistryObject<BlockEntityType<SpringtrapTorsoTileEntity>> SPRINGTRAP_TORSO = REGISTRY.register("springtrap_torso",
+			() -> BlockEntityType.Builder.of(SpringtrapTorsoTileEntity::new, FnafBitsAndPiecesModBlocks.SPRINGTRAP_TORSO.get()).build(null));
+	public static final RegistryObject<BlockEntityType<SpringtrapLeftLegTileEntity>> SPRINGTRAP_LEFT_LEG = REGISTRY.register("springtrap_left_leg",
+			() -> BlockEntityType.Builder.of(SpringtrapLeftLegTileEntity::new, FnafBitsAndPiecesModBlocks.SPRINGTRAP_LEFT_LEG.get()).build(null));
+	public static final RegistryObject<BlockEntityType<SpringtrapLeftArmTileEntity>> SPRINGTRAP_LEFT_ARM = REGISTRY.register("springtrap_left_arm",
+			() -> BlockEntityType.Builder.of(SpringtrapLeftArmTileEntity::new, FnafBitsAndPiecesModBlocks.SPRINGTRAP_LEFT_ARM.get()).build(null));
+	public static final RegistryObject<BlockEntityType<SpringtrapRightLegTileEntity>> SPRINGTRAP_RIGHT_LEG = REGISTRY.register("springtrap_right_leg",
+			() -> BlockEntityType.Builder.of(SpringtrapRightLegTileEntity::new, FnafBitsAndPiecesModBlocks.SPRINGTRAP_RIGHT_LEG.get()).build(null));
+	public static final RegistryObject<BlockEntityType<SpringtrapRightArmTileEntity>> SPRINGTRAP_RIGHT_ARM = REGISTRY.register("springtrap_right_arm",
+			() -> BlockEntityType.Builder.of(SpringtrapRightArmTileEntity::new, FnafBitsAndPiecesModBlocks.SPRINGTRAP_RIGHT_ARM.get()).build(null));
+	public static final RegistryObject<BlockEntityType<SpringtrapShowtimeTileEntity>> SPRINGTRAP_SHOWTIME = REGISTRY.register("springtrap_showtime",
+			() -> BlockEntityType.Builder.of(SpringtrapShowtimeTileEntity::new, FnafBitsAndPiecesModBlocks.SPRINGTRAP_SHOWTIME.get()).build(null));
+	public static final RegistryObject<BlockEntityType<ShadowFreddyHeadTileEntity>> SHADOW_FREDDY_HEAD = REGISTRY.register("shadow_freddy_head",
+			() -> BlockEntityType.Builder.of(ShadowFreddyHeadTileEntity::new, FnafBitsAndPiecesModBlocks.SHADOW_FREDDY_HEAD.get()).build(null));
+	public static final RegistryObject<BlockEntityType<ShadowFreddyTorsoTileEntity>> SHADOW_FREDDY_TORSO = REGISTRY.register("shadow_freddy_torso",
+			() -> BlockEntityType.Builder.of(ShadowFreddyTorsoTileEntity::new, FnafBitsAndPiecesModBlocks.SHADOW_FREDDY_TORSO.get()).build(null));
+	public static final RegistryObject<BlockEntityType<ShadowFreddyRightArmTileEntity>> SHADOW_FREDDY_RIGHT_ARM = REGISTRY.register("shadow_freddy_right_arm",
+			() -> BlockEntityType.Builder.of(ShadowFreddyRightArmTileEntity::new, FnafBitsAndPiecesModBlocks.SHADOW_FREDDY_RIGHT_ARM.get()).build(null));
+	public static final RegistryObject<BlockEntityType<ShadowFreddyLeftArmTileEntity>> SHADOW_FREDDY_LEFT_ARM = REGISTRY.register("shadow_freddy_left_arm",
+			() -> BlockEntityType.Builder.of(ShadowFreddyLeftArmTileEntity::new, FnafBitsAndPiecesModBlocks.SHADOW_FREDDY_LEFT_ARM.get()).build(null));
+	public static final RegistryObject<BlockEntityType<ShadowFreddyRightLegTileEntity>> SHADOW_FREDDY_RIGHT_LEG = REGISTRY.register("shadow_freddy_right_leg",
+			() -> BlockEntityType.Builder.of(ShadowFreddyRightLegTileEntity::new, FnafBitsAndPiecesModBlocks.SHADOW_FREDDY_RIGHT_LEG.get()).build(null));
+	public static final RegistryObject<BlockEntityType<ShadowFreddyLeftLegTileEntity>> SHADOW_FREDDY_LEFT_LEG = REGISTRY.register("shadow_freddy_left_leg",
+			() -> BlockEntityType.Builder.of(ShadowFreddyLeftLegTileEntity::new, FnafBitsAndPiecesModBlocks.SHADOW_FREDDY_LEFT_LEG.get()).build(null));
+	public static final RegistryObject<BlockEntityType<ShadowBonnieHeadTileEntity>> SHADOW_BONNIE_HEAD = REGISTRY.register("shadow_bonnie_head",
+			() -> BlockEntityType.Builder.of(ShadowBonnieHeadTileEntity::new, FnafBitsAndPiecesModBlocks.SHADOW_BONNIE_HEAD.get()).build(null));
+	public static final RegistryObject<BlockEntityType<ShadowBonnieTorsoTileEntity>> SHADOW_BONNIE_TORSO = REGISTRY.register("shadow_bonnie_torso",
+			() -> BlockEntityType.Builder.of(ShadowBonnieTorsoTileEntity::new, FnafBitsAndPiecesModBlocks.SHADOW_BONNIE_TORSO.get()).build(null));
+	public static final RegistryObject<BlockEntityType<ShadowBonnieRightArmTileEntity>> SHADOW_BONNIE_RIGHT_ARM = REGISTRY.register("shadow_bonnie_right_arm",
+			() -> BlockEntityType.Builder.of(ShadowBonnieRightArmTileEntity::new, FnafBitsAndPiecesModBlocks.SHADOW_BONNIE_RIGHT_ARM.get()).build(null));
+	public static final RegistryObject<BlockEntityType<ShadowBonnieLeftArmTileEntity>> SHADOW_BONNIE_LEFT_ARM = REGISTRY.register("shadow_bonnie_left_arm",
+			() -> BlockEntityType.Builder.of(ShadowBonnieLeftArmTileEntity::new, FnafBitsAndPiecesModBlocks.SHADOW_BONNIE_LEFT_ARM.get()).build(null));
+	public static final RegistryObject<BlockEntityType<ShadowBonnieLeftLegTileEntity>> SHADOW_BONNIE_LEFT_LEG = REGISTRY.register("shadow_bonnie_left_leg",
+			() -> BlockEntityType.Builder.of(ShadowBonnieLeftLegTileEntity::new, FnafBitsAndPiecesModBlocks.SHADOW_BONNIE_LEFT_LEG.get()).build(null));
+	public static final RegistryObject<BlockEntityType<ShadowBonnieRightLegTileEntity>> SHADOW_BONNIE_RIGHT_LEG = REGISTRY.register("shadow_bonnie_right_leg",
+			() -> BlockEntityType.Builder.of(ShadowBonnieRightLegTileEntity::new, FnafBitsAndPiecesModBlocks.SHADOW_BONNIE_RIGHT_LEG.get()).build(null));
 	public static final RegistryObject<BlockEntityType<UnwitheredGoldenBonnieShowtimeATileEntity>> UNWITHERED_GOLDEN_BONNIE_SHOWTIME_A = REGISTRY.register("unwithered_golden_bonnie_showtime_a",
 			() -> BlockEntityType.Builder.of(UnwitheredGoldenBonnieShowtimeATileEntity::new, FnafBitsAndPiecesModBlocks.UNWITHERED_GOLDEN_BONNIE_SHOWTIME_A.get()).build(null));
 	public static final RegistryObject<BlockEntityType<UnwitheredFoxyShowtimeATileEntity>> UNWITHERED_FOXY_SHOWTIME_A = REGISTRY.register("unwithered_foxy_showtime_a",
@@ -1368,6 +1532,10 @@ public class FnafBitsAndPiecesModBlockEntities {
 			() -> BlockEntityType.Builder.of(DinerGoldenBonnieShowtimeATileEntity::new, FnafBitsAndPiecesModBlocks.DINER_GOLDEN_BONNIE_SHOWTIME_A.get()).build(null));
 	public static final RegistryObject<BlockEntityType<AngledDinerGoldenBonnieShowtimeTileEntity>> ANGLED_DINER_GOLDEN_BONNIE_SHOWTIME = REGISTRY.register("angled_diner_golden_bonnie_showtime",
 			() -> BlockEntityType.Builder.of(AngledDinerGoldenBonnieShowtimeTileEntity::new, FnafBitsAndPiecesModBlocks.ANGLED_DINER_GOLDEN_BONNIE_SHOWTIME.get()).build(null));
+	public static final RegistryObject<BlockEntityType<AngledDinerGoldenBonnieShowtimeATileEntity>> ANGLED_DINER_GOLDEN_BONNIE_SHOWTIME_A = REGISTRY.register("angled_diner_golden_bonnie_showtime_a",
+			() -> BlockEntityType.Builder.of(AngledDinerGoldenBonnieShowtimeATileEntity::new, FnafBitsAndPiecesModBlocks.ANGLED_DINER_GOLDEN_BONNIE_SHOWTIME_A.get()).build(null));
+	public static final RegistryObject<BlockEntityType<OffsetDinerGoldenBonnieShowtimeTileEntity>> OFFSET_DINER_GOLDEN_BONNIE_SHOWTIME = REGISTRY.register("offset_diner_golden_bonnie_showtime",
+			() -> BlockEntityType.Builder.of(OffsetDinerGoldenBonnieShowtimeTileEntity::new, FnafBitsAndPiecesModBlocks.OFFSET_DINER_GOLDEN_BONNIE_SHOWTIME.get()).build(null));
 	public static final RegistryObject<BlockEntityType<OffsetDinerGoldenBonnieShowtimeATileEntity>> OFFSET_DINER_GOLDEN_BONNIE_SHOWTIME_A = REGISTRY.register("offset_diner_golden_bonnie_showtime_a",
 			() -> BlockEntityType.Builder.of(OffsetDinerGoldenBonnieShowtimeATileEntity::new, FnafBitsAndPiecesModBlocks.OFFSET_DINER_GOLDEN_BONNIE_SHOWTIME_A.get()).build(null));
 	public static final RegistryObject<BlockEntityType<DinerGoldenFreddyShowtimeATileEntity>> DINER_GOLDEN_FREDDY_SHOWTIME_A = REGISTRY.register("diner_golden_freddy_showtime_a",
@@ -1415,10 +1583,16 @@ public class FnafBitsAndPiecesModBlockEntities {
 			() -> BlockEntityType.Builder.of(OffsetPenguinShowtimeATileEntity::new, FnafBitsAndPiecesModBlocks.OFFSET_PENGUIN_SHOWTIME_A.get()).build(null));
 	public static final RegistryObject<BlockEntityType<CatShowtimeATileEntity>> CAT_SHOWTIME_A = REGISTRY.register("cat_showtime_a",
 			() -> BlockEntityType.Builder.of(CatShowtimeATileEntity::new, FnafBitsAndPiecesModBlocks.CAT_SHOWTIME_A.get()).build(null));
+	public static final RegistryObject<BlockEntityType<AngledCatShowtimeTileEntity>> ANGLED_CAT_SHOWTIME = REGISTRY.register("angled_cat_showtime",
+			() -> BlockEntityType.Builder.of(AngledCatShowtimeTileEntity::new, FnafBitsAndPiecesModBlocks.ANGLED_CAT_SHOWTIME.get()).build(null));
 	public static final RegistryObject<BlockEntityType<AngledCatShowtimeATileEntity>> ANGLED_CAT_SHOWTIME_A = REGISTRY.register("angled_cat_showtime_a",
 			() -> BlockEntityType.Builder.of(AngledCatShowtimeATileEntity::new, FnafBitsAndPiecesModBlocks.ANGLED_CAT_SHOWTIME_A.get()).build(null));
+	public static final RegistryObject<BlockEntityType<OffsetCatShowtimeTileEntity>> OFFSET_CAT_SHOWTIME = REGISTRY.register("offset_cat_showtime",
+			() -> BlockEntityType.Builder.of(OffsetCatShowtimeTileEntity::new, FnafBitsAndPiecesModBlocks.OFFSET_CAT_SHOWTIME.get()).build(null));
 	public static final RegistryObject<BlockEntityType<OffsetCatShowtimeATileEntity>> OFFSET_CAT_SHOWTIME_A = REGISTRY.register("offset_cat_showtime_a",
 			() -> BlockEntityType.Builder.of(OffsetCatShowtimeATileEntity::new, FnafBitsAndPiecesModBlocks.OFFSET_CAT_SHOWTIME_A.get()).build(null));
+	public static final RegistryObject<BlockEntityType<RatShowtimeATileEntity>> RAT_SHOWTIME_A = REGISTRY.register("rat_showtime_a",
+			() -> BlockEntityType.Builder.of(RatShowtimeATileEntity::new, FnafBitsAndPiecesModBlocks.RAT_SHOWTIME_A.get()).build(null));
 	public static final RegistryObject<BlockEntityType<AngledRatShowtimeTileEntity>> ANGLED_RAT_SHOWTIME = REGISTRY.register("angled_rat_showtime",
 			() -> BlockEntityType.Builder.of(AngledRatShowtimeTileEntity::new, FnafBitsAndPiecesModBlocks.ANGLED_RAT_SHOWTIME.get()).build(null));
 	public static final RegistryObject<BlockEntityType<AngledRatShowtimeATileEntity>> ANGLED_RAT_SHOWTIME_A = REGISTRY.register("angled_rat_showtime_a",
@@ -1429,6 +1603,8 @@ public class FnafBitsAndPiecesModBlockEntities {
 			() -> BlockEntityType.Builder.of(OffsetRatShowtimeATileEntity::new, FnafBitsAndPiecesModBlocks.OFFSET_RAT_SHOWTIME_A.get()).build(null));
 	public static final RegistryObject<BlockEntityType<FreddyFazbearShowtimeATileEntity>> FREDDY_FAZBEAR_SHOWTIME_A = REGISTRY.register("freddy_fazbear_showtime_a",
 			() -> BlockEntityType.Builder.of(FreddyFazbearShowtimeATileEntity::new, FnafBitsAndPiecesModBlocks.FREDDY_FAZBEAR_SHOWTIME_A.get()).build(null));
+	public static final RegistryObject<BlockEntityType<AngledFreddyFazbearShowtimeTileEntity>> ANGLED_FREDDY_FAZBEAR_SHOWTIME = REGISTRY.register("angled_freddy_fazbear_showtime",
+			() -> BlockEntityType.Builder.of(AngledFreddyFazbearShowtimeTileEntity::new, FnafBitsAndPiecesModBlocks.ANGLED_FREDDY_FAZBEAR_SHOWTIME.get()).build(null));
 	public static final RegistryObject<BlockEntityType<AngledFreddyFazbearShowtimeATileEntity>> ANGLED_FREDDY_FAZBEAR_SHOWTIME_A = REGISTRY.register("angled_freddy_fazbear_showtime_a",
 			() -> BlockEntityType.Builder.of(AngledFreddyFazbearShowtimeATileEntity::new, FnafBitsAndPiecesModBlocks.ANGLED_FREDDY_FAZBEAR_SHOWTIME_A.get()).build(null));
 	public static final RegistryObject<BlockEntityType<OffsetFreddyFazbearShowtimeTileEntity>> OFFSET_FREDDY_FAZBEAR_SHOWTIME = REGISTRY.register("offset_freddy_fazbear_showtime",
@@ -1569,6 +1745,45 @@ public class FnafBitsAndPiecesModBlockEntities {
 			() -> BlockEntityType.Builder.of(OffsetGoldenToyFreddyShowtimeTileEntity::new, FnafBitsAndPiecesModBlocks.OFFSET_GOLDEN_TOY_FREDDY_SHOWTIME.get()).build(null));
 	public static final RegistryObject<BlockEntityType<OffsetGoldenToyFreddyShowtimeATileEntity>> OFFSET_GOLDEN_TOY_FREDDY_SHOWTIME_A = REGISTRY.register("offset_golden_toy_freddy_showtime_a",
 			() -> BlockEntityType.Builder.of(OffsetGoldenToyFreddyShowtimeATileEntity::new, FnafBitsAndPiecesModBlocks.OFFSET_GOLDEN_TOY_FREDDY_SHOWTIME_A.get()).build(null));
+	public static final RegistryObject<BlockEntityType<PuppetBoxEvenTileEntity>> PUPPET_BOX_EVEN = REGISTRY.register("puppet_box_even",
+			() -> BlockEntityType.Builder.of(PuppetBoxEvenTileEntity::new, FnafBitsAndPiecesModBlocks.PUPPET_BOX_EVEN.get()).build(null));
+	public static final RegistryObject<BlockEntityType<PuppetBoxGiftTileEntity>> PUPPET_BOX_GIFT = REGISTRY.register("puppet_box_gift",
+			() -> BlockEntityType.Builder.of(PuppetBoxGiftTileEntity::new, FnafBitsAndPiecesModBlocks.PUPPET_BOX_GIFT.get()).build(null));
+	public static final RegistryObject<BlockEntityType<PuppetBoxGiftEvenTileEntity>> PUPPET_BOX_GIFT_EVEN = REGISTRY.register("puppet_box_gift_even",
+			() -> BlockEntityType.Builder.of(PuppetBoxGiftEvenTileEntity::new, FnafBitsAndPiecesModBlocks.PUPPET_BOX_GIFT_EVEN.get()).build(null));
+	public static final RegistryObject<BlockEntityType<PuppetBoxWindingTileEntity>> PUPPET_BOX_WINDING = REGISTRY.register("puppet_box_winding",
+			() -> BlockEntityType.Builder.of(PuppetBoxWindingTileEntity::new, FnafBitsAndPiecesModBlocks.PUPPET_BOX_WINDING.get()).build(null));
+	public static final RegistryObject<BlockEntityType<PuppetBoxWindingEvenTileEntity>> PUPPET_BOX_WINDING_EVEN = REGISTRY.register("puppet_box_winding_even",
+			() -> BlockEntityType.Builder.of(PuppetBoxWindingEvenTileEntity::new, FnafBitsAndPiecesModBlocks.PUPPET_BOX_WINDING_EVEN.get()).build(null));
+	public static final RegistryObject<BlockEntityType<PuppetBoxJumpscareTileEntity>> PUPPET_BOX_JUMPSCARE = REGISTRY.register("puppet_box_jumpscare",
+			() -> BlockEntityType.Builder.of(PuppetBoxJumpscareTileEntity::new, FnafBitsAndPiecesModBlocks.PUPPET_BOX_JUMPSCARE.get()).build(null));
+	public static final RegistryObject<BlockEntityType<PuppetBoxJumpscareEvenTileEntity>> PUPPET_BOX_JUMPSCARE_EVEN = REGISTRY.register("puppet_box_jumpscare_even",
+			() -> BlockEntityType.Builder.of(PuppetBoxJumpscareEvenTileEntity::new, FnafBitsAndPiecesModBlocks.PUPPET_BOX_JUMPSCARE_EVEN.get()).build(null));
+	public static final RegistryObject<BlockEntityType<PuppetBoxSlumpedTileEntity>> PUPPET_BOX_SLUMPED = REGISTRY.register("puppet_box_slumped",
+			() -> BlockEntityType.Builder.of(PuppetBoxSlumpedTileEntity::new, FnafBitsAndPiecesModBlocks.PUPPET_BOX_SLUMPED.get()).build(null));
+	public static final RegistryObject<BlockEntityType<PuppetBoxSlumpedEvenTileEntity>> PUPPET_BOX_SLUMPED_EVEN = REGISTRY.register("puppet_box_slumped_even",
+			() -> BlockEntityType.Builder.of(PuppetBoxSlumpedEvenTileEntity::new, FnafBitsAndPiecesModBlocks.PUPPET_BOX_SLUMPED_EVEN.get()).build(null));
+	public static final RegistryObject<BlockEntityType<FreddyBoxATileEntity>> FREDDY_BOX_A = REGISTRY.register("freddy_box_a", () -> BlockEntityType.Builder.of(FreddyBoxATileEntity::new, FnafBitsAndPiecesModBlocks.FREDDY_BOX_A.get()).build(null));
+	public static final RegistryObject<BlockEntityType<FreddyBoxSpinTileEntity>> FREDDY_BOX_SPIN = REGISTRY.register("freddy_box_spin",
+			() -> BlockEntityType.Builder.of(FreddyBoxSpinTileEntity::new, FnafBitsAndPiecesModBlocks.FREDDY_BOX_SPIN.get()).build(null));
+	public static final RegistryObject<BlockEntityType<Generator1TileEntity>> GENERATOR_1 = REGISTRY.register("generator_1", () -> BlockEntityType.Builder.of(Generator1TileEntity::new, FnafBitsAndPiecesModBlocks.GENERATOR_1.get()).build(null));
+	public static final RegistryObject<BlockEntityType<Generator2TileEntity>> GENERATOR_2 = REGISTRY.register("generator_2", () -> BlockEntityType.Builder.of(Generator2TileEntity::new, FnafBitsAndPiecesModBlocks.GENERATOR_2.get()).build(null));
+	public static final RegistryObject<BlockEntityType<Generator3TileEntity>> GENERATOR_3 = REGISTRY.register("generator_3", () -> BlockEntityType.Builder.of(Generator3TileEntity::new, FnafBitsAndPiecesModBlocks.GENERATOR_3.get()).build(null));
+	public static final RegistryObject<BlockEntityType<Generator4TileEntity>> GENERATOR_4 = REGISTRY.register("generator_4", () -> BlockEntityType.Builder.of(Generator4TileEntity::new, FnafBitsAndPiecesModBlocks.GENERATOR_4.get()).build(null));
+	public static final RegistryObject<BlockEntityType<Generator5TileEntity>> GENERATOR_5 = REGISTRY.register("generator_5", () -> BlockEntityType.Builder.of(Generator5TileEntity::new, FnafBitsAndPiecesModBlocks.GENERATOR_5.get()).build(null));
+	public static final RegistryObject<BlockEntityType<Generator6TileEntity>> GENERATOR_6 = REGISTRY.register("generator_6", () -> BlockEntityType.Builder.of(Generator6TileEntity::new, FnafBitsAndPiecesModBlocks.GENERATOR_6.get()).build(null));
+	public static final RegistryObject<BlockEntityType<Generator7TileEntity>> GENERATOR_7 = REGISTRY.register("generator_7", () -> BlockEntityType.Builder.of(Generator7TileEntity::new, FnafBitsAndPiecesModBlocks.GENERATOR_7.get()).build(null));
+	public static final RegistryObject<BlockEntityType<Generator8TileEntity>> GENERATOR_8 = REGISTRY.register("generator_8", () -> BlockEntityType.Builder.of(Generator8TileEntity::new, FnafBitsAndPiecesModBlocks.GENERATOR_8.get()).build(null));
+	public static final RegistryObject<BlockEntityType<SpringtrapShowtimeATileEntity>> SPRINGTRAP_SHOWTIME_A = REGISTRY.register("springtrap_showtime_a",
+			() -> BlockEntityType.Builder.of(SpringtrapShowtimeATileEntity::new, FnafBitsAndPiecesModBlocks.SPRINGTRAP_SHOWTIME_A.get()).build(null));
+	public static final RegistryObject<BlockEntityType<AngledSpringtrapShowtimeTileEntity>> ANGLED_SPRINGTRAP_SHOWTIME = REGISTRY.register("angled_springtrap_showtime",
+			() -> BlockEntityType.Builder.of(AngledSpringtrapShowtimeTileEntity::new, FnafBitsAndPiecesModBlocks.ANGLED_SPRINGTRAP_SHOWTIME.get()).build(null));
+	public static final RegistryObject<BlockEntityType<AngledSpringtrapShowtimeATileEntity>> ANGLED_SPRINGTRAP_SHOWTIME_A = REGISTRY.register("angled_springtrap_showtime_a",
+			() -> BlockEntityType.Builder.of(AngledSpringtrapShowtimeATileEntity::new, FnafBitsAndPiecesModBlocks.ANGLED_SPRINGTRAP_SHOWTIME_A.get()).build(null));
+	public static final RegistryObject<BlockEntityType<OffsetSpringtrapShowtimeTileEntity>> OFFSET_SPRINGTRAP_SHOWTIME = REGISTRY.register("offset_springtrap_showtime",
+			() -> BlockEntityType.Builder.of(OffsetSpringtrapShowtimeTileEntity::new, FnafBitsAndPiecesModBlocks.OFFSET_SPRINGTRAP_SHOWTIME.get()).build(null));
+	public static final RegistryObject<BlockEntityType<OffsetSpringtrapShowtimeATileEntity>> OFFSET_SPRINGTRAP_SHOWTIME_A = REGISTRY.register("offset_springtrap_showtime_a",
+			() -> BlockEntityType.Builder.of(OffsetSpringtrapShowtimeATileEntity::new, FnafBitsAndPiecesModBlocks.OFFSET_SPRINGTRAP_SHOWTIME_A.get()).build(null));
 
 	private static RegistryObject<BlockEntityType<?>> register(String registryname, RegistryObject<Block> block, BlockEntityType.BlockEntitySupplier<?> supplier) {
 		return REGISTRY.register(registryname, () -> BlockEntityType.Builder.of(supplier, block.get()).build(null));

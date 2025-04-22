@@ -1,544 +1,144 @@
 {
   "_fv": 43,
-  "_type": "gui",
+  "_type": "animatedblock",
   "definition": {
-    "type": 1,
-    "width": 176,
-    "height": 166,
-    "inventoryOffsetX": 0,
-    "inventoryOffsetY": 0,
-    "renderBgLayer": true,
-    "doesPauseGame": false,
-    "components": [
+    "texture": "jackintheboxpurpler",
+    "textureTop": "",
+    "textureLeft": "",
+    "textureFront": "",
+    "textureRight": "",
+    "textureBack": "",
+    "renderType": 0,
+    "rotationMode": 1,
+    "enablePitch": false,
+    "emissiveRendering": false,
+    "displayFluidOverlay": false,
+    "itemTexture": "puppetboxitem",
+    "particleTexture": "",
+    "tintType": "No tint",
+    "isItemTinted": false,
+    "hasTransparency": true,
+    "connectedSides": false,
+    "transparencyType": "SOLID",
+    "disableOffset": false,
+    "boundingBoxes": [
       {
-        "type": "inputslot",
-        "data": {
-          "inputLimit": {
-            "value": ""
-          },
-          "disablePlacement": {
-            "fixedValue": false
-          },
-          "color": {
-            "value": -13369549,
-            "falpha": 0.0
-          },
-          "id": 0,
-          "disablePickup": {
-            "fixedValue": false
-          },
-          "dropItemsWhenNotBound": true,
-          "x": 159,
-          "y": 44
-        }
-      },
-      {
-        "type": "inputslot",
-        "data": {
-          "inputLimit": {
-            "value": ""
-          },
-          "disablePlacement": {
-            "fixedValue": false
-          },
-          "color": {
-            "value": -13369549,
-            "falpha": 0.0
-          },
-          "id": 1,
-          "disablePickup": {
-            "fixedValue": false
-          },
-          "dropItemsWhenNotBound": true,
-          "x": 177,
-          "y": 44
-        }
-      },
-      {
-        "type": "inputslot",
-        "data": {
-          "inputLimit": {
-            "value": ""
-          },
-          "disablePlacement": {
-            "fixedValue": false
-          },
-          "color": {
-            "value": -13369549,
-            "falpha": 0.0
-          },
-          "id": 2,
-          "disablePickup": {
-            "fixedValue": false
-          },
-          "dropItemsWhenNotBound": true,
-          "x": 159,
-          "y": 62
-        }
-      },
-      {
-        "type": "inputslot",
-        "data": {
-          "inputLimit": {
-            "value": ""
-          },
-          "disablePlacement": {
-            "fixedValue": false
-          },
-          "color": {
-            "value": -13369549,
-            "falpha": 0.0
-          },
-          "id": 3,
-          "disablePickup": {
-            "fixedValue": false
-          },
-          "dropItemsWhenNotBound": true,
-          "x": 177,
-          "y": 62
-        }
-      },
-      {
-        "type": "inputslot",
-        "data": {
-          "inputLimit": {
-            "value": ""
-          },
-          "disablePlacement": {
-            "fixedValue": false
-          },
-          "color": {
-            "value": -16737793,
-            "falpha": 0.0
-          },
-          "id": 4,
-          "disablePickup": {
-            "fixedValue": false
-          },
-          "dropItemsWhenNotBound": true,
-          "x": 195,
-          "y": 44
-        }
-      },
-      {
-        "type": "inputslot",
-        "data": {
-          "inputLimit": {
-            "value": ""
-          },
-          "disablePlacement": {
-            "fixedValue": false
-          },
-          "color": {
-            "value": -16737793,
-            "falpha": 0.0
-          },
-          "id": 5,
-          "disablePickup": {
-            "fixedValue": false
-          },
-          "dropItemsWhenNotBound": true,
-          "x": 213,
-          "y": 44
-        }
-      },
-      {
-        "type": "inputslot",
-        "data": {
-          "inputLimit": {
-            "value": ""
-          },
-          "disablePlacement": {
-            "fixedValue": false
-          },
-          "color": {
-            "value": -16737793,
-            "falpha": 0.0
-          },
-          "id": 6,
-          "disablePickup": {
-            "fixedValue": false
-          },
-          "dropItemsWhenNotBound": true,
-          "x": 195,
-          "y": 62
-        }
-      },
-      {
-        "type": "inputslot",
-        "data": {
-          "inputLimit": {
-            "value": ""
-          },
-          "disablePlacement": {
-            "fixedValue": false
-          },
-          "color": {
-            "value": -16737793,
-            "falpha": 0.0
-          },
-          "id": 7,
-          "disablePickup": {
-            "fixedValue": false
-          },
-          "dropItemsWhenNotBound": true,
-          "x": 213,
-          "y": 62
-        }
-      },
-      {
-        "type": "inputslot",
-        "data": {
-          "inputLimit": {
-            "value": ""
-          },
-          "disablePlacement": {
-            "fixedValue": false
-          },
-          "color": {
-            "value": -16724839,
-            "falpha": 0.0
-          },
-          "id": 8,
-          "disablePickup": {
-            "fixedValue": false
-          },
-          "dropItemsWhenNotBound": true,
-          "x": 231,
-          "y": 44
-        }
-      },
-      {
-        "type": "inputslot",
-        "data": {
-          "inputLimit": {
-            "value": ""
-          },
-          "disablePlacement": {
-            "fixedValue": false
-          },
-          "color": {
-            "value": -16724839,
-            "falpha": 0.0
-          },
-          "id": 9,
-          "disablePickup": {
-            "fixedValue": false
-          },
-          "dropItemsWhenNotBound": true,
-          "x": 249,
-          "y": 44
-        }
-      },
-      {
-        "type": "inputslot",
-        "data": {
-          "inputLimit": {
-            "value": ""
-          },
-          "disablePlacement": {
-            "fixedValue": false
-          },
-          "color": {
-            "value": -16724839,
-            "falpha": 0.0
-          },
-          "id": 10,
-          "disablePickup": {
-            "fixedValue": false
-          },
-          "dropItemsWhenNotBound": true,
-          "x": 231,
-          "y": 62
-        }
-      },
-      {
-        "type": "inputslot",
-        "data": {
-          "inputLimit": {
-            "value": ""
-          },
-          "disablePlacement": {
-            "fixedValue": false
-          },
-          "color": {
-            "value": -16724839,
-            "falpha": 0.0
-          },
-          "id": 11,
-          "disablePickup": {
-            "fixedValue": false
-          },
-          "dropItemsWhenNotBound": true,
-          "x": 249,
-          "y": 62
-        }
-      },
-      {
-        "type": "inputslot",
-        "data": {
-          "inputLimit": {
-            "value": ""
-          },
-          "disablePlacement": {
-            "fixedValue": false
-          },
-          "color": {
-            "value": -256,
-            "falpha": 0.0
-          },
-          "id": 12,
-          "disablePickup": {
-            "fixedValue": false
-          },
-          "dropItemsWhenNotBound": true,
-          "x": 159,
-          "y": 80
-        }
-      },
-      {
-        "type": "inputslot",
-        "data": {
-          "inputLimit": {
-            "value": ""
-          },
-          "disablePlacement": {
-            "fixedValue": false
-          },
-          "color": {
-            "value": -256,
-            "falpha": 0.0
-          },
-          "id": 13,
-          "disablePickup": {
-            "fixedValue": false
-          },
-          "dropItemsWhenNotBound": true,
-          "x": 177,
-          "y": 80
-        }
-      },
-      {
-        "type": "inputslot",
-        "data": {
-          "inputLimit": {
-            "value": ""
-          },
-          "disablePlacement": {
-            "fixedValue": false
-          },
-          "color": {
-            "value": -256,
-            "falpha": 0.0
-          },
-          "id": 14,
-          "disablePickup": {
-            "fixedValue": false
-          },
-          "dropItemsWhenNotBound": true,
-          "x": 195,
-          "y": 80
-        }
-      },
-      {
-        "type": "inputslot",
-        "data": {
-          "inputLimit": {
-            "value": ""
-          },
-          "disablePlacement": {
-            "fixedValue": false
-          },
-          "color": {
-            "value": -6750055,
-            "falpha": 0.0
-          },
-          "id": 15,
-          "disablePickup": {
-            "fixedValue": false
-          },
-          "dropItemsWhenNotBound": true,
-          "x": 213,
-          "y": 80
-        }
-      },
-      {
-        "type": "inputslot",
-        "data": {
-          "inputLimit": {
-            "value": ""
-          },
-          "disablePlacement": {
-            "fixedValue": false
-          },
-          "color": {
-            "value": -6750055,
-            "falpha": 0.0
-          },
-          "id": 16,
-          "disablePickup": {
-            "fixedValue": false
-          },
-          "dropItemsWhenNotBound": true,
-          "x": 231,
-          "y": 80
-        }
-      },
-      {
-        "type": "inputslot",
-        "data": {
-          "inputLimit": {
-            "value": ""
-          },
-          "disablePlacement": {
-            "fixedValue": false
-          },
-          "color": {
-            "value": -6750055,
-            "falpha": 0.0
-          },
-          "id": 17,
-          "disablePickup": {
-            "fixedValue": false
-          },
-          "dropItemsWhenNotBound": true,
-          "x": 249,
-          "y": 80
-        }
-      },
-      {
-        "type": "inputslot",
-        "data": {
-          "inputLimit": {
-            "value": ""
-          },
-          "disablePlacement": {
-            "fixedValue": false
-          },
-          "color": {
-            "value": -16777216,
-            "falpha": 0.0
-          },
-          "id": 18,
-          "disablePickup": {
-            "fixedValue": false
-          },
-          "dropItemsWhenNotBound": true,
-          "x": 204,
-          "y": 98
-        }
-      },
-      {
-        "type": "button",
-        "data": {
-          "name": "button_default",
-          "text": "Default",
-          "onClick": {
-            "name": "PuppetBoxDefaultButton"
-          },
-          "width": 61,
-          "height": 20,
-          "x": 132,
-          "y": 98
-        }
-      },
-      {
-        "type": "label",
-        "data": {
-          "name": "label_488",
-          "text": {
-            "fixedValue": "48.8%"
-          },
-          "color": {
-            "value": -13369549,
-            "falpha": 0.0
-          },
-          "x": 267,
-          "y": 53
-        }
-      },
-      {
-        "type": "label",
-        "data": {
-          "name": "label_439",
-          "text": {
-            "fixedValue": "43.9%"
-          },
-          "color": {
-            "value": -16737793,
-            "falpha": 0.0
-          },
-          "x": 267,
-          "y": 62
-        }
-      },
-      {
-        "type": "label",
-        "data": {
-          "name": "label_024",
-          "text": {
-            "fixedValue": "02.4%"
-          },
-          "color": {
-            "value": -16724839,
-            "falpha": 0.0
-          },
-          "x": 267,
-          "y": 71
-        }
-      },
-      {
-        "type": "label",
-        "data": {
-          "name": "label_037",
-          "text": {
-            "fixedValue": "03.7%"
-          },
-          "color": {
-            "value": -256,
-            "falpha": 0.0
-          },
-          "x": 267,
-          "y": 80
-        }
-      },
-      {
-        "type": "label",
-        "data": {
-          "name": "label_011",
-          "text": {
-            "fixedValue": "01.1%"
-          },
-          "color": {
-            "value": -6750055,
-            "falpha": 0.0
-          },
-          "x": 267,
-          "y": 89
-        }
-      },
-      {
-        "type": "label",
-        "data": {
-          "name": "label_001",
-          "text": {
-            "fixedValue": "00.1%"
-          },
-          "color": {
-            "value": -16777216,
-            "falpha": 0.0
-          },
-          "x": 267,
-          "y": 98
-        }
+        "mx": 0.0,
+        "my": 0.0,
+        "mz": 0.0,
+        "Mx": 16.0,
+        "My": 15.9,
+        "Mz": 16.0,
+        "subtract": false
       }
     ],
-    "gridSettings": {
-      "sx": 18,
-      "sy": 18,
-      "ox": 11,
-      "oy": 15,
-      "snapOnGrid": true
-    }
+    "name": "Puppet Box",
+    "specialInfo": [],
+    "hardness": 1.0,
+    "resistance": 10.0,
+    "hasGravity": false,
+    "isWaterloggable": false,
+    "creativeTab": {
+      "value": "CUSTOM:BPBlocks"
+    },
+    "destroyTool": "Not specified",
+    "customDrop": {
+      "value": ""
+    },
+    "dropAmount": 1,
+    "useLootTableForDrops": false,
+    "requiresCorrectTool": false,
+    "enchantPowerBonus": 0.0,
+    "plantsGrowOn": false,
+    "canRedstoneConnect": false,
+    "lightOpacity": 0,
+    "material": {
+      "value": "ROCK"
+    },
+    "tickRate": 0,
+    "tickRandomly": false,
+    "isReplaceable": false,
+    "canProvidePower": false,
+    "emittedRedstonePower": {
+      "fixedValue": 15.0
+    },
+    "colorOnMap": "DEFAULT",
+    "creativePickItem": {
+      "value": ""
+    },
+    "offsetType": "NONE",
+    "aiPathNodeType": "DEFAULT",
+    "flammability": 0,
+    "fireSpreadSpeed": 0,
+    "isLadder": false,
+    "slipperiness": 0.6,
+    "speedFactor": 1.0,
+    "jumpFactor": 1.0,
+    "animationCount": 1,
+    "reactionToPushing": "NORMAL",
+    "isNotColidable": false,
+    "isCustomSoundType": false,
+    "soundOnStep": {
+      "value": "WOOD"
+    },
+    "breakSound": {
+      "value": ""
+    },
+    "fallSound": {
+      "value": ""
+    },
+    "hitSound": {
+      "value": ""
+    },
+    "placeSound": {
+      "value": ""
+    },
+    "stepSound": {
+      "value": ""
+    },
+    "luminance": 0,
+    "unbreakable": false,
+    "breakHarvestLevel": 1,
+    "spawnParticles": false,
+    "particleToSpawn": {
+      "value": "EXPLOSION_NORMAL"
+    },
+    "particleSpawningShape": "Spread",
+    "particleSpawningRadious": 0.5,
+    "particleAmount": 4,
+    "hasInventory": true,
+    "guiBoundTo": "PuppetBoxGUI",
+    "openGUIOnRightClick": false,
+    "inventorySize": 19,
+    "inventoryStackSize": 64,
+    "inventoryDropWhenDestroyed": false,
+    "inventoryComparatorPower": true,
+    "inventoryOutSlotIDs": [],
+    "inventoryInSlotIDs": [],
+    "hasEnergyStorage": false,
+    "energyInitial": 0,
+    "energyCapacity": 400000,
+    "energyMaxReceive": 200,
+    "energyMaxExtract": 200,
+    "isFluidTank": false,
+    "fluidCapacity": 8000,
+    "fluidRestrictions": [],
+    "onRightClicked": {
+      "name": "PuppetBoxRightClick"
+    },
+    "spawnWorldTypes": [],
+    "restrictionBiomes": [],
+    "blocksToReplace": [
+      {
+        "value": "Blocks.STONE"
+      }
+    ],
+    "generationShape": "UNIFORM",
+    "frequencyPerChunks": 10,
+    "frequencyOnChunk": 16,
+    "minGenerateHeight": 0,
+    "maxGenerateHeight": 64,
+    "normal": "puppetinthebox.geo.json",
+    "displaySettings": "fullanimatronic.item.json"
   }
 }

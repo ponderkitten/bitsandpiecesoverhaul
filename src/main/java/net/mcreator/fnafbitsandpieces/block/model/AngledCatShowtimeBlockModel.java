@@ -9,16 +9,16 @@ import net.mcreator.fnafbitsandpieces.block.entity.AngledCatShowtimeTileEntity;
 public class AngledCatShowtimeBlockModel extends AnimatedGeoModel<AngledCatShowtimeTileEntity> {
 	@Override
 	public ResourceLocation getAnimationResource(AngledCatShowtimeTileEntity animatable) {
-		return new ResourceLocation("fnaf_bits_and_pieces", "animations/ratparts.animation.json");
+		return new ResourceLocation("fnaf_bits_and_pieces", "animations/catshowtime.animation.json");
 	}
 
 	@Override
 	public ResourceLocation getModelResource(AngledCatShowtimeTileEntity animatable) {
-		return new ResourceLocation("fnaf_bits_and_pieces", "geo/ratparts.geo.json");
+		return new ResourceLocation("fnaf_bits_and_pieces", "geo/catshowtime.geo.json");
 	}
 
 	@Override
 	public ResourceLocation getTextureResource(AngledCatShowtimeTileEntity entity) {
-		return new ResourceLocation("fnaf_bits_and_pieces", "textures/blocks/rattorso.png");
+		return new ResourceLocation("fnaf_bits_and_pieces", "textures/blocks/fixedcatshowtimeangled.png");
 	}
 }

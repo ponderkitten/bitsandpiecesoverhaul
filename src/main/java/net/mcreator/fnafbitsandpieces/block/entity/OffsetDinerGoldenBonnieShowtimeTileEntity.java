@@ -137,7 +137,7 @@ public class OffsetDinerGoldenBonnieShowtimeTileEntity extends RandomizableConta
 
 	@Override
 	public Component getDisplayName() {
-		return Component.literal("Diner Golden Bonnie Right Arm");
+		return Component.literal("Diner Golden Bonnie Showtime");
 	}
 
 	@Override

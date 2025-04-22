@@ -2,7 +2,7 @@
   "_fv": 43,
   "_type": "animatedblock",
   "definition": {
-    "texture": "witheredoldcandyrightarm",
+    "texture": "witheredoldcandyleftarm",
     "textureTop": "",
     "textureLeft": "",
     "textureFront": "",
@@ -13,7 +13,7 @@
     "enablePitch": false,
     "emissiveRendering": false,
     "displayFluidOverlay": false,
-    "itemTexture": "witheredoldcandyrightarm",
+    "itemTexture": "witheredoldcandyleftarm",
     "particleTexture": "",
     "tintType": "No tint",
     "isItemTinted": false,
@@ -32,7 +32,7 @@
         "subtract": false
       }
     ],
-    "name": "Withered Old Candy Right Arm",
+    "name": "Withered Old Candy Left Arm",
     "specialInfo": [],
     "hardness": 1.0,
     "resistance": 10.0,

@@ -137,7 +137,7 @@ public class AngledFreddyFazbearShowtimeTileEntity extends RandomizableContainer
 
 	@Override
 	public Component getDisplayName() {
-		return Component.literal("Bonnie Bunny Head");
+		return Component.literal("Freddy Fazbear Showtime");
 	}
 
 	@Override

@@ -2,7 +2,7 @@
   "_fv": 43,
   "_type": "animatedblock",
   "definition": {
-    "texture": "dinergoldenbonnierightarm",
+    "texture": "dinergoldenbonnieoffset",
     "textureTop": "",
     "textureLeft": "",
     "textureFront": "",
@@ -13,7 +13,7 @@
     "enablePitch": false,
     "emissiveRendering": false,
     "displayFluidOverlay": false,
-    "itemTexture": "dinergoldenbonnierightarm",
+    "itemTexture": "dinergoldenbonnieitem",
     "particleTexture": "",
     "tintType": "No tint",
     "isItemTinted": false,
@@ -23,23 +23,23 @@
     "disableOffset": false,
     "boundingBoxes": [
       {
-        "mx": 0.0,
+        "mx": 8.0,
         "my": 0.0,
         "mz": 0.0,
-        "Mx": 16.0,
-        "My": 15.9,
+        "Mx": 24.0,
+        "My": 32.0,
         "Mz": 16.0,
         "subtract": false
       }
     ],
-    "name": "Diner Golden Bonnie Right Arm",
+    "name": "Diner Golden Bonnie Showtime",
     "specialInfo": [],
     "hardness": 1.0,
     "resistance": 10.0,
     "hasGravity": false,
     "isWaterloggable": false,
     "creativeTab": {
-      "value": "CUSTOM:FredBears"
+      "value": "No creative tab entry"
     },
     "destroyTool": "Not specified",
     "customDrop": {
@@ -124,10 +124,10 @@
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
     "onRightClicked": {
-      "name": "PartsRightClickCode"
+      "name": "ShowtimeRightClick"
     },
-    "onTickUpdate": {
-      "name": "PartsTickUpdate"
+    "onRedstoneOn": {
+      "name": "ShowtimeUniversal"
     },
     "spawnWorldTypes": [],
     "restrictionBiomes": [],
@@ -141,7 +141,7 @@
     "frequencyOnChunk": 16,
     "minGenerateHeight": 0,
     "maxGenerateHeight": 64,
-    "normal": "dinerbonnieparts.geo.json",
+    "normal": "dinerbonnieshowtime.geo.json",
     "displaySettings": "fullanimatronic.item.json"
   }
 }

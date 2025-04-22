@@ -4,7 +4,6 @@
  */
 package net.mcreator.fnafbitsandpieces.init;
 
-import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.CreativeModeTab;
 
@@ -16,6 +15,7 @@ public class FnafBitsAndPiecesModTabs {
 	public static CreativeModeTab TAB_FNAF_3;
 	public static CreativeModeTab TAB_PHONE_CALLS;
 	public static CreativeModeTab TAB_FNAC;
+	public static CreativeModeTab TAB_BP_BLOCKS;
 
 	public static void load() {
 		TAB_FRED_BEARS = new CreativeModeTab("tabfred_bears") {
@@ -32,7 +32,7 @@ public class FnafBitsAndPiecesModTabs {
 		TAB_BP_ITEMS = new CreativeModeTab("tabbp_items") {
 			@Override
 			public ItemStack makeIcon() {
-				return new ItemStack(FnafBitsAndPiecesModItems.FAZBEAR_EMPLOYEE_MANUAL.get());
+				return new ItemStack(FnafBitsAndPiecesModItems.PUPPET_KEY.get());
 			}
 
 			@Override
@@ -65,7 +65,7 @@ public class FnafBitsAndPiecesModTabs {
 		TAB_FNAF_3 = new CreativeModeTab("tabfnaf_3") {
 			@Override
 			public ItemStack makeIcon() {
-				return new ItemStack(Blocks.GREEN_WOOL);
+				return new ItemStack(FnafBitsAndPiecesModBlocks.SPRINGTRAP_HEAD.get());
 			}
 
 			@Override
@@ -88,6 +88,17 @@ public class FnafBitsAndPiecesModTabs {
 			@Override
 			public ItemStack makeIcon() {
 				return new ItemStack(FnafBitsAndPiecesModBlocks.CANDY_HEAD.get());
+			}
+
+			@Override
+			public boolean hasSearchBar() {
+				return false;
+			}
+		};
+		TAB_BP_BLOCKS = new CreativeModeTab("tabbp_blocks") {
+			@Override
+			public ItemStack makeIcon() {
+				return new ItemStack(FnafBitsAndPiecesModBlocks.PUPPET_BOX.get());
 			}
 
 			@Override

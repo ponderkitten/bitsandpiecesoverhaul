@@ -2,7 +2,7 @@
   "_fv": 43,
   "_type": "animatedblock",
   "definition": {
-    "texture": "goldenfreddytorso",
+    "texture": "foxypiratehead",
     "textureTop": "",
     "textureLeft": "",
     "textureFront": "",
@@ -13,7 +13,7 @@
     "enablePitch": false,
     "emissiveRendering": false,
     "displayFluidOverlay": false,
-    "itemTexture": "goldenfreddytorso",
+    "itemTexture": "foxypiratehead",
     "particleTexture": "",
     "tintType": "No tint",
     "isItemTinted": false,
@@ -32,7 +32,7 @@
         "subtract": false
       }
     ],
-    "name": "Golden Freddy Torso",
+    "name": "Foxy The Pirate Head",
     "specialInfo": [],
     "hardness": 1.0,
     "resistance": 10.0,
@@ -141,7 +141,7 @@
     "frequencyOnChunk": 16,
     "minGenerateHeight": 0,
     "maxGenerateHeight": 64,
-    "normal": "freddyfazbearparts.geo.json",
+    "normal": "foxypirateparts.geo.json",
     "displaySettings": "fullanimatronic.item.json"
   }
 }

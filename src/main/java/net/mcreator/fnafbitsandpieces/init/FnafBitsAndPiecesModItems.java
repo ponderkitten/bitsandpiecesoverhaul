@@ -14,6 +14,8 @@ import net.mcreator.fnafbitsandpieces.item.TicketItem;
 import net.mcreator.fnafbitsandpieces.item.PuppetKeyItem;
 import net.mcreator.fnafbitsandpieces.item.MysteriousCassetteItem;
 import net.mcreator.fnafbitsandpieces.item.HandCrankItem;
+import net.mcreator.fnafbitsandpieces.item.FnafMovieThemeItem;
+import net.mcreator.fnafbitsandpieces.item.FnafMovieThemeIntroItem;
 import net.mcreator.fnafbitsandpieces.item.FazbearEmployeeManualItem;
 import net.mcreator.fnafbitsandpieces.item.F3N6Item;
 import net.mcreator.fnafbitsandpieces.item.F3N5Item;
@@ -32,6 +34,7 @@ import net.mcreator.fnafbitsandpieces.item.F1N4Item;
 import net.mcreator.fnafbitsandpieces.item.F1N3Item;
 import net.mcreator.fnafbitsandpieces.item.F1N2Item;
 import net.mcreator.fnafbitsandpieces.item.F1N1Item;
+import net.mcreator.fnafbitsandpieces.item.CoinItem;
 import net.mcreator.fnafbitsandpieces.block.display.YellowRabbitTorsoDisplayItem;
 import net.mcreator.fnafbitsandpieces.block.display.YellowRabbitShowtimeDisplayItem;
 import net.mcreator.fnafbitsandpieces.block.display.YellowRabbitShowtimeADisplayItem;
@@ -48,6 +51,23 @@ import net.mcreator.fnafbitsandpieces.block.display.YellowBearRightArmDisplayIte
 import net.mcreator.fnafbitsandpieces.block.display.YellowBearLeftLegDisplayItem;
 import net.mcreator.fnafbitsandpieces.block.display.YellowBearLeftArmDisplayItem;
 import net.mcreator.fnafbitsandpieces.block.display.YellowBearHeadDisplayItem;
+import net.mcreator.fnafbitsandpieces.block.display.WitheredToyFreddyTorsoDisplayItem;
+import net.mcreator.fnafbitsandpieces.block.display.WitheredToyFreddyRightLegDisplayItem;
+import net.mcreator.fnafbitsandpieces.block.display.WitheredToyFreddyRightArmDisplayItem;
+import net.mcreator.fnafbitsandpieces.block.display.WitheredToyFreddyLeftLegDisplayItem;
+import net.mcreator.fnafbitsandpieces.block.display.WitheredToyFreddyLeftArmDisplayItem;
+import net.mcreator.fnafbitsandpieces.block.display.WitheredToyFreddyHeadDisplayItem;
+import net.mcreator.fnafbitsandpieces.block.display.WitheredToyChicaTorsoDisplayItem;
+import net.mcreator.fnafbitsandpieces.block.display.WitheredToyChicaRightLegDisplayItem;
+import net.mcreator.fnafbitsandpieces.block.display.WitheredToyChicaRightArmDisplayItem;
+import net.mcreator.fnafbitsandpieces.block.display.WitheredToyChicaLeftLegDisplayItem;
+import net.mcreator.fnafbitsandpieces.block.display.WitheredToyChicaLeftArmDisplayItem;
+import net.mcreator.fnafbitsandpieces.block.display.WitheredToyChicaHeadDisplayItem;
+import net.mcreator.fnafbitsandpieces.block.display.WitheredToyBonnieTorsoDisplayItem;
+import net.mcreator.fnafbitsandpieces.block.display.WitheredToyBonnieRightLegDisplayItem;
+import net.mcreator.fnafbitsandpieces.block.display.WitheredToyBonnieLeftLegDisplayItem;
+import net.mcreator.fnafbitsandpieces.block.display.WitheredToyBonnieLeftArmDisplayItem;
+import net.mcreator.fnafbitsandpieces.block.display.WitheredToyBonnieHeadDisplayItem;
 import net.mcreator.fnafbitsandpieces.block.display.WitheredRatTorsoDisplayItem;
 import net.mcreator.fnafbitsandpieces.block.display.WitheredRatRightLegDisplayItem;
 import net.mcreator.fnafbitsandpieces.block.display.WitheredRatRightArmDisplayItem;
@@ -126,6 +146,7 @@ import net.mcreator.fnafbitsandpieces.block.display.WitheredBlankRightArmDisplay
 import net.mcreator.fnafbitsandpieces.block.display.WitheredBlankLeftLegDisplayItem;
 import net.mcreator.fnafbitsandpieces.block.display.WitheredBlankLeftArmDisplayItem;
 import net.mcreator.fnafbitsandpieces.block.display.WitheredBlankHeadDisplayItem;
+import net.mcreator.fnafbitsandpieces.block.display.WallPuppetDisplayItem;
 import net.mcreator.fnafbitsandpieces.block.display.UnwitheredGoldenFreddyTorsoDisplayItem;
 import net.mcreator.fnafbitsandpieces.block.display.UnwitheredGoldenFreddyShowtimeDisplayItem;
 import net.mcreator.fnafbitsandpieces.block.display.UnwitheredGoldenFreddyShowtimeADisplayItem;
@@ -206,6 +227,14 @@ import net.mcreator.fnafbitsandpieces.block.display.ToyBonnieRightArmDisplayItem
 import net.mcreator.fnafbitsandpieces.block.display.ToyBonnieLeftLegDisplayItem;
 import net.mcreator.fnafbitsandpieces.block.display.ToyBonnieLeftArmDisplayItem;
 import net.mcreator.fnafbitsandpieces.block.display.ToyBonnieHeadDisplayItem;
+import net.mcreator.fnafbitsandpieces.block.display.SpringtrapTorsoDisplayItem;
+import net.mcreator.fnafbitsandpieces.block.display.SpringtrapShowtimeDisplayItem;
+import net.mcreator.fnafbitsandpieces.block.display.SpringtrapShowtimeADisplayItem;
+import net.mcreator.fnafbitsandpieces.block.display.SpringtrapRightLegDisplayItem;
+import net.mcreator.fnafbitsandpieces.block.display.SpringtrapRightArmDisplayItem;
+import net.mcreator.fnafbitsandpieces.block.display.SpringtrapLeftLegDisplayItem;
+import net.mcreator.fnafbitsandpieces.block.display.SpringtrapLeftArmDisplayItem;
+import net.mcreator.fnafbitsandpieces.block.display.SpringtrapHeadDisplayItem;
 import net.mcreator.fnafbitsandpieces.block.display.SpringBonnieTorsoDisplayItem;
 import net.mcreator.fnafbitsandpieces.block.display.SpringBonnieShowtimeDisplayItem;
 import net.mcreator.fnafbitsandpieces.block.display.SpringBonnieShowtimeADisplayItem;
@@ -214,6 +243,24 @@ import net.mcreator.fnafbitsandpieces.block.display.SpringBonnieRightArmDisplayI
 import net.mcreator.fnafbitsandpieces.block.display.SpringBonnieLeftLegDisplayItem;
 import net.mcreator.fnafbitsandpieces.block.display.SpringBonnieLeftArmDisplayItem;
 import net.mcreator.fnafbitsandpieces.block.display.SpringBonnieHeadDisplayItem;
+import net.mcreator.fnafbitsandpieces.block.display.SparkyTorsoDisplayItem;
+import net.mcreator.fnafbitsandpieces.block.display.SparkyRightLegDisplayItem;
+import net.mcreator.fnafbitsandpieces.block.display.SparkyRightArmDisplayItem;
+import net.mcreator.fnafbitsandpieces.block.display.SparkyLeftLegDisplayItem;
+import net.mcreator.fnafbitsandpieces.block.display.SparkyLeftArmDisplayItem;
+import net.mcreator.fnafbitsandpieces.block.display.SparkyHeadDisplayItem;
+import net.mcreator.fnafbitsandpieces.block.display.ShadowFreddyTorsoDisplayItem;
+import net.mcreator.fnafbitsandpieces.block.display.ShadowFreddyRightLegDisplayItem;
+import net.mcreator.fnafbitsandpieces.block.display.ShadowFreddyRightArmDisplayItem;
+import net.mcreator.fnafbitsandpieces.block.display.ShadowFreddyLeftLegDisplayItem;
+import net.mcreator.fnafbitsandpieces.block.display.ShadowFreddyLeftArmDisplayItem;
+import net.mcreator.fnafbitsandpieces.block.display.ShadowFreddyHeadDisplayItem;
+import net.mcreator.fnafbitsandpieces.block.display.ShadowBonnieTorsoDisplayItem;
+import net.mcreator.fnafbitsandpieces.block.display.ShadowBonnieRightLegDisplayItem;
+import net.mcreator.fnafbitsandpieces.block.display.ShadowBonnieRightArmDisplayItem;
+import net.mcreator.fnafbitsandpieces.block.display.ShadowBonnieLeftLegDisplayItem;
+import net.mcreator.fnafbitsandpieces.block.display.ShadowBonnieLeftArmDisplayItem;
+import net.mcreator.fnafbitsandpieces.block.display.ShadowBonnieHeadDisplayItem;
 import net.mcreator.fnafbitsandpieces.block.display.RatTorsoDisplayItem;
 import net.mcreator.fnafbitsandpieces.block.display.RatShowtimeDisplayItem;
 import net.mcreator.fnafbitsandpieces.block.display.RatShowtimeADisplayItem;
@@ -222,6 +269,22 @@ import net.mcreator.fnafbitsandpieces.block.display.RatRightArmDisplayItem;
 import net.mcreator.fnafbitsandpieces.block.display.RatLeftLegDisplayItem;
 import net.mcreator.fnafbitsandpieces.block.display.RatLeftArmDisplayItem;
 import net.mcreator.fnafbitsandpieces.block.display.RatHeadDisplayItem;
+import net.mcreator.fnafbitsandpieces.block.display.PurpleGuyTorsoDisplayItem;
+import net.mcreator.fnafbitsandpieces.block.display.PurpleGuyRightLegDisplayItem;
+import net.mcreator.fnafbitsandpieces.block.display.PurpleGuyRightArmDisplayItem;
+import net.mcreator.fnafbitsandpieces.block.display.PurpleGuyLeftlegDisplayItem;
+import net.mcreator.fnafbitsandpieces.block.display.PurpleGuyLeftArmDisplayItem;
+import net.mcreator.fnafbitsandpieces.block.display.PurpleGuyHeadDisplayItem;
+import net.mcreator.fnafbitsandpieces.block.display.PuppetBoxWindingEvenDisplayItem;
+import net.mcreator.fnafbitsandpieces.block.display.PuppetBoxWindingDisplayItem;
+import net.mcreator.fnafbitsandpieces.block.display.PuppetBoxSlumpedEvenDisplayItem;
+import net.mcreator.fnafbitsandpieces.block.display.PuppetBoxSlumpedDisplayItem;
+import net.mcreator.fnafbitsandpieces.block.display.PuppetBoxJumpscareEvenDisplayItem;
+import net.mcreator.fnafbitsandpieces.block.display.PuppetBoxJumpscareDisplayItem;
+import net.mcreator.fnafbitsandpieces.block.display.PuppetBoxGiftEvenDisplayItem;
+import net.mcreator.fnafbitsandpieces.block.display.PuppetBoxGiftDisplayItem;
+import net.mcreator.fnafbitsandpieces.block.display.PuppetBoxEvenDisplayItem;
+import net.mcreator.fnafbitsandpieces.block.display.PuppetBoxDisplayItem;
 import net.mcreator.fnafbitsandpieces.block.display.PenguinShowtimeDisplayItem;
 import net.mcreator.fnafbitsandpieces.block.display.PenguinShowtimeADisplayItem;
 import net.mcreator.fnafbitsandpieces.block.display.PenguinHeadDisplayItem;
@@ -256,6 +319,8 @@ import net.mcreator.fnafbitsandpieces.block.display.OffsetToyChicaShowtimeDispla
 import net.mcreator.fnafbitsandpieces.block.display.OffsetToyChicaShowtimeADisplayItem;
 import net.mcreator.fnafbitsandpieces.block.display.OffsetToyBonnieShowtimeDisplayItem;
 import net.mcreator.fnafbitsandpieces.block.display.OffsetToyBonnieShowtimeADisplayItem;
+import net.mcreator.fnafbitsandpieces.block.display.OffsetSpringtrapShowtimeDisplayItem;
+import net.mcreator.fnafbitsandpieces.block.display.OffsetSpringtrapShowtimeADisplayItem;
 import net.mcreator.fnafbitsandpieces.block.display.OffsetSpringBonnieShowtimeDisplayItem;
 import net.mcreator.fnafbitsandpieces.block.display.OffsetSpringBonnieShowtimeADisplayItem;
 import net.mcreator.fnafbitsandpieces.block.display.OffsetRatShowtimeDisplayItem;
@@ -324,6 +389,15 @@ import net.mcreator.fnafbitsandpieces.block.display.GoldenFreddyRightArmDisplayI
 import net.mcreator.fnafbitsandpieces.block.display.GoldenFreddyLeftLegDisplayItem;
 import net.mcreator.fnafbitsandpieces.block.display.GoldenFreddyLeftArmDisplayItem;
 import net.mcreator.fnafbitsandpieces.block.display.GoldenFreddyHeadDisplayItem;
+import net.mcreator.fnafbitsandpieces.block.display.Generator8DisplayItem;
+import net.mcreator.fnafbitsandpieces.block.display.Generator7DisplayItem;
+import net.mcreator.fnafbitsandpieces.block.display.Generator6DisplayItem;
+import net.mcreator.fnafbitsandpieces.block.display.Generator5DisplayItem;
+import net.mcreator.fnafbitsandpieces.block.display.Generator4DisplayItem;
+import net.mcreator.fnafbitsandpieces.block.display.Generator3DisplayItem;
+import net.mcreator.fnafbitsandpieces.block.display.Generator2DisplayItem;
+import net.mcreator.fnafbitsandpieces.block.display.Generator1DisplayItem;
+import net.mcreator.fnafbitsandpieces.block.display.Generator0DisplayItem;
 import net.mcreator.fnafbitsandpieces.block.display.FreddyFazbearTorsoDisplayItem;
 import net.mcreator.fnafbitsandpieces.block.display.FreddyFazbearShowtimeDisplayItem;
 import net.mcreator.fnafbitsandpieces.block.display.FreddyFazbearShowtimeADisplayItem;
@@ -332,6 +406,9 @@ import net.mcreator.fnafbitsandpieces.block.display.FreddyFazbearRightArmDisplay
 import net.mcreator.fnafbitsandpieces.block.display.FreddyFazbearLeftLegDisplayItem;
 import net.mcreator.fnafbitsandpieces.block.display.FreddyFazbearLeftArmDisplayItem;
 import net.mcreator.fnafbitsandpieces.block.display.FreddyFazbearHeadDisplayItem;
+import net.mcreator.fnafbitsandpieces.block.display.FreddyBoxSpinDisplayItem;
+import net.mcreator.fnafbitsandpieces.block.display.FreddyBoxDisplayItem;
+import net.mcreator.fnafbitsandpieces.block.display.FreddyBoxADisplayItem;
 import net.mcreator.fnafbitsandpieces.block.display.FredbearTorsoDisplayItem;
 import net.mcreator.fnafbitsandpieces.block.display.FredbearShowtimeDisplayItem;
 import net.mcreator.fnafbitsandpieces.block.display.FredbearShowtimeADisplayItem;
@@ -368,6 +445,7 @@ import net.mcreator.fnafbitsandpieces.block.display.Endo01HeadFoxyDisplayItem;
 import net.mcreator.fnafbitsandpieces.block.display.Endo01HeadDisplayItem;
 import net.mcreator.fnafbitsandpieces.block.display.Endo01HeadChicaDisplayItem;
 import net.mcreator.fnafbitsandpieces.block.display.Endo01HeadBonnieDisplayItem;
+import net.mcreator.fnafbitsandpieces.block.display.EmptyBoxDisplayItem;
 import net.mcreator.fnafbitsandpieces.block.display.DinerGoldenFreddyTorsoDisplayItem;
 import net.mcreator.fnafbitsandpieces.block.display.DinerGoldenFreddyShowtimeDisplayItem;
 import net.mcreator.fnafbitsandpieces.block.display.DinerGoldenFreddyShowtimeADisplayItem;
@@ -513,6 +591,8 @@ import net.mcreator.fnafbitsandpieces.block.display.AngledToyChicaShowtimeDispla
 import net.mcreator.fnafbitsandpieces.block.display.AngledToyChicaShowtimeADisplayItem;
 import net.mcreator.fnafbitsandpieces.block.display.AngledToyBonnieShowtimeDisplayItem;
 import net.mcreator.fnafbitsandpieces.block.display.AngledToyBonnieShowtimeADisplayItem;
+import net.mcreator.fnafbitsandpieces.block.display.AngledSpringtrapShowtimeDisplayItem;
+import net.mcreator.fnafbitsandpieces.block.display.AngledSpringtrapShowtimeADisplayItem;
 import net.mcreator.fnafbitsandpieces.block.display.AngledSpringBonnieShowtimeDisplayItem;
 import net.mcreator.fnafbitsandpieces.block.display.AngledSpringBonnieShowtimeADisplayItem;
 import net.mcreator.fnafbitsandpieces.block.display.AngledRatShowtimeDisplayItem;
@@ -565,6 +645,9 @@ public class FnafBitsAndPiecesModItems {
 	public static final RegistryObject<Item> FAZBEAR_EMPLOYEE_MANUAL = REGISTRY.register("fazbear_employee_manual", () -> new FazbearEmployeeManualItem());
 	public static final RegistryObject<Item> TICKET = REGISTRY.register("ticket", () -> new TicketItem());
 	public static final RegistryObject<Item> PUPPET_KEY = REGISTRY.register("puppet_key", () -> new PuppetKeyItem());
+	public static final RegistryObject<Item> FNAF_MOVIE_THEME = REGISTRY.register("fnaf_movie_theme", () -> new FnafMovieThemeItem());
+	public static final RegistryObject<Item> FNAF_MOVIE_THEME_INTRO = REGISTRY.register("fnaf_movie_theme_intro", () -> new FnafMovieThemeIntroItem());
+	public static final RegistryObject<Item> COIN = REGISTRY.register("coin", () -> new CoinItem());
 	public static final RegistryObject<Item> UNWITHERED_FOXY_HEAD = REGISTRY.register(FnafBitsAndPiecesModBlocks.UNWITHERED_FOXY_HEAD.getId().getPath(),
 			() -> new UnwitheredFoxyHeadDisplayItem(FnafBitsAndPiecesModBlocks.UNWITHERED_FOXY_HEAD.get(), new Item.Properties().tab(FnafBitsAndPiecesModTabs.TAB_FRED_BEARS)));
 	public static final RegistryObject<Item> UNWITHERED_FOXYTORSO = REGISTRY.register(FnafBitsAndPiecesModBlocks.UNWITHERED_FOXYTORSO.getId().getPath(),
@@ -781,10 +864,6 @@ public class FnafBitsAndPiecesModItems {
 			() -> new DinerGoldenBonnieLeftLegDisplayItem(FnafBitsAndPiecesModBlocks.DINER_GOLDEN_BONNIE_LEFT_LEG.get(), new Item.Properties().tab(FnafBitsAndPiecesModTabs.TAB_FRED_BEARS)));
 	public static final RegistryObject<Item> DINER_GOLDEN_BONNIE_SHOWTIME = REGISTRY.register(FnafBitsAndPiecesModBlocks.DINER_GOLDEN_BONNIE_SHOWTIME.getId().getPath(),
 			() -> new DinerGoldenBonnieShowtimeDisplayItem(FnafBitsAndPiecesModBlocks.DINER_GOLDEN_BONNIE_SHOWTIME.get(), new Item.Properties().tab(FnafBitsAndPiecesModTabs.TAB_FRED_BEARS)));
-	public static final RegistryObject<Item> ANGLED_DINER_GOLDEN_BONNIE_SHOWTIME_A = REGISTRY.register(FnafBitsAndPiecesModBlocks.ANGLED_DINER_GOLDEN_BONNIE_SHOWTIME_A.getId().getPath(),
-			() -> new AngledDinerGoldenBonnieShowtimeADisplayItem(FnafBitsAndPiecesModBlocks.ANGLED_DINER_GOLDEN_BONNIE_SHOWTIME_A.get(), new Item.Properties().tab(FnafBitsAndPiecesModTabs.TAB_FRED_BEARS)));
-	public static final RegistryObject<Item> OFFSET_DINER_GOLDEN_BONNIE_SHOWTIME = REGISTRY.register(FnafBitsAndPiecesModBlocks.OFFSET_DINER_GOLDEN_BONNIE_SHOWTIME.getId().getPath(),
-			() -> new OffsetDinerGoldenBonnieShowtimeDisplayItem(FnafBitsAndPiecesModBlocks.OFFSET_DINER_GOLDEN_BONNIE_SHOWTIME.get(), new Item.Properties().tab(FnafBitsAndPiecesModTabs.TAB_FRED_BEARS)));
 	public static final RegistryObject<Item> F_1_N_1 = REGISTRY.register("f_1_n_1", () -> new F1N1Item());
 	public static final RegistryObject<Item> F_1_N_2 = REGISTRY.register("f_1_n_2", () -> new F1N2Item());
 	public static final RegistryObject<Item> F_1_N_3 = REGISTRY.register("f_1_n_3", () -> new F1N3Item());
@@ -1010,10 +1089,6 @@ public class FnafBitsAndPiecesModItems {
 			() -> new WitheredRatRightLegDisplayItem(FnafBitsAndPiecesModBlocks.WITHERED_RAT_RIGHT_LEG.get(), new Item.Properties().tab(FnafBitsAndPiecesModTabs.TAB_FNAC)));
 	public static final RegistryObject<Item> WITHERED_RAT_LEFT_LEG = REGISTRY.register(FnafBitsAndPiecesModBlocks.WITHERED_RAT_LEFT_LEG.getId().getPath(),
 			() -> new WitheredRatLeftLegDisplayItem(FnafBitsAndPiecesModBlocks.WITHERED_RAT_LEFT_LEG.get(), new Item.Properties().tab(FnafBitsAndPiecesModTabs.TAB_FNAC)));
-	public static final RegistryObject<Item> ANGLED_CAT_SHOWTIME = REGISTRY.register(FnafBitsAndPiecesModBlocks.ANGLED_CAT_SHOWTIME.getId().getPath(),
-			() -> new AngledCatShowtimeDisplayItem(FnafBitsAndPiecesModBlocks.ANGLED_CAT_SHOWTIME.get(), new Item.Properties().tab(FnafBitsAndPiecesModTabs.TAB_FNAC)));
-	public static final RegistryObject<Item> OFFSET_CAT_SHOWTIME = REGISTRY.register(FnafBitsAndPiecesModBlocks.OFFSET_CAT_SHOWTIME.getId().getPath(),
-			() -> new OffsetCatShowtimeDisplayItem(FnafBitsAndPiecesModBlocks.OFFSET_CAT_SHOWTIME.get(), new Item.Properties().tab(FnafBitsAndPiecesModTabs.TAB_FNAC)));
 	public static final RegistryObject<Item> FREDDY_FAZBEAR_HEAD = REGISTRY.register(FnafBitsAndPiecesModBlocks.FREDDY_FAZBEAR_HEAD.getId().getPath(),
 			() -> new FreddyFazbearHeadDisplayItem(FnafBitsAndPiecesModBlocks.FREDDY_FAZBEAR_HEAD.get(), new Item.Properties().tab(FnafBitsAndPiecesModTabs.TAB_FNAF_1)));
 	public static final RegistryObject<Item> FREDDY_FAZBEAR_TORSO = REGISTRY.register(FnafBitsAndPiecesModBlocks.FREDDY_FAZBEAR_TORSO.getId().getPath(),
@@ -1140,10 +1215,18 @@ public class FnafBitsAndPiecesModItems {
 			() -> new YellowRabbitLeftLegDisplayItem(FnafBitsAndPiecesModBlocks.YELLOW_RABBIT_LEFT_LEG.get(), new Item.Properties().tab(FnafBitsAndPiecesModTabs.TAB_FNAF_1)));
 	public static final RegistryObject<Item> YELLOW_RABBIT_SHOWTIME = REGISTRY.register(FnafBitsAndPiecesModBlocks.YELLOW_RABBIT_SHOWTIME.getId().getPath(),
 			() -> new YellowRabbitShowtimeDisplayItem(FnafBitsAndPiecesModBlocks.YELLOW_RABBIT_SHOWTIME.get(), new Item.Properties().tab(FnafBitsAndPiecesModTabs.TAB_FNAF_1)));
-	public static final RegistryObject<Item> RAT_SHOWTIME_A = REGISTRY.register(FnafBitsAndPiecesModBlocks.RAT_SHOWTIME_A.getId().getPath(),
-			() -> new RatShowtimeADisplayItem(FnafBitsAndPiecesModBlocks.RAT_SHOWTIME_A.get(), new Item.Properties().tab(FnafBitsAndPiecesModTabs.TAB_FNAF_1)));
-	public static final RegistryObject<Item> ANGLED_FREDDY_FAZBEAR_SHOWTIME = REGISTRY.register(FnafBitsAndPiecesModBlocks.ANGLED_FREDDY_FAZBEAR_SHOWTIME.getId().getPath(),
-			() -> new AngledFreddyFazbearShowtimeDisplayItem(FnafBitsAndPiecesModBlocks.ANGLED_FREDDY_FAZBEAR_SHOWTIME.get(), new Item.Properties().tab(FnafBitsAndPiecesModTabs.TAB_FNAF_1)));
+	public static final RegistryObject<Item> SPARKY_HEAD = REGISTRY.register(FnafBitsAndPiecesModBlocks.SPARKY_HEAD.getId().getPath(),
+			() -> new SparkyHeadDisplayItem(FnafBitsAndPiecesModBlocks.SPARKY_HEAD.get(), new Item.Properties().tab(FnafBitsAndPiecesModTabs.TAB_FNAF_1)));
+	public static final RegistryObject<Item> SPARKY_TORSO = REGISTRY.register(FnafBitsAndPiecesModBlocks.SPARKY_TORSO.getId().getPath(),
+			() -> new SparkyTorsoDisplayItem(FnafBitsAndPiecesModBlocks.SPARKY_TORSO.get(), new Item.Properties().tab(FnafBitsAndPiecesModTabs.TAB_FNAF_1)));
+	public static final RegistryObject<Item> SPARKY_RIGHT_ARM = REGISTRY.register(FnafBitsAndPiecesModBlocks.SPARKY_RIGHT_ARM.getId().getPath(),
+			() -> new SparkyRightArmDisplayItem(FnafBitsAndPiecesModBlocks.SPARKY_RIGHT_ARM.get(), new Item.Properties().tab(FnafBitsAndPiecesModTabs.TAB_FNAF_1)));
+	public static final RegistryObject<Item> SPARKY_LEFT_ARM = REGISTRY.register(FnafBitsAndPiecesModBlocks.SPARKY_LEFT_ARM.getId().getPath(),
+			() -> new SparkyLeftArmDisplayItem(FnafBitsAndPiecesModBlocks.SPARKY_LEFT_ARM.get(), new Item.Properties().tab(FnafBitsAndPiecesModTabs.TAB_FNAF_1)));
+	public static final RegistryObject<Item> SPARKY_RIGHT_LEG = REGISTRY.register(FnafBitsAndPiecesModBlocks.SPARKY_RIGHT_LEG.getId().getPath(),
+			() -> new SparkyRightLegDisplayItem(FnafBitsAndPiecesModBlocks.SPARKY_RIGHT_LEG.get(), new Item.Properties().tab(FnafBitsAndPiecesModTabs.TAB_FNAF_1)));
+	public static final RegistryObject<Item> SPARKY_LEFT_LEG = REGISTRY.register(FnafBitsAndPiecesModBlocks.SPARKY_LEFT_LEG.getId().getPath(),
+			() -> new SparkyLeftLegDisplayItem(FnafBitsAndPiecesModBlocks.SPARKY_LEFT_LEG.get(), new Item.Properties().tab(FnafBitsAndPiecesModTabs.TAB_FNAF_1)));
 	public static final RegistryObject<Item> TOY_FREDDY_HEAD = REGISTRY.register(FnafBitsAndPiecesModBlocks.TOY_FREDDY_HEAD.getId().getPath(),
 			() -> new ToyFreddyHeadDisplayItem(FnafBitsAndPiecesModBlocks.TOY_FREDDY_HEAD.get(), new Item.Properties().tab(FnafBitsAndPiecesModTabs.TAB_FNAF_2)));
 	public static final RegistryObject<Item> TOY_FREDDY_TORSO = REGISTRY.register(FnafBitsAndPiecesModBlocks.TOY_FREDDY_TORSO.getId().getPath(),
@@ -1296,6 +1379,100 @@ public class FnafBitsAndPiecesModItems {
 			() -> new WitheredGoldenBonnieRightLegDisplayItem(FnafBitsAndPiecesModBlocks.WITHERED_GOLDEN_BONNIE_RIGHT_LEG.get(), new Item.Properties().tab(FnafBitsAndPiecesModTabs.TAB_FNAF_2)));
 	public static final RegistryObject<Item> WITHERED_GOLDEN_BONNIE_LEFT_LEG = REGISTRY.register(FnafBitsAndPiecesModBlocks.WITHERED_GOLDEN_BONNIE_LEFT_LEG.getId().getPath(),
 			() -> new WitheredGoldenBonnieLeftLegDisplayItem(FnafBitsAndPiecesModBlocks.WITHERED_GOLDEN_BONNIE_LEFT_LEG.get(), new Item.Properties().tab(FnafBitsAndPiecesModTabs.TAB_FNAF_2)));
+	public static final RegistryObject<Item> WITHERED_TOY_FREDDY_HEAD = REGISTRY.register(FnafBitsAndPiecesModBlocks.WITHERED_TOY_FREDDY_HEAD.getId().getPath(),
+			() -> new WitheredToyFreddyHeadDisplayItem(FnafBitsAndPiecesModBlocks.WITHERED_TOY_FREDDY_HEAD.get(), new Item.Properties().tab(FnafBitsAndPiecesModTabs.TAB_FNAF_2)));
+	public static final RegistryObject<Item> WITHERED_TOY_FREDDY_TORSO = REGISTRY.register(FnafBitsAndPiecesModBlocks.WITHERED_TOY_FREDDY_TORSO.getId().getPath(),
+			() -> new WitheredToyFreddyTorsoDisplayItem(FnafBitsAndPiecesModBlocks.WITHERED_TOY_FREDDY_TORSO.get(), new Item.Properties().tab(FnafBitsAndPiecesModTabs.TAB_FNAF_2)));
+	public static final RegistryObject<Item> WITHERED_TOY_FREDDY_RIGHT_ARM = REGISTRY.register(FnafBitsAndPiecesModBlocks.WITHERED_TOY_FREDDY_RIGHT_ARM.getId().getPath(),
+			() -> new WitheredToyFreddyRightArmDisplayItem(FnafBitsAndPiecesModBlocks.WITHERED_TOY_FREDDY_RIGHT_ARM.get(), new Item.Properties().tab(FnafBitsAndPiecesModTabs.TAB_FNAF_2)));
+	public static final RegistryObject<Item> WITHERED_TOY_FREDDY_LEFT_ARM = REGISTRY.register(FnafBitsAndPiecesModBlocks.WITHERED_TOY_FREDDY_LEFT_ARM.getId().getPath(),
+			() -> new WitheredToyFreddyLeftArmDisplayItem(FnafBitsAndPiecesModBlocks.WITHERED_TOY_FREDDY_LEFT_ARM.get(), new Item.Properties().tab(FnafBitsAndPiecesModTabs.TAB_FNAF_2)));
+	public static final RegistryObject<Item> WITHERED_TOY_FREDDY_RIGHT_LEG = REGISTRY.register(FnafBitsAndPiecesModBlocks.WITHERED_TOY_FREDDY_RIGHT_LEG.getId().getPath(),
+			() -> new WitheredToyFreddyRightLegDisplayItem(FnafBitsAndPiecesModBlocks.WITHERED_TOY_FREDDY_RIGHT_LEG.get(), new Item.Properties().tab(FnafBitsAndPiecesModTabs.TAB_FNAF_2)));
+	public static final RegistryObject<Item> WITHERED_TOY_FREDDY_LEFT_LEG = REGISTRY.register(FnafBitsAndPiecesModBlocks.WITHERED_TOY_FREDDY_LEFT_LEG.getId().getPath(),
+			() -> new WitheredToyFreddyLeftLegDisplayItem(FnafBitsAndPiecesModBlocks.WITHERED_TOY_FREDDY_LEFT_LEG.get(), new Item.Properties().tab(FnafBitsAndPiecesModTabs.TAB_FNAF_2)));
+	public static final RegistryObject<Item> WITHERED_TOY_BONNIE_HEAD = REGISTRY.register(FnafBitsAndPiecesModBlocks.WITHERED_TOY_BONNIE_HEAD.getId().getPath(),
+			() -> new WitheredToyBonnieHeadDisplayItem(FnafBitsAndPiecesModBlocks.WITHERED_TOY_BONNIE_HEAD.get(), new Item.Properties().tab(FnafBitsAndPiecesModTabs.TAB_FNAF_2)));
+	public static final RegistryObject<Item> WITHERED_TOY_BONNIE_TORSO = REGISTRY.register(FnafBitsAndPiecesModBlocks.WITHERED_TOY_BONNIE_TORSO.getId().getPath(),
+			() -> new WitheredToyBonnieTorsoDisplayItem(FnafBitsAndPiecesModBlocks.WITHERED_TOY_BONNIE_TORSO.get(), new Item.Properties().tab(FnafBitsAndPiecesModTabs.TAB_FNAF_2)));
+	public static final RegistryObject<Item> WITHERED_TOY_BONNIE_LEFT_ARM = REGISTRY.register(FnafBitsAndPiecesModBlocks.WITHERED_TOY_BONNIE_LEFT_ARM.getId().getPath(),
+			() -> new WitheredToyBonnieLeftArmDisplayItem(FnafBitsAndPiecesModBlocks.WITHERED_TOY_BONNIE_LEFT_ARM.get(), new Item.Properties().tab(FnafBitsAndPiecesModTabs.TAB_FNAF_2)));
+	public static final RegistryObject<Item> WITHERED_TOY_BONNIE_RIGHT_LEG = REGISTRY.register(FnafBitsAndPiecesModBlocks.WITHERED_TOY_BONNIE_RIGHT_LEG.getId().getPath(),
+			() -> new WitheredToyBonnieRightLegDisplayItem(FnafBitsAndPiecesModBlocks.WITHERED_TOY_BONNIE_RIGHT_LEG.get(), new Item.Properties().tab(FnafBitsAndPiecesModTabs.TAB_FNAF_2)));
+	public static final RegistryObject<Item> WITHERED_TOY_BONNIE_LEFT_LEG = REGISTRY.register(FnafBitsAndPiecesModBlocks.WITHERED_TOY_BONNIE_LEFT_LEG.getId().getPath(),
+			() -> new WitheredToyBonnieLeftLegDisplayItem(FnafBitsAndPiecesModBlocks.WITHERED_TOY_BONNIE_LEFT_LEG.get(), new Item.Properties().tab(FnafBitsAndPiecesModTabs.TAB_FNAF_2)));
+	public static final RegistryObject<Item> WITHERED_TOY_CHICA_HEAD = REGISTRY.register(FnafBitsAndPiecesModBlocks.WITHERED_TOY_CHICA_HEAD.getId().getPath(),
+			() -> new WitheredToyChicaHeadDisplayItem(FnafBitsAndPiecesModBlocks.WITHERED_TOY_CHICA_HEAD.get(), new Item.Properties().tab(FnafBitsAndPiecesModTabs.TAB_FNAF_2)));
+	public static final RegistryObject<Item> WITHERED_TOY_CHICA_TORSO = REGISTRY.register(FnafBitsAndPiecesModBlocks.WITHERED_TOY_CHICA_TORSO.getId().getPath(),
+			() -> new WitheredToyChicaTorsoDisplayItem(FnafBitsAndPiecesModBlocks.WITHERED_TOY_CHICA_TORSO.get(), new Item.Properties().tab(FnafBitsAndPiecesModTabs.TAB_FNAF_2)));
+	public static final RegistryObject<Item> WITHERED_TOY_CHICA_RIGHT_ARM = REGISTRY.register(FnafBitsAndPiecesModBlocks.WITHERED_TOY_CHICA_RIGHT_ARM.getId().getPath(),
+			() -> new WitheredToyChicaRightArmDisplayItem(FnafBitsAndPiecesModBlocks.WITHERED_TOY_CHICA_RIGHT_ARM.get(), new Item.Properties().tab(FnafBitsAndPiecesModTabs.TAB_FNAF_2)));
+	public static final RegistryObject<Item> WITHERED_TOY_CHICA_LEFT_ARM = REGISTRY.register(FnafBitsAndPiecesModBlocks.WITHERED_TOY_CHICA_LEFT_ARM.getId().getPath(),
+			() -> new WitheredToyChicaLeftArmDisplayItem(FnafBitsAndPiecesModBlocks.WITHERED_TOY_CHICA_LEFT_ARM.get(), new Item.Properties().tab(FnafBitsAndPiecesModTabs.TAB_FNAF_2)));
+	public static final RegistryObject<Item> WITHERED_TOY_CHICA_RIGHT_LEG = REGISTRY.register(FnafBitsAndPiecesModBlocks.WITHERED_TOY_CHICA_RIGHT_LEG.getId().getPath(),
+			() -> new WitheredToyChicaRightLegDisplayItem(FnafBitsAndPiecesModBlocks.WITHERED_TOY_CHICA_RIGHT_LEG.get(), new Item.Properties().tab(FnafBitsAndPiecesModTabs.TAB_FNAF_2)));
+	public static final RegistryObject<Item> WITHERED_TOY_CHICA_LEFT_LEG = REGISTRY.register(FnafBitsAndPiecesModBlocks.WITHERED_TOY_CHICA_LEFT_LEG.getId().getPath(),
+			() -> new WitheredToyChicaLeftLegDisplayItem(FnafBitsAndPiecesModBlocks.WITHERED_TOY_CHICA_LEFT_LEG.get(), new Item.Properties().tab(FnafBitsAndPiecesModTabs.TAB_FNAF_2)));
+	public static final RegistryObject<Item> PURPLE_GUY_HEAD = REGISTRY.register(FnafBitsAndPiecesModBlocks.PURPLE_GUY_HEAD.getId().getPath(),
+			() -> new PurpleGuyHeadDisplayItem(FnafBitsAndPiecesModBlocks.PURPLE_GUY_HEAD.get(), new Item.Properties().tab(FnafBitsAndPiecesModTabs.TAB_FNAF_2)));
+	public static final RegistryObject<Item> PURPLE_GUY_TORSO = REGISTRY.register(FnafBitsAndPiecesModBlocks.PURPLE_GUY_TORSO.getId().getPath(),
+			() -> new PurpleGuyTorsoDisplayItem(FnafBitsAndPiecesModBlocks.PURPLE_GUY_TORSO.get(), new Item.Properties().tab(FnafBitsAndPiecesModTabs.TAB_FNAF_2)));
+	public static final RegistryObject<Item> PURPLE_GUY_RIGHT_ARM = REGISTRY.register(FnafBitsAndPiecesModBlocks.PURPLE_GUY_RIGHT_ARM.getId().getPath(),
+			() -> new PurpleGuyRightArmDisplayItem(FnafBitsAndPiecesModBlocks.PURPLE_GUY_RIGHT_ARM.get(), new Item.Properties().tab(FnafBitsAndPiecesModTabs.TAB_FNAF_2)));
+	public static final RegistryObject<Item> PURPLE_GUY_LEFT_ARM = REGISTRY.register(FnafBitsAndPiecesModBlocks.PURPLE_GUY_LEFT_ARM.getId().getPath(),
+			() -> new PurpleGuyLeftArmDisplayItem(FnafBitsAndPiecesModBlocks.PURPLE_GUY_LEFT_ARM.get(), new Item.Properties().tab(FnafBitsAndPiecesModTabs.TAB_FNAF_2)));
+	public static final RegistryObject<Item> PURPLE_GUY_RIGHT_LEG = REGISTRY.register(FnafBitsAndPiecesModBlocks.PURPLE_GUY_RIGHT_LEG.getId().getPath(),
+			() -> new PurpleGuyRightLegDisplayItem(FnafBitsAndPiecesModBlocks.PURPLE_GUY_RIGHT_LEG.get(), new Item.Properties().tab(FnafBitsAndPiecesModTabs.TAB_FNAF_2)));
+	public static final RegistryObject<Item> PURPLE_GUY_LEFTLEG = REGISTRY.register(FnafBitsAndPiecesModBlocks.PURPLE_GUY_LEFTLEG.getId().getPath(),
+			() -> new PurpleGuyLeftlegDisplayItem(FnafBitsAndPiecesModBlocks.PURPLE_GUY_LEFTLEG.get(), new Item.Properties().tab(FnafBitsAndPiecesModTabs.TAB_FNAF_2)));
+	public static final RegistryObject<Item> WALL_PUPPET = REGISTRY.register(FnafBitsAndPiecesModBlocks.WALL_PUPPET.getId().getPath(),
+			() -> new WallPuppetDisplayItem(FnafBitsAndPiecesModBlocks.WALL_PUPPET.get(), new Item.Properties().tab(FnafBitsAndPiecesModTabs.TAB_BP_BLOCKS)));
+	public static final RegistryObject<Item> PUPPET_BOX = REGISTRY.register(FnafBitsAndPiecesModBlocks.PUPPET_BOX.getId().getPath(),
+			() -> new PuppetBoxDisplayItem(FnafBitsAndPiecesModBlocks.PUPPET_BOX.get(), new Item.Properties().tab(FnafBitsAndPiecesModTabs.TAB_BP_BLOCKS)));
+	public static final RegistryObject<Item> EMPTY_BOX = REGISTRY.register(FnafBitsAndPiecesModBlocks.EMPTY_BOX.getId().getPath(),
+			() -> new EmptyBoxDisplayItem(FnafBitsAndPiecesModBlocks.EMPTY_BOX.get(), new Item.Properties().tab(FnafBitsAndPiecesModTabs.TAB_BP_BLOCKS)));
+	public static final RegistryObject<Item> FREDDY_BOX = REGISTRY.register(FnafBitsAndPiecesModBlocks.FREDDY_BOX.getId().getPath(),
+			() -> new FreddyBoxDisplayItem(FnafBitsAndPiecesModBlocks.FREDDY_BOX.get(), new Item.Properties().tab(FnafBitsAndPiecesModTabs.TAB_BP_BLOCKS)));
+	public static final RegistryObject<Item> GENERATOR_0 = REGISTRY.register(FnafBitsAndPiecesModBlocks.GENERATOR_0.getId().getPath(),
+			() -> new Generator0DisplayItem(FnafBitsAndPiecesModBlocks.GENERATOR_0.get(), new Item.Properties().tab(FnafBitsAndPiecesModTabs.TAB_BP_BLOCKS)));
+	public static final RegistryObject<Item> SPRINGTRAP_HEAD = REGISTRY.register(FnafBitsAndPiecesModBlocks.SPRINGTRAP_HEAD.getId().getPath(),
+			() -> new SpringtrapHeadDisplayItem(FnafBitsAndPiecesModBlocks.SPRINGTRAP_HEAD.get(), new Item.Properties().tab(FnafBitsAndPiecesModTabs.TAB_FNAF_3)));
+	public static final RegistryObject<Item> SPRINGTRAP_TORSO = REGISTRY.register(FnafBitsAndPiecesModBlocks.SPRINGTRAP_TORSO.getId().getPath(),
+			() -> new SpringtrapTorsoDisplayItem(FnafBitsAndPiecesModBlocks.SPRINGTRAP_TORSO.get(), new Item.Properties().tab(FnafBitsAndPiecesModTabs.TAB_FNAF_3)));
+	public static final RegistryObject<Item> SPRINGTRAP_LEFT_LEG = REGISTRY.register(FnafBitsAndPiecesModBlocks.SPRINGTRAP_LEFT_LEG.getId().getPath(),
+			() -> new SpringtrapLeftLegDisplayItem(FnafBitsAndPiecesModBlocks.SPRINGTRAP_LEFT_LEG.get(), new Item.Properties().tab(FnafBitsAndPiecesModTabs.TAB_FNAF_3)));
+	public static final RegistryObject<Item> SPRINGTRAP_LEFT_ARM = REGISTRY.register(FnafBitsAndPiecesModBlocks.SPRINGTRAP_LEFT_ARM.getId().getPath(),
+			() -> new SpringtrapLeftArmDisplayItem(FnafBitsAndPiecesModBlocks.SPRINGTRAP_LEFT_ARM.get(), new Item.Properties().tab(FnafBitsAndPiecesModTabs.TAB_FNAF_3)));
+	public static final RegistryObject<Item> SPRINGTRAP_RIGHT_LEG = REGISTRY.register(FnafBitsAndPiecesModBlocks.SPRINGTRAP_RIGHT_LEG.getId().getPath(),
+			() -> new SpringtrapRightLegDisplayItem(FnafBitsAndPiecesModBlocks.SPRINGTRAP_RIGHT_LEG.get(), new Item.Properties().tab(FnafBitsAndPiecesModTabs.TAB_FNAF_3)));
+	public static final RegistryObject<Item> SPRINGTRAP_RIGHT_ARM = REGISTRY.register(FnafBitsAndPiecesModBlocks.SPRINGTRAP_RIGHT_ARM.getId().getPath(),
+			() -> new SpringtrapRightArmDisplayItem(FnafBitsAndPiecesModBlocks.SPRINGTRAP_RIGHT_ARM.get(), new Item.Properties().tab(FnafBitsAndPiecesModTabs.TAB_FNAF_3)));
+	public static final RegistryObject<Item> SPRINGTRAP_SHOWTIME = REGISTRY.register(FnafBitsAndPiecesModBlocks.SPRINGTRAP_SHOWTIME.getId().getPath(),
+			() -> new SpringtrapShowtimeDisplayItem(FnafBitsAndPiecesModBlocks.SPRINGTRAP_SHOWTIME.get(), new Item.Properties().tab(FnafBitsAndPiecesModTabs.TAB_FNAF_3)));
+	public static final RegistryObject<Item> SHADOW_FREDDY_HEAD = REGISTRY.register(FnafBitsAndPiecesModBlocks.SHADOW_FREDDY_HEAD.getId().getPath(),
+			() -> new ShadowFreddyHeadDisplayItem(FnafBitsAndPiecesModBlocks.SHADOW_FREDDY_HEAD.get(), new Item.Properties().tab(FnafBitsAndPiecesModTabs.TAB_FNAF_3)));
+	public static final RegistryObject<Item> SHADOW_FREDDY_TORSO = REGISTRY.register(FnafBitsAndPiecesModBlocks.SHADOW_FREDDY_TORSO.getId().getPath(),
+			() -> new ShadowFreddyTorsoDisplayItem(FnafBitsAndPiecesModBlocks.SHADOW_FREDDY_TORSO.get(), new Item.Properties().tab(FnafBitsAndPiecesModTabs.TAB_FNAF_3)));
+	public static final RegistryObject<Item> SHADOW_FREDDY_RIGHT_ARM = REGISTRY.register(FnafBitsAndPiecesModBlocks.SHADOW_FREDDY_RIGHT_ARM.getId().getPath(),
+			() -> new ShadowFreddyRightArmDisplayItem(FnafBitsAndPiecesModBlocks.SHADOW_FREDDY_RIGHT_ARM.get(), new Item.Properties().tab(FnafBitsAndPiecesModTabs.TAB_FNAF_3)));
+	public static final RegistryObject<Item> SHADOW_FREDDY_LEFT_ARM = REGISTRY.register(FnafBitsAndPiecesModBlocks.SHADOW_FREDDY_LEFT_ARM.getId().getPath(),
+			() -> new ShadowFreddyLeftArmDisplayItem(FnafBitsAndPiecesModBlocks.SHADOW_FREDDY_LEFT_ARM.get(), new Item.Properties().tab(FnafBitsAndPiecesModTabs.TAB_FNAF_3)));
+	public static final RegistryObject<Item> SHADOW_FREDDY_RIGHT_LEG = REGISTRY.register(FnafBitsAndPiecesModBlocks.SHADOW_FREDDY_RIGHT_LEG.getId().getPath(),
+			() -> new ShadowFreddyRightLegDisplayItem(FnafBitsAndPiecesModBlocks.SHADOW_FREDDY_RIGHT_LEG.get(), new Item.Properties().tab(FnafBitsAndPiecesModTabs.TAB_FNAF_3)));
+	public static final RegistryObject<Item> SHADOW_FREDDY_LEFT_LEG = REGISTRY.register(FnafBitsAndPiecesModBlocks.SHADOW_FREDDY_LEFT_LEG.getId().getPath(),
+			() -> new ShadowFreddyLeftLegDisplayItem(FnafBitsAndPiecesModBlocks.SHADOW_FREDDY_LEFT_LEG.get(), new Item.Properties().tab(FnafBitsAndPiecesModTabs.TAB_FNAF_3)));
+	public static final RegistryObject<Item> SHADOW_BONNIE_HEAD = REGISTRY.register(FnafBitsAndPiecesModBlocks.SHADOW_BONNIE_HEAD.getId().getPath(),
+			() -> new ShadowBonnieHeadDisplayItem(FnafBitsAndPiecesModBlocks.SHADOW_BONNIE_HEAD.get(), new Item.Properties().tab(FnafBitsAndPiecesModTabs.TAB_FNAF_3)));
+	public static final RegistryObject<Item> SHADOW_BONNIE_TORSO = REGISTRY.register(FnafBitsAndPiecesModBlocks.SHADOW_BONNIE_TORSO.getId().getPath(),
+			() -> new ShadowBonnieTorsoDisplayItem(FnafBitsAndPiecesModBlocks.SHADOW_BONNIE_TORSO.get(), new Item.Properties().tab(FnafBitsAndPiecesModTabs.TAB_FNAF_3)));
+	public static final RegistryObject<Item> SHADOW_BONNIE_RIGHT_ARM = REGISTRY.register(FnafBitsAndPiecesModBlocks.SHADOW_BONNIE_RIGHT_ARM.getId().getPath(),
+			() -> new ShadowBonnieRightArmDisplayItem(FnafBitsAndPiecesModBlocks.SHADOW_BONNIE_RIGHT_ARM.get(), new Item.Properties().tab(FnafBitsAndPiecesModTabs.TAB_FNAF_3)));
+	public static final RegistryObject<Item> SHADOW_BONNIE_LEFT_ARM = REGISTRY.register(FnafBitsAndPiecesModBlocks.SHADOW_BONNIE_LEFT_ARM.getId().getPath(),
+			() -> new ShadowBonnieLeftArmDisplayItem(FnafBitsAndPiecesModBlocks.SHADOW_BONNIE_LEFT_ARM.get(), new Item.Properties().tab(FnafBitsAndPiecesModTabs.TAB_FNAF_3)));
+	public static final RegistryObject<Item> SHADOW_BONNIE_LEFT_LEG = REGISTRY.register(FnafBitsAndPiecesModBlocks.SHADOW_BONNIE_LEFT_LEG.getId().getPath(),
+			() -> new ShadowBonnieLeftLegDisplayItem(FnafBitsAndPiecesModBlocks.SHADOW_BONNIE_LEFT_LEG.get(), new Item.Properties().tab(FnafBitsAndPiecesModTabs.TAB_FNAF_3)));
+	public static final RegistryObject<Item> SHADOW_BONNIE_RIGHT_LEG = REGISTRY.register(FnafBitsAndPiecesModBlocks.SHADOW_BONNIE_RIGHT_LEG.getId().getPath(),
+			() -> new ShadowBonnieRightLegDisplayItem(FnafBitsAndPiecesModBlocks.SHADOW_BONNIE_RIGHT_LEG.get(), new Item.Properties().tab(FnafBitsAndPiecesModTabs.TAB_FNAF_3)));
 	public static final RegistryObject<Item> MYSTERIOUS_CASSETTE = REGISTRY.register("mysterious_cassette", () -> new MysteriousCassetteItem());
 	public static final RegistryObject<Item> UNWITHERED_GOLDEN_BONNIE_SHOWTIME_A = REGISTRY.register(FnafBitsAndPiecesModBlocks.UNWITHERED_GOLDEN_BONNIE_SHOWTIME_A.getId().getPath(),
 			() -> new UnwitheredGoldenBonnieShowtimeADisplayItem(FnafBitsAndPiecesModBlocks.UNWITHERED_GOLDEN_BONNIE_SHOWTIME_A.get(), new Item.Properties().tab(null)));
@@ -1431,6 +1608,10 @@ public class FnafBitsAndPiecesModItems {
 			() -> new DinerGoldenBonnieShowtimeADisplayItem(FnafBitsAndPiecesModBlocks.DINER_GOLDEN_BONNIE_SHOWTIME_A.get(), new Item.Properties().tab(null)));
 	public static final RegistryObject<Item> ANGLED_DINER_GOLDEN_BONNIE_SHOWTIME = REGISTRY.register(FnafBitsAndPiecesModBlocks.ANGLED_DINER_GOLDEN_BONNIE_SHOWTIME.getId().getPath(),
 			() -> new AngledDinerGoldenBonnieShowtimeDisplayItem(FnafBitsAndPiecesModBlocks.ANGLED_DINER_GOLDEN_BONNIE_SHOWTIME.get(), new Item.Properties().tab(null)));
+	public static final RegistryObject<Item> ANGLED_DINER_GOLDEN_BONNIE_SHOWTIME_A = REGISTRY.register(FnafBitsAndPiecesModBlocks.ANGLED_DINER_GOLDEN_BONNIE_SHOWTIME_A.getId().getPath(),
+			() -> new AngledDinerGoldenBonnieShowtimeADisplayItem(FnafBitsAndPiecesModBlocks.ANGLED_DINER_GOLDEN_BONNIE_SHOWTIME_A.get(), new Item.Properties().tab(null)));
+	public static final RegistryObject<Item> OFFSET_DINER_GOLDEN_BONNIE_SHOWTIME = REGISTRY.register(FnafBitsAndPiecesModBlocks.OFFSET_DINER_GOLDEN_BONNIE_SHOWTIME.getId().getPath(),
+			() -> new OffsetDinerGoldenBonnieShowtimeDisplayItem(FnafBitsAndPiecesModBlocks.OFFSET_DINER_GOLDEN_BONNIE_SHOWTIME.get(), new Item.Properties().tab(null)));
 	public static final RegistryObject<Item> OFFSET_DINER_GOLDEN_BONNIE_SHOWTIME_A = REGISTRY.register(FnafBitsAndPiecesModBlocks.OFFSET_DINER_GOLDEN_BONNIE_SHOWTIME_A.getId().getPath(),
 			() -> new OffsetDinerGoldenBonnieShowtimeADisplayItem(FnafBitsAndPiecesModBlocks.OFFSET_DINER_GOLDEN_BONNIE_SHOWTIME_A.get(), new Item.Properties().tab(null)));
 	public static final RegistryObject<Item> DINER_GOLDEN_FREDDY_SHOWTIME_A = REGISTRY.register(FnafBitsAndPiecesModBlocks.DINER_GOLDEN_FREDDY_SHOWTIME_A.getId().getPath(),
@@ -1479,10 +1660,16 @@ public class FnafBitsAndPiecesModItems {
 			() -> new OffsetPenguinShowtimeADisplayItem(FnafBitsAndPiecesModBlocks.OFFSET_PENGUIN_SHOWTIME_A.get(), new Item.Properties().tab(null)));
 	public static final RegistryObject<Item> CAT_SHOWTIME_A = REGISTRY.register(FnafBitsAndPiecesModBlocks.CAT_SHOWTIME_A.getId().getPath(),
 			() -> new CatShowtimeADisplayItem(FnafBitsAndPiecesModBlocks.CAT_SHOWTIME_A.get(), new Item.Properties().tab(null)));
+	public static final RegistryObject<Item> ANGLED_CAT_SHOWTIME = REGISTRY.register(FnafBitsAndPiecesModBlocks.ANGLED_CAT_SHOWTIME.getId().getPath(),
+			() -> new AngledCatShowtimeDisplayItem(FnafBitsAndPiecesModBlocks.ANGLED_CAT_SHOWTIME.get(), new Item.Properties().tab(null)));
 	public static final RegistryObject<Item> ANGLED_CAT_SHOWTIME_A = REGISTRY.register(FnafBitsAndPiecesModBlocks.ANGLED_CAT_SHOWTIME_A.getId().getPath(),
 			() -> new AngledCatShowtimeADisplayItem(FnafBitsAndPiecesModBlocks.ANGLED_CAT_SHOWTIME_A.get(), new Item.Properties().tab(null)));
+	public static final RegistryObject<Item> OFFSET_CAT_SHOWTIME = REGISTRY.register(FnafBitsAndPiecesModBlocks.OFFSET_CAT_SHOWTIME.getId().getPath(),
+			() -> new OffsetCatShowtimeDisplayItem(FnafBitsAndPiecesModBlocks.OFFSET_CAT_SHOWTIME.get(), new Item.Properties().tab(null)));
 	public static final RegistryObject<Item> OFFSET_CAT_SHOWTIME_A = REGISTRY.register(FnafBitsAndPiecesModBlocks.OFFSET_CAT_SHOWTIME_A.getId().getPath(),
 			() -> new OffsetCatShowtimeADisplayItem(FnafBitsAndPiecesModBlocks.OFFSET_CAT_SHOWTIME_A.get(), new Item.Properties().tab(null)));
+	public static final RegistryObject<Item> RAT_SHOWTIME_A = REGISTRY.register(FnafBitsAndPiecesModBlocks.RAT_SHOWTIME_A.getId().getPath(),
+			() -> new RatShowtimeADisplayItem(FnafBitsAndPiecesModBlocks.RAT_SHOWTIME_A.get(), new Item.Properties().tab(null)));
 	public static final RegistryObject<Item> ANGLED_RAT_SHOWTIME = REGISTRY.register(FnafBitsAndPiecesModBlocks.ANGLED_RAT_SHOWTIME.getId().getPath(),
 			() -> new AngledRatShowtimeDisplayItem(FnafBitsAndPiecesModBlocks.ANGLED_RAT_SHOWTIME.get(), new Item.Properties().tab(null)));
 	public static final RegistryObject<Item> ANGLED_RAT_SHOWTIME_A = REGISTRY.register(FnafBitsAndPiecesModBlocks.ANGLED_RAT_SHOWTIME_A.getId().getPath(),
@@ -1493,6 +1680,8 @@ public class FnafBitsAndPiecesModItems {
 			() -> new OffsetRatShowtimeADisplayItem(FnafBitsAndPiecesModBlocks.OFFSET_RAT_SHOWTIME_A.get(), new Item.Properties().tab(null)));
 	public static final RegistryObject<Item> FREDDY_FAZBEAR_SHOWTIME_A = REGISTRY.register(FnafBitsAndPiecesModBlocks.FREDDY_FAZBEAR_SHOWTIME_A.getId().getPath(),
 			() -> new FreddyFazbearShowtimeADisplayItem(FnafBitsAndPiecesModBlocks.FREDDY_FAZBEAR_SHOWTIME_A.get(), new Item.Properties().tab(null)));
+	public static final RegistryObject<Item> ANGLED_FREDDY_FAZBEAR_SHOWTIME = REGISTRY.register(FnafBitsAndPiecesModBlocks.ANGLED_FREDDY_FAZBEAR_SHOWTIME.getId().getPath(),
+			() -> new AngledFreddyFazbearShowtimeDisplayItem(FnafBitsAndPiecesModBlocks.ANGLED_FREDDY_FAZBEAR_SHOWTIME.get(), new Item.Properties().tab(null)));
 	public static final RegistryObject<Item> ANGLED_FREDDY_FAZBEAR_SHOWTIME_A = REGISTRY.register(FnafBitsAndPiecesModBlocks.ANGLED_FREDDY_FAZBEAR_SHOWTIME_A.getId().getPath(),
 			() -> new AngledFreddyFazbearShowtimeADisplayItem(FnafBitsAndPiecesModBlocks.ANGLED_FREDDY_FAZBEAR_SHOWTIME_A.get(), new Item.Properties().tab(null)));
 	public static final RegistryObject<Item> OFFSET_FREDDY_FAZBEAR_SHOWTIME = REGISTRY.register(FnafBitsAndPiecesModBlocks.OFFSET_FREDDY_FAZBEAR_SHOWTIME.getId().getPath(),
@@ -1633,4 +1822,43 @@ public class FnafBitsAndPiecesModItems {
 			() -> new OffsetGoldenToyFreddyShowtimeDisplayItem(FnafBitsAndPiecesModBlocks.OFFSET_GOLDEN_TOY_FREDDY_SHOWTIME.get(), new Item.Properties().tab(null)));
 	public static final RegistryObject<Item> OFFSET_GOLDEN_TOY_FREDDY_SHOWTIME_A = REGISTRY.register(FnafBitsAndPiecesModBlocks.OFFSET_GOLDEN_TOY_FREDDY_SHOWTIME_A.getId().getPath(),
 			() -> new OffsetGoldenToyFreddyShowtimeADisplayItem(FnafBitsAndPiecesModBlocks.OFFSET_GOLDEN_TOY_FREDDY_SHOWTIME_A.get(), new Item.Properties().tab(null)));
+	public static final RegistryObject<Item> PUPPET_BOX_EVEN = REGISTRY.register(FnafBitsAndPiecesModBlocks.PUPPET_BOX_EVEN.getId().getPath(),
+			() -> new PuppetBoxEvenDisplayItem(FnafBitsAndPiecesModBlocks.PUPPET_BOX_EVEN.get(), new Item.Properties().tab(null)));
+	public static final RegistryObject<Item> PUPPET_BOX_GIFT = REGISTRY.register(FnafBitsAndPiecesModBlocks.PUPPET_BOX_GIFT.getId().getPath(),
+			() -> new PuppetBoxGiftDisplayItem(FnafBitsAndPiecesModBlocks.PUPPET_BOX_GIFT.get(), new Item.Properties().tab(null)));
+	public static final RegistryObject<Item> PUPPET_BOX_GIFT_EVEN = REGISTRY.register(FnafBitsAndPiecesModBlocks.PUPPET_BOX_GIFT_EVEN.getId().getPath(),
+			() -> new PuppetBoxGiftEvenDisplayItem(FnafBitsAndPiecesModBlocks.PUPPET_BOX_GIFT_EVEN.get(), new Item.Properties().tab(null)));
+	public static final RegistryObject<Item> PUPPET_BOX_WINDING = REGISTRY.register(FnafBitsAndPiecesModBlocks.PUPPET_BOX_WINDING.getId().getPath(),
+			() -> new PuppetBoxWindingDisplayItem(FnafBitsAndPiecesModBlocks.PUPPET_BOX_WINDING.get(), new Item.Properties().tab(null)));
+	public static final RegistryObject<Item> PUPPET_BOX_WINDING_EVEN = REGISTRY.register(FnafBitsAndPiecesModBlocks.PUPPET_BOX_WINDING_EVEN.getId().getPath(),
+			() -> new PuppetBoxWindingEvenDisplayItem(FnafBitsAndPiecesModBlocks.PUPPET_BOX_WINDING_EVEN.get(), new Item.Properties().tab(null)));
+	public static final RegistryObject<Item> PUPPET_BOX_JUMPSCARE = REGISTRY.register(FnafBitsAndPiecesModBlocks.PUPPET_BOX_JUMPSCARE.getId().getPath(),
+			() -> new PuppetBoxJumpscareDisplayItem(FnafBitsAndPiecesModBlocks.PUPPET_BOX_JUMPSCARE.get(), new Item.Properties().tab(null)));
+	public static final RegistryObject<Item> PUPPET_BOX_JUMPSCARE_EVEN = REGISTRY.register(FnafBitsAndPiecesModBlocks.PUPPET_BOX_JUMPSCARE_EVEN.getId().getPath(),
+			() -> new PuppetBoxJumpscareEvenDisplayItem(FnafBitsAndPiecesModBlocks.PUPPET_BOX_JUMPSCARE_EVEN.get(), new Item.Properties().tab(null)));
+	public static final RegistryObject<Item> PUPPET_BOX_SLUMPED = REGISTRY.register(FnafBitsAndPiecesModBlocks.PUPPET_BOX_SLUMPED.getId().getPath(),
+			() -> new PuppetBoxSlumpedDisplayItem(FnafBitsAndPiecesModBlocks.PUPPET_BOX_SLUMPED.get(), new Item.Properties().tab(null)));
+	public static final RegistryObject<Item> PUPPET_BOX_SLUMPED_EVEN = REGISTRY.register(FnafBitsAndPiecesModBlocks.PUPPET_BOX_SLUMPED_EVEN.getId().getPath(),
+			() -> new PuppetBoxSlumpedEvenDisplayItem(FnafBitsAndPiecesModBlocks.PUPPET_BOX_SLUMPED_EVEN.get(), new Item.Properties().tab(null)));
+	public static final RegistryObject<Item> FREDDY_BOX_A = REGISTRY.register(FnafBitsAndPiecesModBlocks.FREDDY_BOX_A.getId().getPath(), () -> new FreddyBoxADisplayItem(FnafBitsAndPiecesModBlocks.FREDDY_BOX_A.get(), new Item.Properties().tab(null)));
+	public static final RegistryObject<Item> FREDDY_BOX_SPIN = REGISTRY.register(FnafBitsAndPiecesModBlocks.FREDDY_BOX_SPIN.getId().getPath(),
+			() -> new FreddyBoxSpinDisplayItem(FnafBitsAndPiecesModBlocks.FREDDY_BOX_SPIN.get(), new Item.Properties().tab(null)));
+	public static final RegistryObject<Item> GENERATOR_1 = REGISTRY.register(FnafBitsAndPiecesModBlocks.GENERATOR_1.getId().getPath(), () -> new Generator1DisplayItem(FnafBitsAndPiecesModBlocks.GENERATOR_1.get(), new Item.Properties().tab(null)));
+	public static final RegistryObject<Item> GENERATOR_2 = REGISTRY.register(FnafBitsAndPiecesModBlocks.GENERATOR_2.getId().getPath(), () -> new Generator2DisplayItem(FnafBitsAndPiecesModBlocks.GENERATOR_2.get(), new Item.Properties().tab(null)));
+	public static final RegistryObject<Item> GENERATOR_3 = REGISTRY.register(FnafBitsAndPiecesModBlocks.GENERATOR_3.getId().getPath(), () -> new Generator3DisplayItem(FnafBitsAndPiecesModBlocks.GENERATOR_3.get(), new Item.Properties().tab(null)));
+	public static final RegistryObject<Item> GENERATOR_4 = REGISTRY.register(FnafBitsAndPiecesModBlocks.GENERATOR_4.getId().getPath(), () -> new Generator4DisplayItem(FnafBitsAndPiecesModBlocks.GENERATOR_4.get(), new Item.Properties().tab(null)));
+	public static final RegistryObject<Item> GENERATOR_5 = REGISTRY.register(FnafBitsAndPiecesModBlocks.GENERATOR_5.getId().getPath(), () -> new Generator5DisplayItem(FnafBitsAndPiecesModBlocks.GENERATOR_5.get(), new Item.Properties().tab(null)));
+	public static final RegistryObject<Item> GENERATOR_6 = REGISTRY.register(FnafBitsAndPiecesModBlocks.GENERATOR_6.getId().getPath(), () -> new Generator6DisplayItem(FnafBitsAndPiecesModBlocks.GENERATOR_6.get(), new Item.Properties().tab(null)));
+	public static final RegistryObject<Item> GENERATOR_7 = REGISTRY.register(FnafBitsAndPiecesModBlocks.GENERATOR_7.getId().getPath(), () -> new Generator7DisplayItem(FnafBitsAndPiecesModBlocks.GENERATOR_7.get(), new Item.Properties().tab(null)));
+	public static final RegistryObject<Item> GENERATOR_8 = REGISTRY.register(FnafBitsAndPiecesModBlocks.GENERATOR_8.getId().getPath(), () -> new Generator8DisplayItem(FnafBitsAndPiecesModBlocks.GENERATOR_8.get(), new Item.Properties().tab(null)));
+	public static final RegistryObject<Item> SPRINGTRAP_SHOWTIME_A = REGISTRY.register(FnafBitsAndPiecesModBlocks.SPRINGTRAP_SHOWTIME_A.getId().getPath(),
+			() -> new SpringtrapShowtimeADisplayItem(FnafBitsAndPiecesModBlocks.SPRINGTRAP_SHOWTIME_A.get(), new Item.Properties().tab(null)));
+	public static final RegistryObject<Item> ANGLED_SPRINGTRAP_SHOWTIME = REGISTRY.register(FnafBitsAndPiecesModBlocks.ANGLED_SPRINGTRAP_SHOWTIME.getId().getPath(),
+			() -> new AngledSpringtrapShowtimeDisplayItem(FnafBitsAndPiecesModBlocks.ANGLED_SPRINGTRAP_SHOWTIME.get(), new Item.Properties().tab(null)));
+	public static final RegistryObject<Item> ANGLED_SPRINGTRAP_SHOWTIME_A = REGISTRY.register(FnafBitsAndPiecesModBlocks.ANGLED_SPRINGTRAP_SHOWTIME_A.getId().getPath(),
+			() -> new AngledSpringtrapShowtimeADisplayItem(FnafBitsAndPiecesModBlocks.ANGLED_SPRINGTRAP_SHOWTIME_A.get(), new Item.Properties().tab(null)));
+	public static final RegistryObject<Item> OFFSET_SPRINGTRAP_SHOWTIME = REGISTRY.register(FnafBitsAndPiecesModBlocks.OFFSET_SPRINGTRAP_SHOWTIME.getId().getPath(),
+			() -> new OffsetSpringtrapShowtimeDisplayItem(FnafBitsAndPiecesModBlocks.OFFSET_SPRINGTRAP_SHOWTIME.get(), new Item.Properties().tab(null)));
+	public static final RegistryObject<Item> OFFSET_SPRINGTRAP_SHOWTIME_A = REGISTRY.register(FnafBitsAndPiecesModBlocks.OFFSET_SPRINGTRAP_SHOWTIME_A.getId().getPath(),
+			() -> new OffsetSpringtrapShowtimeADisplayItem(FnafBitsAndPiecesModBlocks.OFFSET_SPRINGTRAP_SHOWTIME_A.get(), new Item.Properties().tab(null)));
 }

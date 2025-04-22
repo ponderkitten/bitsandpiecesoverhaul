@@ -137,7 +137,7 @@ public class BonnieBunnyRightLegTileEntity extends RandomizableContainerBlockEnt
 
 	@Override
 	public Component getDisplayName() {
-		return Component.literal("Golden Freddy Showtime");
+		return Component.literal("Bonnie Bunnie Right Leg");
 	}
 
 	@Override

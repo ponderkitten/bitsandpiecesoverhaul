@@ -1,0 +1,218 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"0": {
+			"animation_length": 20,
+			"bones": {
+				"Pivot": {
+					"rotation": {
+						"vector": [0, 0, 0]
+					},
+					"position": {
+						"1.25": {
+							"vector": [0, -3, 0]
+						},
+						"18.0": {
+							"vector": [0, -3, 0]
+						}
+					}
+				},
+				"Body": {
+					"rotation": {
+						"1.25": {
+							"vector": [7.5, 0, 0]
+						},
+						"1.9583": {
+							"vector": [0, 0, 0]
+						},
+						"2.0417": {
+							"vector": [2.5, 0, 0]
+						},
+						"2.5833": {
+							"vector": [-5, 0, 0]
+						},
+						"2.6667": {
+							"vector": [0, 0, 0]
+						},
+						"17.9583": {
+							"vector": [0, -7200, 0]
+						},
+						"18.0": {
+							"vector": [7.5, 0, 0]
+						}
+					}
+				},
+				"Head": {
+					"rotation": {
+						"1.25": {
+							"vector": [15, 0, 0]
+						},
+						"2.3333": {
+							"vector": [4.26, 0, 0]
+						},
+						"2.6667": {
+							"vector": [7.5, 0, 0]
+						},
+						"17.9583": {
+							"vector": [7.5, 14400, 0]
+						},
+						"18.0": {
+							"vector": [15, 0, 0]
+						}
+					}
+				},
+				"LeftArm": {
+					"rotation": {
+						"1.25": {
+							"vector": [-15, 0, -7.5]
+						},
+						"2.625": {
+							"vector": [-15, 0, -7.5]
+						},
+						"2.6667": {
+							"vector": [0, 0, -90]
+						},
+						"17.9583": {
+							"vector": [0, 0, -90]
+						},
+						"18.0": {
+							"vector": [-15, 0, -7.5]
+						}
+					}
+				},
+				"LeftArm2": {
+					"rotation": {
+						"1.25": {
+							"vector": [-67.5, 0, 0]
+						},
+						"2.625": {
+							"vector": [-67.5, 0, 0]
+						},
+						"2.6667": {
+							"vector": [0, 0, 0]
+						},
+						"17.9583": {
+							"vector": [0, 0, 0]
+						},
+						"18.0": {
+							"vector": [-67.5, 0, 0]
+						}
+					}
+				},
+				"RightArm": {
+					"rotation": {
+						"1.25": {
+							"vector": [-15, 0, 7.5]
+						},
+						"2.625": {
+							"vector": [-15, 0, 7.5]
+						},
+						"2.6667": {
+							"vector": [0, 0, 90]
+						},
+						"17.9583": {
+							"vector": [0, 0, 90]
+						},
+						"18.0": {
+							"vector": [-15, 0, 7.5]
+						}
+					}
+				},
+				"RightArm2": {
+					"rotation": {
+						"1.25": {
+							"vector": [-67.5, 0, 0]
+						},
+						"2.625": {
+							"vector": [-67.5, 0, 0]
+						},
+						"2.6667": {
+							"vector": [0, 0, 0]
+						},
+						"17.9583": {
+							"vector": [0, 0, 0]
+						},
+						"18.0": {
+							"vector": [-67.5, 0, 0]
+						}
+					}
+				},
+				"RightLeg": {
+					"rotation": {
+						"vector": [-45, 0, 0]
+					}
+				},
+				"RightLeg2": {
+					"rotation": {
+						"vector": [45, 0, 0]
+					}
+				},
+				"LeftLeg": {
+					"rotation": {
+						"vector": [-45, 0, 0]
+					}
+				},
+				"LeftLeg2": {
+					"rotation": {
+						"vector": [45, 0, 0]
+					}
+				},
+				"Jaw": {
+					"rotation": {
+						"1.25": {
+							"vector": [0, 0, 0]
+						},
+						"18.0": {
+							"vector": [0, 0, 0]
+						}
+					}
+				},
+				"LeftHand": {
+					"rotation": {
+						"1.25": {
+							"vector": [0, 0, 0]
+						},
+						"18.0": {
+							"vector": [0, 0, 0]
+						}
+					}
+				},
+				"ticket": {
+					"position": {
+						"0.0": {
+							"vector": [0, 0, 0]
+						},
+						"18.0": {
+							"vector": [0, 0, 0]
+						},
+						"19.125": {
+							"vector": [0, 0, -4]
+						}
+					}
+				},
+				"coin": {
+					"position": {
+						"0.0": {
+							"vector": [0, 0, -4]
+						},
+						"0.5": {
+							"vector": [0, 0, 1]
+						}
+					}
+				}
+			},
+			"sound_effects": {
+				"0.5": {
+					"effect": "coins"
+				},
+				"2.5": {
+					"effect": "1870swissmusicboxwithbells_parlormusicmusicbox"
+				},
+				"18.0": {
+					"effect": "printingsound"
+				}
+			}
+		}
+	},
+	"geckolib_format_version": 2
+}

@@ -9,16 +9,16 @@ import net.mcreator.fnafbitsandpieces.block.entity.BonnieBunnyRightLegTileEntity
 public class BonnieBunnyRightLegBlockModel extends AnimatedGeoModel<BonnieBunnyRightLegTileEntity> {
 	@Override
 	public ResourceLocation getAnimationResource(BonnieBunnyRightLegTileEntity animatable) {
-		return new ResourceLocation("fnaf_bits_and_pieces", "animations/freddyfazbearshowtime.animation.json");
+		return new ResourceLocation("fnaf_bits_and_pieces", "animations/bonniebunnieparts.animation.json");
 	}
 
 	@Override
 	public ResourceLocation getModelResource(BonnieBunnyRightLegTileEntity animatable) {
-		return new ResourceLocation("fnaf_bits_and_pieces", "geo/freddyfazbearshowtime.geo.json");
+		return new ResourceLocation("fnaf_bits_and_pieces", "geo/bonniebunnieparts.geo.json");
 	}
 
 	@Override
 	public ResourceLocation getTextureResource(BonnieBunnyRightLegTileEntity entity) {
-		return new ResourceLocation("fnaf_bits_and_pieces", "textures/blocks/goldenfreddyshowtime.png");
+		return new ResourceLocation("fnaf_bits_and_pieces", "textures/blocks/bonniebunnyrightleg.png");
 	}
 }

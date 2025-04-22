@@ -75,10 +75,10 @@ public class OffsetBonnieBunnyShowtimeABlock extends BaseEntityBlock implements 
 	public VoxelShape getShape(BlockState state, BlockGetter world, BlockPos pos, CollisionContext context) {
 
 		return switch (state.getValue(FACING)) {
-			default -> box(0, 0, 0, 16, 32, 16);
-			case NORTH -> box(0, 0, 0, 16, 32, 16);
-			case EAST -> box(0, 0, 0, 16, 32, 16);
-			case WEST -> box(0, 0, 0, 16, 32, 16);
+			default -> box(-8, 0, 0, 8, 32, 16);
+			case NORTH -> box(8, 0, 0, 24, 32, 16);
+			case EAST -> box(0, 0, 8, 16, 32, 24);
+			case WEST -> box(0, 0, -8, 16, 32, 8);
 		};
 	}
 

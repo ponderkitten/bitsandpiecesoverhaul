@@ -2,7 +2,7 @@
   "_fv": 43,
   "_type": "animatedblock",
   "definition": {
-    "texture": "bonniebunnyhead",
+    "texture": "freddyfazbearshowtimeangled",
     "textureTop": "",
     "textureLeft": "",
     "textureFront": "",
@@ -13,7 +13,7 @@
     "enablePitch": false,
     "emissiveRendering": false,
     "displayFluidOverlay": false,
-    "itemTexture": "bonniebunnyhead",
+    "itemTexture": "fullfreddyfazbearitem",
     "particleTexture": "",
     "tintType": "No tint",
     "isItemTinted": false,
@@ -27,19 +27,19 @@
         "my": 0.0,
         "mz": 0.0,
         "Mx": 16.0,
-        "My": 15.9,
+        "My": 32.0,
         "Mz": 16.0,
         "subtract": false
       }
     ],
-    "name": "Bonnie Bunny Head",
+    "name": "Freddy Fazbear Showtime",
     "specialInfo": [],
     "hardness": 1.0,
     "resistance": 10.0,
     "hasGravity": false,
     "isWaterloggable": false,
     "creativeTab": {
-      "value": "CUSTOM:Fnaf1"
+      "value": "No creative tab entry"
     },
     "destroyTool": "Not specified",
     "customDrop": {
@@ -124,10 +124,10 @@
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
     "onRightClicked": {
-      "name": "PartsRightClickCode"
+      "name": "ShowtimeRightClick"
     },
-    "onTickUpdate": {
-      "name": "PartsTickUpdate"
+    "onRedstoneOn": {
+      "name": "ShowtimeUniversal"
     },
     "spawnWorldTypes": [],
     "restrictionBiomes": [],
@@ -141,7 +141,7 @@
     "frequencyOnChunk": 16,
     "minGenerateHeight": 0,
     "maxGenerateHeight": 64,
-    "normal": "bonniebunnieparts.geo.json",
+    "normal": "freddyfazbearshowtime.geo.json",
     "displaySettings": "fullanimatronic.item.json"
   }
 }

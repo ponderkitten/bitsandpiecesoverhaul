@@ -137,7 +137,7 @@ public class AngledCatShowtimeTileEntity extends RandomizableContainerBlockEntit
 
 	@Override
 	public Component getDisplayName() {
-		return Component.literal("Rat Torso");
+		return Component.literal("Cat Showtime");
 	}
 
 	@Override

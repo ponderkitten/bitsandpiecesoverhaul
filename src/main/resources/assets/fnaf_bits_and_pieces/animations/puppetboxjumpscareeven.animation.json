@@ -1,0 +1,148 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"0": {
+			"loop": "hold_on_last_frame",
+			"animation_length": 300,
+			"bones": {
+				"Pivot": {
+					"rotation": {
+						"0.0": {
+							"vector": [-20, 0, 0]
+						},
+						"0.25": {
+							"vector": [5, 0, 0]
+						},
+						"2.25": {
+							"vector": [5, 0, 0]
+						},
+						"3.0": {
+							"vector": [27.5, 0, 0]
+						}
+					},
+					"position": {
+						"0.0": {
+							"vector": [0, -26, 0]
+						},
+						"0.25": {
+							"vector": [0, 3, 0]
+						},
+						"2.25": {
+							"vector": [0, 3, 0]
+						},
+						"3.0": {
+							"vector": [0, 3, 3]
+						}
+					}
+				},
+				"Body": {
+					"rotation": {
+						"0.25": {
+							"vector": [17.5, 0, 0]
+						},
+						"2.25": {
+							"vector": [17.5, 0, 0]
+						},
+						"3.0": {
+							"vector": [65, 0, 0]
+						}
+					},
+					"position": {
+						"vector": [0, 0, 3]
+					}
+				},
+				"Head": {
+					"rotation": {
+						"0.25": {
+							"vector": [-25, 0, 0]
+						},
+						"2.25": {
+							"vector": [-25, 0, 0]
+						},
+						"3.0": {
+							"vector": [55, 0, 0]
+						}
+					}
+				},
+				"right_arm": {
+					"rotation": {
+						"0.25": {
+							"vector": [-109.6269, 23.6374, -8]
+						},
+						"2.25": {
+							"vector": [-109.6269, 23.6374, -8]
+						},
+						"3.0": {
+							"vector": [-89.6269, 23.6374, -8]
+						}
+					}
+				},
+				"left_arm": {
+					"rotation": {
+						"0.25": {
+							"vector": [-109.62688, -23.63742, 8]
+						},
+						"2.25": {
+							"vector": [-109.62688, -23.63742, 8]
+						},
+						"3.0": {
+							"vector": [-89.62688, -23.63742, 8]
+						}
+					}
+				},
+				"lowerbody": {
+					"rotation": {
+						"0.0": {
+							"vector": [-102.5, 0, 0]
+						},
+						"0.25": {
+							"vector": [0, 0, 0]
+						},
+						"2.25": {
+							"vector": [0, 0, 0]
+						},
+						"3.0": {
+							"vector": [-22.5, 0, 0]
+						}
+					}
+				},
+				"left_lower_leg": {
+					"rotation": {
+						"vector": [180, 0, 0]
+					}
+				},
+				"right_lower_leg": {
+					"rotation": {
+						"vector": [180, 0, 0]
+					}
+				},
+				"Lid": {
+					"rotation": {
+						"0.0": {
+							"vector": [0, 0, 0]
+						},
+						"0.25": {
+							"vector": [0, 0, 105]
+						}
+					}
+				},
+				"Lid2": {
+					"rotation": {
+						"0.0": {
+							"vector": [0, 0, 0]
+						},
+						"0.25": {
+							"vector": [0, 0, -105]
+						}
+					}
+				}
+			},
+			"sound_effects": {
+				"0.0": {
+					"effect": "animatronicscream"
+				}
+			}
+		}
+	},
+	"geckolib_format_version": 2
+}

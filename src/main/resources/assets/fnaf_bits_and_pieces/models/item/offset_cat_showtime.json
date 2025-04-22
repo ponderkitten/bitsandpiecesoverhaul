@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "fnaf_bits_and_pieces:items/ratleftarm"
+    "layer0": "fnaf_bits_and_pieces:items/fullcatitem"
   }
 }

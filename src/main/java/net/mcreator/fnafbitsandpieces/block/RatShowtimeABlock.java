@@ -3,6 +3,7 @@ package net.mcreator.fnafbitsandpieces.block;
 
 import net.minecraft.world.phys.shapes.VoxelShape;
 import net.minecraft.world.phys.shapes.CollisionContext;
+import net.minecraft.world.phys.HitResult;
 import net.minecraft.world.phys.BlockHitResult;
 import net.minecraft.world.level.storage.loot.LootContext;
 import net.minecraft.world.level.material.Material;
@@ -37,6 +38,8 @@ import net.minecraft.core.BlockPos;
 
 import net.mcreator.fnafbitsandpieces.procedures.PartsTickUpdateProcedure;
 import net.mcreator.fnafbitsandpieces.procedures.PartsRightClickCodeProcedure;
+import net.mcreator.fnafbitsandpieces.procedures.FnacCheckProcedure;
+import net.mcreator.fnafbitsandpieces.init.FnafBitsAndPiecesModBlocks;
 import net.mcreator.fnafbitsandpieces.init.FnafBitsAndPiecesModBlockEntities;
 import net.mcreator.fnafbitsandpieces.block.entity.RatShowtimeATileEntity;
 
@@ -79,10 +82,10 @@ public class RatShowtimeABlock extends BaseEntityBlock implements EntityBlock {
 	public VoxelShape getShape(BlockState state, BlockGetter world, BlockPos pos, CollisionContext context) {
 
 		return switch (state.getValue(FACING)) {
-			default -> box(0, 0, 0, 16, 15.9, 16);
-			case NORTH -> box(0, 0, 0, 16, 15.9, 16);
-			case EAST -> box(0, 0, 0, 16, 15.9, 16);
-			case WEST -> box(0, 0, 0, 16, 15.9, 16);
+			default -> box(0, 0, 0, 16, 32, 16);
+			case NORTH -> box(0, 0, 0, 16, 32, 16);
+			case EAST -> box(0, 0, 0, 16, 32, 16);
+			case WEST -> box(0, 0, 0, 16, 32, 16);
 		};
 	}
 
@@ -105,17 +108,25 @@ public class RatShowtimeABlock extends BaseEntityBlock implements EntityBlock {
 	}
 
 	@Override
+	public ItemStack getCloneItemStack(BlockState state, HitResult target, BlockGetter world, BlockPos pos, Player player) {
+		return new ItemStack(FnafBitsAndPiecesModBlocks.RAT_SHOWTIME.get());
+	}
+
+	@Override
 	public List<ItemStack> getDrops(BlockState state, LootContext.Builder builder) {
 		List<ItemStack> dropsOriginal = super.getDrops(state, builder);
 		if (!dropsOriginal.isEmpty())
 			return dropsOriginal;
-		return Collections.singletonList(new ItemStack(this, 1));
+		return Collections.singletonList(new ItemStack(FnafBitsAndPiecesModBlocks.RAT_SHOWTIME.get()));
 	}
 
 	@Override
 	public void onPlace(BlockState blockstate, Level world, BlockPos pos, BlockState oldState, boolean moving) {
 		super.onPlace(blockstate, world, pos, oldState, moving);
 		world.scheduleTick(pos, this, 2);
+		FnacCheckProcedure.execute(
+
+		);
 	}
 
 	@Override

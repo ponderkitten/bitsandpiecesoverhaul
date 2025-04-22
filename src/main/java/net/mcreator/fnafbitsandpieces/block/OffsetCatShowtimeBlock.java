@@ -80,10 +80,10 @@ public class OffsetCatShowtimeBlock extends BaseEntityBlock implements EntityBlo
 	public VoxelShape getShape(BlockState state, BlockGetter world, BlockPos pos, CollisionContext context) {
 
 		return switch (state.getValue(FACING)) {
-			default -> box(0, 0, 0, 16, 15.9, 16);
-			case NORTH -> box(0, 0, 0, 16, 15.9, 16);
-			case EAST -> box(0, 0, 0, 16, 15.9, 16);
-			case WEST -> box(0, 0, 0, 16, 15.9, 16);
+			default -> box(-8, 0, 0, 8, 32, 16);
+			case NORTH -> box(8, 0, 0, 24, 32, 16);
+			case EAST -> box(0, 0, 8, 16, 32, 24);
+			case WEST -> box(0, 0, -8, 16, 32, 8);
 		};
 	}
 
@@ -117,7 +117,9 @@ public class OffsetCatShowtimeBlock extends BaseEntityBlock implements EntityBlo
 	public void onPlace(BlockState blockstate, Level world, BlockPos pos, BlockState oldState, boolean moving) {
 		super.onPlace(blockstate, world, pos, oldState, moving);
 		world.scheduleTick(pos, this, 2);
-		FnacCheckProcedure.execute(world, pos.getX(), pos.getY(), pos.getZ());
+		FnacCheckProcedure.execute(
+
+		);
 	}
 
 	@Override

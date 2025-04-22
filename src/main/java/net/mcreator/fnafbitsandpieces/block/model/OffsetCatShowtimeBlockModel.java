@@ -9,16 +9,16 @@ import net.mcreator.fnafbitsandpieces.block.entity.OffsetCatShowtimeTileEntity;
 public class OffsetCatShowtimeBlockModel extends AnimatedGeoModel<OffsetCatShowtimeTileEntity> {
 	@Override
 	public ResourceLocation getAnimationResource(OffsetCatShowtimeTileEntity animatable) {
-		return new ResourceLocation("fnaf_bits_and_pieces", "animations/ratparts.animation.json");
+		return new ResourceLocation("fnaf_bits_and_pieces", "animations/catshowtime.animation.json");
 	}
 
 	@Override
 	public ResourceLocation getModelResource(OffsetCatShowtimeTileEntity animatable) {
-		return new ResourceLocation("fnaf_bits_and_pieces", "geo/ratparts.geo.json");
+		return new ResourceLocation("fnaf_bits_and_pieces", "geo/catshowtime.geo.json");
 	}
 
 	@Override
 	public ResourceLocation getTextureResource(OffsetCatShowtimeTileEntity entity) {
-		return new ResourceLocation("fnaf_bits_and_pieces", "textures/blocks/ratleftarm.png");
+		return new ResourceLocation("fnaf_bits_and_pieces", "textures/blocks/fixedcatshowtimeoffset.png");
 	}
 }

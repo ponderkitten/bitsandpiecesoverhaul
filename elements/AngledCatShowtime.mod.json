@@ -2,7 +2,7 @@
   "_fv": 43,
   "_type": "animatedblock",
   "definition": {
-    "texture": "rattorso",
+    "texture": "fixedcatshowtimeangled",
     "textureTop": "",
     "textureLeft": "",
     "textureFront": "",
@@ -13,7 +13,7 @@
     "enablePitch": false,
     "emissiveRendering": false,
     "displayFluidOverlay": false,
-    "itemTexture": "rattorso",
+    "itemTexture": "fullcatitem",
     "particleTexture": "",
     "tintType": "No tint",
     "isItemTinted": false,
@@ -27,19 +27,19 @@
         "my": 0.0,
         "mz": 0.0,
         "Mx": 16.0,
-        "My": 15.9,
+        "My": 32.0,
         "Mz": 16.0,
         "subtract": false
       }
     ],
-    "name": "Rat Torso",
+    "name": "Cat Showtime",
     "specialInfo": [],
     "hardness": 1.0,
     "resistance": 10.0,
     "hasGravity": false,
     "isWaterloggable": false,
     "creativeTab": {
-      "value": "CUSTOM:Fnac"
+      "value": "No creative tab entry"
     },
     "destroyTool": "Not specified",
     "customDrop": {
@@ -144,7 +144,7 @@
     "frequencyOnChunk": 16,
     "minGenerateHeight": 0,
     "maxGenerateHeight": 64,
-    "normal": "ratparts.geo.json",
+    "normal": "catshowtime.geo.json",
     "displaySettings": "fullanimatronic.item.json"
   }
 }

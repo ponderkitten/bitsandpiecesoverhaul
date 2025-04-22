@@ -1,0 +1,11 @@
+{
+  "_fv": 43,
+  "_type": "tab",
+  "definition": {
+    "name": "BP Blocks",
+    "icon": {
+      "value": "CUSTOM:PuppetBox"
+    },
+    "showSearch": false
+  }
+}

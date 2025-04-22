@@ -137,7 +137,7 @@ public class OffsetCatShowtimeTileEntity extends RandomizableContainerBlockEntit
 
 	@Override
 	public Component getDisplayName() {
-		return Component.literal("Rat Left Arm");
+		return Component.literal("Cat Showtime");
 	}
 
 	@Override

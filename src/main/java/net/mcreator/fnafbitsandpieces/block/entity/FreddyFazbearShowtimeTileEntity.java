@@ -137,7 +137,7 @@ public class FreddyFazbearShowtimeTileEntity extends RandomizableContainerBlockE
 
 	@Override
 	public Component getDisplayName() {
-		return Component.literal("Golden Freddy Head");
+		return Component.literal("Freddy Fazbear Showtime");
 	}
 
 	@Override

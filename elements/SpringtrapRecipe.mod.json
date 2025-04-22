@@ -1,0 +1,48 @@
+{
+  "_fv": 43,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:SpringtrapHead"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:SpringtrapRightArm"
+      },
+      {
+        "value": "CUSTOM:SpringtrapTorso"
+      },
+      {
+        "value": "CUSTOM:SpringtrapLeftArm"
+      },
+      {
+        "value": "CUSTOM:SpringtrapRightLeg"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:SpringtrapLeftLeg"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:SpringtrapShowtime"
+    },
+    "name": "springtrap_recipe",
+    "namespace": "mod"
+  }
+}

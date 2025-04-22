@@ -2,7 +2,7 @@
   "_fv": 43,
   "_type": "animatedblock",
   "definition": {
-    "texture": "dinergoldenbonnietorso",
+    "texture": "dinergoldenbonnieangled",
     "textureTop": "",
     "textureLeft": "",
     "textureFront": "",
@@ -13,7 +13,7 @@
     "enablePitch": false,
     "emissiveRendering": false,
     "displayFluidOverlay": false,
-    "itemTexture": "dinergoldenbonnietorso",
+    "itemTexture": "dinergoldenbonnieitem",
     "particleTexture": "",
     "tintType": "No tint",
     "isItemTinted": false,
@@ -27,23 +27,23 @@
         "my": 0.0,
         "mz": 0.0,
         "Mx": 16.0,
-        "My": 15.9,
+        "My": 32.0,
         "Mz": 16.0,
         "subtract": false
       }
     ],
-    "name": "Diner Golden Bonnie Torso",
+    "name": "Diner Golden Bonnie Showtime",
     "specialInfo": [],
     "hardness": 1.0,
     "resistance": 10.0,
     "hasGravity": false,
     "isWaterloggable": false,
     "creativeTab": {
-      "value": "CUSTOM:FredBears"
+      "value": "No creative tab entry"
     },
     "destroyTool": "Not specified",
     "customDrop": {
-      "value": ""
+      "value": "CUSTOM:AngledDinerGoldenBonnieShowtime"
     },
     "dropAmount": 1,
     "useLootTableForDrops": false,
@@ -64,7 +64,7 @@
     },
     "colorOnMap": "DEFAULT",
     "creativePickItem": {
-      "value": ""
+      "value": "CUSTOM:AngledDinerGoldenBonnieShowtime"
     },
     "offsetType": "NONE",
     "aiPathNodeType": "DEFAULT",
@@ -124,10 +124,10 @@
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
     "onRightClicked": {
-      "name": "PartsRightClickCode"
+      "name": "ShowtimeRightClick"
     },
-    "onTickUpdate": {
-      "name": "PartsTickUpdate"
+    "onRedstoneOn": {
+      "name": "ShowtimeUniversal"
     },
     "spawnWorldTypes": [],
     "restrictionBiomes": [],
@@ -141,7 +141,7 @@
     "frequencyOnChunk": 16,
     "minGenerateHeight": 0,
     "maxGenerateHeight": 64,
-    "normal": "dinerbonnieparts.geo.json",
+    "normal": "dinerbonnieshowtimea.geo.json",
     "displaySettings": "fullanimatronic.item.json"
   }
 }

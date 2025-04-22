@@ -19,6 +19,6 @@ public class WitheredOldCandyLeftArmBlockModel extends AnimatedGeoModel<Withered
 
 	@Override
 	public ResourceLocation getTextureResource(WitheredOldCandyLeftArmTileEntity entity) {
-		return new ResourceLocation("fnaf_bits_and_pieces", "textures/blocks/witheredoldcandyrightarm.png");
+		return new ResourceLocation("fnaf_bits_and_pieces", "textures/blocks/witheredoldcandyleftarm.png");
 	}
 }

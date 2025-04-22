@@ -150,5 +150,69 @@
         "stream": false
       }
     ]
+  },
+  "introfnafmovietheme": {
+    "sounds": [
+      {
+        "name": "fnaf_bits_and_pieces:wintrofnafmovienoteblocks",
+        "stream": false
+      }
+    ]
+  },
+  "fnafmovietheme": {
+    "sounds": [
+      {
+        "name": "fnaf_bits_and_pieces:fnafmovienoteblocks",
+        "stream": false
+      }
+    ]
+  },
+  "jumpscare": {
+    "sounds": [
+      {
+        "name": "fnaf_bits_and_pieces:animatronicscream",
+        "stream": false
+      }
+    ]
+  },
+  "prizebox": {
+    "sounds": [
+      {
+        "name": "fnaf_bits_and_pieces:musicboxday",
+        "stream": false
+      }
+    ]
+  },
+  "musicbox": {
+    "sounds": [
+      {
+        "name": "fnaf_bits_and_pieces:music_box",
+        "stream": false
+      }
+    ]
+  },
+  "printing": {
+    "sounds": [
+      {
+        "name": "fnaf_bits_and_pieces:printing_sound",
+        "stream": false
+      }
+    ]
+  },
+  "pleasedeposit": {
+    "sounds": [
+      {
+        "name": "fnaf_bits_and_pieces:deposit",
+        "stream": false
+      }
+    ]
+  },
+  "freddyboxsong": {
+    "sounds": [
+      {
+        "name": "fnaf_bits_and_pieces:freddy-music-box",
+        "stream": false
+      }
+    ]
   }
 }

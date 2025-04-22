@@ -117,7 +117,9 @@ public class WitheredRatTorsoBlock extends BaseEntityBlock implements EntityBloc
 	public void onPlace(BlockState blockstate, Level world, BlockPos pos, BlockState oldState, boolean moving) {
 		super.onPlace(blockstate, world, pos, oldState, moving);
 		world.scheduleTick(pos, this, 2);
-		FnacCheckProcedure.execute(world, pos.getX(), pos.getY(), pos.getZ());
+		FnacCheckProcedure.execute(
+
+		);
 	}
 
 	@Override

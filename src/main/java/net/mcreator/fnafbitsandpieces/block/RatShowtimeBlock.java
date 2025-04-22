@@ -110,7 +110,9 @@ public class RatShowtimeBlock extends BaseEntityBlock implements EntityBlock {
 	@Override
 	public void onPlace(BlockState blockstate, Level world, BlockPos pos, BlockState oldState, boolean moving) {
 		super.onPlace(blockstate, world, pos, oldState, moving);
-		FnacCheckProcedure.execute(world, pos.getX(), pos.getY(), pos.getZ());
+		FnacCheckProcedure.execute(
+
+		);
 	}
 
 	@Override

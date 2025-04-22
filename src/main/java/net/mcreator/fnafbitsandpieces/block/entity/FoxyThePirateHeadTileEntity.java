@@ -137,7 +137,7 @@ public class FoxyThePirateHeadTileEntity extends RandomizableContainerBlockEntit
 
 	@Override
 	public Component getDisplayName() {
-		return Component.literal("Golden Freddy Torso");
+		return Component.literal("Foxy The Pirate Head");
 	}
 
 	@Override

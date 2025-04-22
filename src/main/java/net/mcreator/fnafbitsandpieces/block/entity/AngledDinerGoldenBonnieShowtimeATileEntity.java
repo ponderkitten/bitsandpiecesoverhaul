@@ -137,7 +137,7 @@ public class AngledDinerGoldenBonnieShowtimeATileEntity extends RandomizableCont
 
 	@Override
 	public Component getDisplayName() {
-		return Component.literal("Diner Golden Bonnie Torso");
+		return Component.literal("Diner Golden Bonnie Showtime");
 	}
 
 	@Override

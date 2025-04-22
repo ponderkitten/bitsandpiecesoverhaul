@@ -19,6 +19,6 @@ public class OldCandyLeftArmDisplayModel extends AnimatedGeoModel<OldCandyLeftAr
 
 	@Override
 	public ResourceLocation getTextureResource(OldCandyLeftArmDisplayItem entity) {
-		return new ResourceLocation("fnaf_bits_and_pieces", "textures/blocks/oldcandyrightarm.png");
+		return new ResourceLocation("fnaf_bits_and_pieces", "textures/blocks/oldcandyleftarm.png");
 	}
 }

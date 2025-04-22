@@ -137,7 +137,7 @@ public class WitheredOldCandyLeftArmTileEntity extends RandomizableContainerBloc
 
 	@Override
 	public Component getDisplayName() {
-		return Component.literal("Withered Old Candy Right Arm");
+		return Component.literal("Withered Old Candy Left Arm");
 	}
 
 	@Override

@@ -4,7 +4,7 @@
   "definition": {
     "name": "B&P Items",
     "icon": {
-      "value": "CUSTOM:FazbearEmployeeManual"
+      "value": "CUSTOM:PuppetKey"
     },
     "showSearch": false
   }

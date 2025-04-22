@@ -30,13 +30,11 @@ import net.minecraft.world.MenuProvider;
 import net.minecraft.world.InteractionResult;
 import net.minecraft.world.InteractionHand;
 import net.minecraft.world.Containers;
-import net.minecraft.util.RandomSource;
-import net.minecraft.server.level.ServerLevel;
 import net.minecraft.core.Direction;
 import net.minecraft.core.BlockPos;
 
-import net.mcreator.fnafbitsandpieces.procedures.PartsTickUpdateProcedure;
-import net.mcreator.fnafbitsandpieces.procedures.PartsRightClickCodeProcedure;
+import net.mcreator.fnafbitsandpieces.procedures.ShowtimeUniversalProcedure;
+import net.mcreator.fnafbitsandpieces.procedures.ShowtimeRightClickProcedure;
 import net.mcreator.fnafbitsandpieces.init.FnafBitsAndPiecesModBlockEntities;
 import net.mcreator.fnafbitsandpieces.block.entity.OffsetDinerGoldenBonnieShowtimeTileEntity;
 
@@ -79,10 +77,10 @@ public class OffsetDinerGoldenBonnieShowtimeBlock extends BaseEntityBlock implem
 	public VoxelShape getShape(BlockState state, BlockGetter world, BlockPos pos, CollisionContext context) {
 
 		return switch (state.getValue(FACING)) {
-			default -> box(0, 0, 0, 16, 15.9, 16);
-			case NORTH -> box(0, 0, 0, 16, 15.9, 16);
-			case EAST -> box(0, 0, 0, 16, 15.9, 16);
-			case WEST -> box(0, 0, 0, 16, 15.9, 16);
+			default -> box(-8, 0, 0, 8, 32, 16);
+			case NORTH -> box(8, 0, 0, 24, 32, 16);
+			case EAST -> box(0, 0, 8, 16, 32, 24);
+			case WEST -> box(0, 0, -8, 16, 32, 8);
 		};
 	}
 
@@ -113,20 +111,11 @@ public class OffsetDinerGoldenBonnieShowtimeBlock extends BaseEntityBlock implem
 	}
 
 	@Override
-	public void onPlace(BlockState blockstate, Level world, BlockPos pos, BlockState oldState, boolean moving) {
-		super.onPlace(blockstate, world, pos, oldState, moving);
-		world.scheduleTick(pos, this, 2);
-	}
-
-	@Override
-	public void tick(BlockState blockstate, ServerLevel world, BlockPos pos, RandomSource random) {
-		super.tick(blockstate, world, pos, random);
-		int x = pos.getX();
-		int y = pos.getY();
-		int z = pos.getZ();
-
-		PartsTickUpdateProcedure.execute(world, x, y, z);
-		world.scheduleTick(pos, this, 2);
+	public void neighborChanged(BlockState blockstate, Level world, BlockPos pos, Block neighborBlock, BlockPos fromPos, boolean moving) {
+		super.neighborChanged(blockstate, world, pos, neighborBlock, fromPos, moving);
+		if (world.getBestNeighborSignal(pos) > 0) {
+			ShowtimeUniversalProcedure.execute(world, pos.getX(), pos.getY(), pos.getZ());
+		}
 	}
 
 	@Override
@@ -140,7 +129,7 @@ public class OffsetDinerGoldenBonnieShowtimeBlock extends BaseEntityBlock implem
 		double hitZ = hit.getLocation().z;
 		Direction direction = hit.getDirection();
 
-		PartsRightClickCodeProcedure.execute(world, x, y, z, entity);
+		ShowtimeRightClickProcedure.execute(world, x, y, z, entity);
 		return InteractionResult.SUCCESS;
 	}
 

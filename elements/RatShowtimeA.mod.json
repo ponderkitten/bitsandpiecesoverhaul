@@ -2,7 +2,7 @@
   "_fv": 43,
   "_type": "animatedblock",
   "definition": {
-    "texture": "freddyfazbearhead",
+    "texture": "ratshowtime",
     "textureTop": "",
     "textureLeft": "",
     "textureFront": "",
@@ -13,7 +13,7 @@
     "enablePitch": false,
     "emissiveRendering": false,
     "displayFluidOverlay": false,
-    "itemTexture": "freddyfazbearhead",
+    "itemTexture": "fullratitem",
     "particleTexture": "",
     "tintType": "No tint",
     "isItemTinted": false,
@@ -27,23 +27,23 @@
         "my": 0.0,
         "mz": 0.0,
         "Mx": 16.0,
-        "My": 15.9,
+        "My": 32.0,
         "Mz": 16.0,
         "subtract": false
       }
     ],
-    "name": "Freddy Fazbear Head",
+    "name": "Rat Showtime",
     "specialInfo": [],
     "hardness": 1.0,
     "resistance": 10.0,
     "hasGravity": false,
     "isWaterloggable": false,
     "creativeTab": {
-      "value": "CUSTOM:Fnaf1"
+      "value": "No creative tab entry"
     },
     "destroyTool": "Not specified",
     "customDrop": {
-      "value": ""
+      "value": "CUSTOM:RatShowtime"
     },
     "dropAmount": 1,
     "useLootTableForDrops": false,
@@ -64,7 +64,7 @@
     },
     "colorOnMap": "DEFAULT",
     "creativePickItem": {
-      "value": ""
+      "value": "CUSTOM:RatShowtime"
     },
     "offsetType": "NONE",
     "aiPathNodeType": "DEFAULT",
@@ -126,6 +126,9 @@
     "onRightClicked": {
       "name": "PartsRightClickCode"
     },
+    "onBlockAdded": {
+      "name": "FnacCheck"
+    },
     "onTickUpdate": {
       "name": "PartsTickUpdate"
     },
@@ -141,7 +144,7 @@
     "frequencyOnChunk": 16,
     "minGenerateHeight": 0,
     "maxGenerateHeight": 64,
-    "normal": "freddyfazbearparts.geo.json",
+    "normal": "ratshowtimea.geo.json",
     "displaySettings": "fullanimatronic.item.json"
   }
 }

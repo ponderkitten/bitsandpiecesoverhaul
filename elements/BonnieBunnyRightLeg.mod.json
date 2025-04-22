@@ -2,7 +2,7 @@
   "_fv": 43,
   "_type": "animatedblock",
   "definition": {
-    "texture": "goldenfreddyshowtime",
+    "texture": "bonniebunnyrightleg",
     "textureTop": "",
     "textureLeft": "",
     "textureFront": "",
@@ -13,7 +13,7 @@
     "enablePitch": false,
     "emissiveRendering": false,
     "displayFluidOverlay": false,
-    "itemTexture": "fullgoldenfreddyitem",
+    "itemTexture": "bonniebunnyrightleg",
     "particleTexture": "",
     "tintType": "No tint",
     "isItemTinted": false,
@@ -32,7 +32,7 @@
         "subtract": false
       }
     ],
-    "name": "Golden Freddy Showtime",
+    "name": "Bonnie Bunnie Right Leg",
     "specialInfo": [],
     "hardness": 1.0,
     "resistance": 10.0,
@@ -124,10 +124,10 @@
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
     "onRightClicked": {
-      "name": "ShowtimeRightClick"
+      "name": "PartsRightClickCode"
     },
-    "onRedstoneOn": {
-      "name": "ShowtimeUniversal"
+    "onTickUpdate": {
+      "name": "PartsTickUpdate"
     },
     "spawnWorldTypes": [],
     "restrictionBiomes": [],
@@ -141,7 +141,7 @@
     "frequencyOnChunk": 16,
     "minGenerateHeight": 0,
     "maxGenerateHeight": 64,
-    "normal": "freddyfazbearshowtime.geo.json",
+    "normal": "bonniebunnieparts.geo.json",
     "displaySettings": "fullanimatronic.item.json"
   }
 }

@@ -9,16 +9,16 @@ import net.mcreator.fnafbitsandpieces.block.entity.OffsetDinerGoldenBonnieShowti
 public class OffsetDinerGoldenBonnieShowtimeBlockModel extends AnimatedGeoModel<OffsetDinerGoldenBonnieShowtimeTileEntity> {
 	@Override
 	public ResourceLocation getAnimationResource(OffsetDinerGoldenBonnieShowtimeTileEntity animatable) {
-		return new ResourceLocation("fnaf_bits_and_pieces", "animations/dinerbonnieparts.animation.json");
+		return new ResourceLocation("fnaf_bits_and_pieces", "animations/dinerbonnieshowtime.animation.json");
 	}
 
 	@Override
 	public ResourceLocation getModelResource(OffsetDinerGoldenBonnieShowtimeTileEntity animatable) {
-		return new ResourceLocation("fnaf_bits_and_pieces", "geo/dinerbonnieparts.geo.json");
+		return new ResourceLocation("fnaf_bits_and_pieces", "geo/dinerbonnieshowtime.geo.json");
 	}
 
 	@Override
 	public ResourceLocation getTextureResource(OffsetDinerGoldenBonnieShowtimeTileEntity entity) {
-		return new ResourceLocation("fnaf_bits_and_pieces", "textures/blocks/dinergoldenbonnierightarm.png");
+		return new ResourceLocation("fnaf_bits_and_pieces", "textures/blocks/dinergoldenbonnieoffset.png");
 	}
 }

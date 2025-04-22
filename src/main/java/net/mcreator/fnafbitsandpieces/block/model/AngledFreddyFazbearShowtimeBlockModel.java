@@ -9,16 +9,16 @@ import net.mcreator.fnafbitsandpieces.block.entity.AngledFreddyFazbearShowtimeTi
 public class AngledFreddyFazbearShowtimeBlockModel extends AnimatedGeoModel<AngledFreddyFazbearShowtimeTileEntity> {
 	@Override
 	public ResourceLocation getAnimationResource(AngledFreddyFazbearShowtimeTileEntity animatable) {
-		return new ResourceLocation("fnaf_bits_and_pieces", "animations/bonniebunnieparts.animation.json");
+		return new ResourceLocation("fnaf_bits_and_pieces", "animations/freddyfazbearshowtime.animation.json");
 	}
 
 	@Override
 	public ResourceLocation getModelResource(AngledFreddyFazbearShowtimeTileEntity animatable) {
-		return new ResourceLocation("fnaf_bits_and_pieces", "geo/bonniebunnieparts.geo.json");
+		return new ResourceLocation("fnaf_bits_and_pieces", "geo/freddyfazbearshowtime.geo.json");
 	}
 
 	@Override
 	public ResourceLocation getTextureResource(AngledFreddyFazbearShowtimeTileEntity entity) {
-		return new ResourceLocation("fnaf_bits_and_pieces", "textures/blocks/bonniebunnyhead.png");
+		return new ResourceLocation("fnaf_bits_and_pieces", "textures/blocks/freddyfazbearshowtimeangled.png");
 	}
 }

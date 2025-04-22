@@ -2,7 +2,7 @@
   "_fv": 43,
   "_type": "animatedblock",
   "definition": {
-    "texture": "oldcandyrightarm",
+    "texture": "oldcandyleftarm",
     "textureTop": "",
     "textureLeft": "",
     "textureFront": "",
@@ -13,7 +13,7 @@
     "enablePitch": false,
     "emissiveRendering": false,
     "displayFluidOverlay": false,
-    "itemTexture": "oldcandyrightarm",
+    "itemTexture": "oldcandyleftarm",
     "particleTexture": "",
     "tintType": "No tint",
     "isItemTinted": false,
@@ -32,7 +32,7 @@
         "subtract": false
       }
     ],
-    "name": "Old Candy Right Arm",
+    "name": "Old Candy Left Arm",
     "specialInfo": [],
     "hardness": 1.0,
     "resistance": 10.0,

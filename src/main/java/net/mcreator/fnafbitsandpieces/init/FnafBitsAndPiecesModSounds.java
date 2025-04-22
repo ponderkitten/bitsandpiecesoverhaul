@@ -34,4 +34,12 @@ public class FnafBitsAndPiecesModSounds {
 	public static final RegistryObject<SoundEvent> FNAF3N5 = REGISTRY.register("fnaf3n5", () -> new SoundEvent(new ResourceLocation("fnaf_bits_and_pieces", "fnaf3n5")));
 	public static final RegistryObject<SoundEvent> FNAF3N6 = REGISTRY.register("fnaf3n6", () -> new SoundEvent(new ResourceLocation("fnaf_bits_and_pieces", "fnaf3n6")));
 	public static final RegistryObject<SoundEvent> FNAFALLCALL = REGISTRY.register("fnafallcall", () -> new SoundEvent(new ResourceLocation("fnaf_bits_and_pieces", "fnafallcall")));
+	public static final RegistryObject<SoundEvent> INTROFNAFMOVIETHEME = REGISTRY.register("introfnafmovietheme", () -> new SoundEvent(new ResourceLocation("fnaf_bits_and_pieces", "introfnafmovietheme")));
+	public static final RegistryObject<SoundEvent> FNAFMOVIETHEME = REGISTRY.register("fnafmovietheme", () -> new SoundEvent(new ResourceLocation("fnaf_bits_and_pieces", "fnafmovietheme")));
+	public static final RegistryObject<SoundEvent> JUMPSCARE = REGISTRY.register("jumpscare", () -> new SoundEvent(new ResourceLocation("fnaf_bits_and_pieces", "jumpscare")));
+	public static final RegistryObject<SoundEvent> PRIZEBOX = REGISTRY.register("prizebox", () -> new SoundEvent(new ResourceLocation("fnaf_bits_and_pieces", "prizebox")));
+	public static final RegistryObject<SoundEvent> MUSICBOX = REGISTRY.register("musicbox", () -> new SoundEvent(new ResourceLocation("fnaf_bits_and_pieces", "musicbox")));
+	public static final RegistryObject<SoundEvent> PRINTING = REGISTRY.register("printing", () -> new SoundEvent(new ResourceLocation("fnaf_bits_and_pieces", "printing")));
+	public static final RegistryObject<SoundEvent> PLEASEDEPOSIT = REGISTRY.register("pleasedeposit", () -> new SoundEvent(new ResourceLocation("fnaf_bits_and_pieces", "pleasedeposit")));
+	public static final RegistryObject<SoundEvent> FREDDYBOXSONG = REGISTRY.register("freddyboxsong", () -> new SoundEvent(new ResourceLocation("fnaf_bits_and_pieces", "freddyboxsong")));
 }
